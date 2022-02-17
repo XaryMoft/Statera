@@ -31,7 +31,7 @@ aristocracy_ideas = {
 		yearly_absolutism = 0.5
 	}
 	serfdom = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.777
 	}
 	noble_officers = {
 		army_tradition_decay = -0.01
