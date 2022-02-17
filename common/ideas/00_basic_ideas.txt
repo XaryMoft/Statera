@@ -20,7 +20,7 @@ aristocracy_ideas = {
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.10
+		cavalry_power = 0.50
 		cavalry_cost = -0.10
 	}
 	military_traditions = {
