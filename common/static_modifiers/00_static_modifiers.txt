@@ -225,7 +225,7 @@ severe_monsoon = {
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.2
-	local_monthly_devastation = 0.1
+	local_monthly_devastation = 0.4
 }
 
 no_adjacent_controlled = {
@@ -291,7 +291,7 @@ patriarch_state = {
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
 	local_unrest = -3
-	local_manpower_modifier = 0.33
+	local_manpower_modifier = 0.20
 }
 
 #for the country
@@ -970,7 +970,7 @@ recovery_motivation = {
 
 militarized_society = {
 
-	discipline = 0.10
+	discipline = 0.05
 	manpower_recovery_speed = 0.20
 	land_maintenance_modifier = -0.20
 
