@@ -9,6 +9,7 @@ edict_defensive_edict = {
 	
 	modifier = {
 		local_defensiveness = 0.33
+		local_hostile_attrition = 0.5
 	}
 	
 	color = {  46 114 55  }
