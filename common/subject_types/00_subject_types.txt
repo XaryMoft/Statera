@@ -515,8 +515,6 @@ crown_colony = {
 	manpower_to_overlord = 0.20
 	naval_forcelimit_to_overlord = 0.01
 	sailors_to_overlord = 0.01
-	land_forcelimit_modifier = -0.20
-	global_manpower_modifier = -0.20
 
 	# Subject Interactions:
 	embargo_rivals = yes
@@ -551,8 +549,6 @@ private_enterprise = {
 	manpower_to_overlord = 0.0
 	naval_forcelimit_to_overlord = 0.2
 	sailors_to_overlord = 0.2
-	naval_forcelimit_modifier = -0.20
-	global_sailors_modifier = -0.20
 	
 	# Subject Interactions:
 	replace_governor = no
