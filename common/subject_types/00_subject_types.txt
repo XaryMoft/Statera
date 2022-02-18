@@ -511,8 +511,8 @@ crown_colony = {
 	can_send_missionary_to_subject = yes	
 	count = colony
 
-	forcelimit_to_overlord = 0.3
-	manpower_to_overlord = 0.3
+	forcelimit_to_overlord = 0.20
+	manpower_to_overlord = 0.20
 	naval_forcelimit_to_overlord = 0.01
 	sailors_to_overlord = 0.01
 
@@ -547,9 +547,9 @@ private_enterprise = {
 
 	forcelimit_to_overlord = 0.0
 	manpower_to_overlord = 0.0
-	naval_forcelimit_to_overlord = 0.3
-	sailors_to_overlord = 0.3
-
+	naval_forcelimit_to_overlord = 0.2
+	sailors_to_overlord = 0.2
+	
 	# Subject Interactions:
 	replace_governor = no
 	block_settlement_growth = no
