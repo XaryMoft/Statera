@@ -638,7 +638,8 @@ christian = {
 		fervor = yes
 	}
 
-	orthodox = {
+	
+ = {
 		color = { 178 127 0 }
 		icon = 4
 		country = {
@@ -715,7 +716,7 @@ christian = {
 			}
 
 			icon_pancreator = {
-				development_cost = -0.10
+				development_cost = -0.05
 				build_cost = -0.1
 				
 				allow = {
