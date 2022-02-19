@@ -814,7 +814,7 @@ skilled_cartographers = {
 		full_idea_group = exploration_ideas
 	}	
 	
-	global_naval_engagement_modifier = 0.2
+	ship_durability  = 0.1
 	
 	ai_will_do = {
 		factor = 1
