@@ -639,8 +639,8 @@ christian = {
 	}
 
 	
- = {
-		color = { 178 127 0 }
+        orthodox = {
+                color = { 178 127 0 }
 		icon = 4
 		country = {
 			stability_cost_modifier = -0.1
