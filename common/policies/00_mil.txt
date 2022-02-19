@@ -667,7 +667,7 @@ inspirational_leaders = {
 		full_idea_group = quantity_ideas
 	}	
 	
-	leader_land_manuever = 1
+	leader_land_shock = 1
 	land_morale = 0.1
 	
 	ai_will_do = {
