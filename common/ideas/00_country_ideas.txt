@@ -10692,7 +10692,7 @@ HAN_ideas = {
 		state_maintenance_modifier = -0.15
 	}
 	han_weser_renaissance = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	han_shutzenfest = {
 		land_maintenance_modifier = -0.05
@@ -10708,7 +10708,7 @@ HAN_ideas = {
 		diplomatic_upkeep = 1
 	}
 	han_kings_legion = {
-		fire_damage_received = -0.15
+		land_morale = 0.1
 	}
 }
 
