@@ -997,20 +997,19 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	army_professionalism = {
-		land_morale = 0.20
+		land_morale = 0.10
 	}	
 	noble_cadets = {
 		nobles_loyalty_modifier = 0.10
 	}
 	goose_step = {
-		infantry_power = 0.20
+		infantry_power = 0.15
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.25
 		global_regiment_recruit_speed = -0.10
 	}
 	religious_toleration = {
-		development_cost = -0.05
 		tolerance_heretic = 1
 	}
 }
