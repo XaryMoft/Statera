@@ -960,11 +960,12 @@ root_out_corruption = {
 recovery_motivation = {
 	global_tax_modifier = 0.5
 	defensiveness = 0.25
-	manpower_recovery_speed = 0.5
+	manpower_recovery_speed = 0.75
 	army_tradition = 1
 	navy_tradition = 1
-	global_unrest = -5
-	interest = -1
+	global_unrest = -6
+	interest = -2.5
+	land_morale = 0.1
 	horde_unity = 10
 }
 
