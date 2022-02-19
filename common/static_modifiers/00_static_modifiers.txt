@@ -399,7 +399,7 @@ occupied = {
 	local_sailors_modifier = -0.5
 	local_institution_spread = -0.1
 
-	local_monthly_devastation = 0.2
+	local_monthly_devastation = 0.4
 }
 
 under_siege = {
