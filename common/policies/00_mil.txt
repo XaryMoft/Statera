@@ -667,7 +667,8 @@ inspirational_leaders = {
 		full_idea_group = quantity_ideas
 	}	
 	
-	leader_land_shock = 1
+	leader_land_manuever = 1
+	global_manpower_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1.2
