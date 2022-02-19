@@ -823,7 +823,7 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	discipline = 0.05
+	infantry_power = 0.10
 	
 	ai_will_do = {
 		factor = 2
