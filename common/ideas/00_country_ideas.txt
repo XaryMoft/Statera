@@ -130,7 +130,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 0.05
+		navy_tradition = 0.5
 	}
 	
 	trigger = {
