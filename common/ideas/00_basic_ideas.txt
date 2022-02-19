@@ -232,7 +232,7 @@ innovativeness_ideas = {
 	}
 	empiricism = {
 		innovativeness_gain = 0.5
-		idea_cost = 0.05
+		idea_cost = -0.05
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
@@ -243,7 +243,7 @@ innovativeness_ideas = {
 
 	}
 	print_culture = {
-		global_institution_spread = 0.25
+		global_institution_spread = 0.002
 	}
 	optimism = {
 		war_exhaustion = -0.05
@@ -453,7 +453,7 @@ defensive_ideas = {
 
 	battlefield_commisions = {
 		army_tradition_from_battle = 1.0
-		yearly_army_professionalism = 0.0025
+		yearly_army_professionalism = 0.002
 	}
 	military_drill = {
 		land_morale = 0.15
