@@ -41,12 +41,12 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
+		ae_impact = -0.15
 		no_religion_penalty = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		naval_maintenance_modifier = -0.15
 	}
 	
 	trigger = {
@@ -59,9 +59,10 @@ colonial_ideas = {
 	}
 	continental_trade = {
 		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
 	}
 	manufacturing_center = {
-		build_cost = -0.1
+		global_trade_goods_size_modifier = 0.05
 	}
 	free_thinkers = {
 		idea_cost = -0.1
@@ -74,7 +75,7 @@ colonial_ideas = {
 		global_colonial_growth = 20
 	}
 	liberty_heroes = {
-		free_leader_pool = 1
+		land_morale = 0.10
 	}
 }
 
