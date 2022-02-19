@@ -964,7 +964,7 @@ visionary_thinkers = {
 	}	
 	
 	prestige = 0.5
-	prestige_decay = -0.01
+	global_manpower_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 0.6
