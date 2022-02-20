@@ -169,7 +169,7 @@ barracks = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.25
 	}
 	on_built = {
 		if = {
@@ -1656,7 +1656,7 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.25
+		local_manpower = 0.5
 	}
 	bonus_modifier = {
 		local_manpower = 0.25
