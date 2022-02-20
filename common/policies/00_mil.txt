@@ -426,8 +426,8 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_regiment_cost = -0.1
-	recover_army_morale_speed = 0.05
+	global_regiment_recruit_speed = -0.15
+	recover_army_morale_speed = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -656,7 +656,7 @@ autonomous_estates = {
 }
 
 inspirational_leaders = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = humanist_ideas
@@ -850,6 +850,7 @@ noble_loyalty_act = {
 	}
 
 	cavalry_power = 0.10
+	nobility_loyalty_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -904,6 +905,7 @@ nobles_in_navy_act = {
 	}
 
 	navy_tradition_decay = -0.01
+	admiral_cost = -0.1
 
 	ai_will_do = {
 		factor = 0.6
