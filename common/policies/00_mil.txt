@@ -88,6 +88,7 @@ the_mining_act = {
 	}
 	
 	leader_land_fire = 1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -260,8 +261,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	defensiveness = 0.1
-	fort_maintenance_modifier = -0.10
+	defensiveness = 0.20
 
 
 	ai_will_do = {
