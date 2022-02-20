@@ -262,6 +262,7 @@ superior_fortification_act = {
 	}
 	
 	defensiveness = 0.20
+	fort_maintenance_modifier = -0.10
 
 
 	ai_will_do = {
