@@ -951,7 +951,7 @@ the_liberation_act = {
 }
 
 visionary_thinkers = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = humanist_ideas
