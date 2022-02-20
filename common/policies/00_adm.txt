@@ -964,7 +964,7 @@ visionary_thinkers = {
 	}	
 	
 	prestige = 0.5
-	global_manpower_modifier = 0.10
+	land_morale = 0.10
 	
 	ai_will_do = {
 		factor = 0.6
