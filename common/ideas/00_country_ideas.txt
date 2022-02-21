@@ -961,7 +961,7 @@ VEN_ideas = {
 		land_morale = 0.15
 	}
 	conscription = {
-		naval_maintenance_modifier = -0.2
+		global_sailors_modifier = 0.2
 		sailor_maintenance_modifer = -0.05
 	}
 	defend_the_law = {
@@ -1432,7 +1432,7 @@ HUN_ideas = {
 
 JAP_ideas = {
 	start = {
-		stability_cost_modifier = -0.1
+		army_tradition_decay = -0.01
 		discipline = 0.05
 	}
 	
@@ -1456,10 +1456,10 @@ JAP_ideas = {
 		global_institution_spread = 0.1
 	}
 	jap_maritime_legacy = {
-		ship_durability = 0.1
+		ship_durability = 0.05
 	}
 	jap_land_of_the_rising_sun = {
-		prestige = 1
+		land_morale = 0.1
 	}
 	jap_kaitakudan = {
 		global_colonial_growth = 20
@@ -1997,7 +1997,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.1
+		artillery_fire = 1
 	}
 	
 	trigger = {
@@ -2012,7 +2012,7 @@ KOR_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	hyanyak_system = {
-		production_efficiency = 0.10
+		development_cost = -0.05
 	}
 	geobukseon = {
 		ship_durability = 0.1
@@ -2024,7 +2024,7 @@ KOR_ideas = {
 		idea_cost = -0.1
 	}
 	kor_economy_reform = {
-		global_tax_modifier = 0.10
+		production_efficiency = 0.10
 	}
 	
 }
@@ -6798,7 +6798,7 @@ CND_ideas = {
 BRZ_ideas = {
 	start = {
 		hostile_attrition = 1
-		envoy_travel_time = -0.25
+		manpower_recovery_speed = 0.1
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -6818,13 +6818,13 @@ BRZ_ideas = {
 		inflation_reduction = 0.1
 	}
 	halting_foreign_incursions = {
-		infantry_power = 0.1
+		infantry_power = 0.15
 	}
 	entradas_and_bandeiras = {
-		core_creation = -0.15
+		global_colonial_growth = 15
 	}
 	inconfidencia_mineira = {
-		stability_cost_modifier = -0.1
+		land_morale = 0.1
 	}
 	old_seat_of_the_empire = {
 		legitimacy = 1
