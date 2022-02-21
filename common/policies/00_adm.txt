@@ -472,7 +472,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	siege_ability = -0.1
+	siege_ability = 0.1
 	colonist_placement_chance = 0.15
 	
 	ai_will_do = {
