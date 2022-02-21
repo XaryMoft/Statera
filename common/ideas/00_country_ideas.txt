@@ -1312,7 +1312,7 @@ BUR_Ideas = {
 
 GEN_Ideas = {
 	start = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.15
 		interest = -0.5
 	}
 	
@@ -1457,6 +1457,7 @@ JAP_ideas = {
 	}
 	jap_maritime_legacy = {
 		ship_durability = 0.05
+		naval_morale = 0.1
 	}
 	jap_land_of_the_rising_sun = {
 		land_morale = 0.1
