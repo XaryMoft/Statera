@@ -8,7 +8,7 @@ economic_hegemon = {
 	
 	base = {
 		war_exhaustion = -0.1
-		global_spy_defence = 0.25
+		prestige = 1.5
 		mercenary_manpower = 1.0
 	}
 	
