@@ -10917,11 +10917,11 @@ estate_dhimmi_lighter_dhimmi_taxes_privilege_mod = {
 
 estate_dhimmi_manpower_mod = {
 	religion = yes
-	local_manpower_modifier = 0.3
+	local_manpower_modifier = 0.20
 }
 
 estate_maratha_levies_for_muslims_mod = {
-	local_manpower_modifier = 0.3
+	local_manpower_modifier = 0.20
 }
 
 estate_dhimmi_guaranteed_autonomy_mod = {
@@ -10941,8 +10941,11 @@ estate_burghers_the_great_privilege_mod = {
 }
 
 estate_burghers_exclusive_trade_rights_mod = {
-	min_local_autonomy = 20
-	local_development_cost = -0.15
+	local_tax_modifier = -0.50
+	local_development_cost = -0.075
+	local_autonomy = 0.1
+	province_trade_power_value = 2.5
+	local_production_efficiency = 0.05
 }
 
 estate_burghers_monopoly_of_textiles_mod = {
