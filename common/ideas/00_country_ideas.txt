@@ -502,7 +502,7 @@ TUR_ideas = {
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 
 	trigger = {
@@ -1498,6 +1498,7 @@ MAM_ideas = {
 	}
 	mam_army_reform = {
 		discipline = 0.05
+		land_morale = 0.05
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.1
@@ -11731,7 +11732,7 @@ RUM_ideas = {
 		land_morale = 0.1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.15
 	}
 	trigger = {
 		tag = RUM
