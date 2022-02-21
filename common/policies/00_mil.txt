@@ -76,7 +76,7 @@ the_provincial_taxation_system = {
 }
 
 the_mining_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = expansion_ideas
