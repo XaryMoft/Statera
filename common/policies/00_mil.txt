@@ -426,8 +426,8 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_garrison_growth = 0.1
-	garrison_size = 0.25
+	shock_damage_received = -0.1
+	
 
 	ai_will_do = {
 		factor = 1
