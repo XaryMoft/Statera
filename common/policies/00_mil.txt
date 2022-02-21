@@ -426,8 +426,8 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_regiment_recruit_speed = -0.15
-	recover_army_morale_speed = 0.10
+	global_garrison_growth = 0.1
+	garrison_size = 0.25
 
 	ai_will_do = {
 		factor = 1
