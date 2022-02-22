@@ -1559,7 +1559,7 @@ SIC_ideas = {
 	}
 	
 	bonus = {
-		prestige = 1.5
+		prestige = 1
 	}
 	
 	trigger = {
