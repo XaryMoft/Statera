@@ -607,7 +607,7 @@ cathedral = {
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
+		local_tax_modifier = 0.8
 	}
 	on_built = {
 		if = {
@@ -690,10 +690,10 @@ university = {
 	cost = 300
 	time = 12
 	buid_trigger = {
-	    development = 12
+	    development = 10
 	}
 	modifier = {
-		local_development_cost = -0.15
+		local_development_cost = -0.20
 		allowed_num_of_buildings = 1
 	}
 
