@@ -85,7 +85,7 @@ GER_ideas = {
 ENG_ideas = {
 	start = {
 		infantry_power = 0.10 # agincourt
-		global_unrest = -1 # magna carta, parliament
+		shock_damage_received = -0.1 # magna carta, parliament
 	}
 
 	bonus = {
