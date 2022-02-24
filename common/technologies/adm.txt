@@ -48,7 +48,6 @@ technology = { #Feudal Monarchy
 	despotic_monarchy = yes	
 	feudal_monarchy = yes
 	oligarchic_republic = yes
-	global_tax_modifier = 0.02
 }
 
 # The 30 big techs from here on
@@ -61,7 +60,6 @@ technology = { #Medieval Administration
 	}
 
 	production_efficiency	=	0.02
-	global_tax_modifier = 0.02
 	may_support_rebels = yes
 }
  
@@ -126,7 +124,6 @@ technology = { #Courthouse
 
 	courthouse = yes
 	governing_capacity = 100
-	global_tax_modifier = 0.02
 
 }
 
@@ -157,7 +154,6 @@ technology = { #Modern Theocracy
 	
 	allowed_idea_groups = 3
 	theocratic_government = yes
-	global_tax_modifier = 0.02
 }
 
 technology = { #Textile Manufactory
@@ -187,7 +183,6 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 100
 	state_house = yes
-	global_tax_modifier = 0.02
 }
 
 technology = { #Improved Drainage
@@ -266,7 +261,6 @@ technology = { #University
 	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.05
-	global_tax_modifier = 0.02
 }
 
 technology = { #National Sovereignty
@@ -311,7 +305,6 @@ technology = { #Absolute Rulership
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
-	global_tax_modifier = 0.02
 }
 
 technology = { #Land Clearance
@@ -364,7 +357,6 @@ technology = { #Measuring the World
 	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
-	global_tax_modifier = 0.02
 }
 
 technology = { #Bonds and Tontines
@@ -415,7 +407,6 @@ technology = { #Separation of Powers
 	}
 	
 	allowed_idea_groups 	= 	7
-	global_tax_modifier = 0.02
 }
 
 technology = { #Modern Bureaucracy
@@ -434,7 +425,6 @@ technology = { #Modern Bureaucracy
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1	
 	governing_capacity = 250
-	global_tax_modifier = 0.02
 }
 
 technology = { #Rotherham Plough
