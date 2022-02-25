@@ -1104,7 +1104,6 @@ parthenon = {
 		country_modifiers = {
 			advisor_cost = -0.2
 			advisor_pool = 1
-			yearly_corruption = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2063,7 +2062,7 @@ kremlin = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_regiment_cost = -0.1
+			global_regiment_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -5187,7 +5186,7 @@ bagan_temples = {
 		country_modifiers = {
 			yearly_karma_decay = 0.15
 			global_missionary_strength = 0.02
-			missionaries = 2
+			missionaries = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -6272,7 +6271,7 @@ temple_of_confucius = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_harmony = 0.33
-			religious_unity = 0.25
+			religious_unity = 0.15
 			prestige = 0.5
 		}
 
@@ -6303,7 +6302,7 @@ temple_of_confucius = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_harmony = 0.5
-			religious_unity = 0.5
+			religious_unity = 0.25
 			prestige = 1
 		}
 
@@ -6425,7 +6424,6 @@ murud_janjira = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			naval_forcelimit_modifier = 0.1
 			naval_maintenance_modifier = -0.1
 		}
 
@@ -6455,7 +6453,6 @@ murud_janjira = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			naval_forcelimit_modifier = 0.2
 			naval_maintenance_modifier = -0.15
 			navy_tradition = 0.5
 		}
@@ -6486,8 +6483,7 @@ murud_janjira = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			naval_forcelimit_modifier = 0.3
-			naval_maintenance_modifier = -0.2
+			naval_maintenance_modifier = -0.25
 			navy_tradition = 1
 			admiral_cost = -0.1
 		}
@@ -6851,7 +6847,7 @@ kanbawzathadi_palace = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			diplomatic_reputation = 1
-			diplomatic_upkeep = 2
+			diplomatic_upkeep = 1
 			advisor_cost = -0.2
 		}
 
@@ -7707,7 +7703,7 @@ fire_temple_of_ateshgah = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			fire_damage_received = -0.025
-			discipline = 0.01
+			discipline = 0.015
 		}
 
 		#what effects happen when this tier is achieved
@@ -8665,7 +8661,6 @@ mausoleum_at_halicarnassus = {
 		country_modifiers = {
 			prestige = 0.5
 			monthly_splendor = 1
-			monarch_lifespan = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -8695,8 +8690,7 @@ mausoleum_at_halicarnassus = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 1
-			monthly_splendor = 1.5
-			monarch_lifespan = 0.1
+			monthly_splendor = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -10534,7 +10528,7 @@ bara_katra = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			trade_steering = 0.1
+			trade_steering = 0.075
 			global_ship_trade_power = 0.1
 			burghers_loyalty_modifier = 0.1
 			jains_loyalty_modifier = 0.1
@@ -10555,7 +10549,7 @@ bara_katra = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			trade_steering = 0.2
+			trade_steering = 0.1
 			global_ship_trade_power = 0.3
 			merchants = 1
 			burghers_loyalty_modifier = 0.15
@@ -13312,7 +13306,7 @@ krakow_cloth_hall = {
 			trade_goods_size_modifier = 0.2
 		}
 		country_modifiers = {
-			merchants = 2
+			merchants = 1
 			global_trade_power = 0.1
 		}
 		on_upgraded = {
@@ -13759,7 +13753,7 @@ mehrangarh_fort = {
 		}
 		country_modifiers = {
 			prestige = 1
-			advisor_cost = -0.2
+			advisor_cost = -0.1
 			special_unit_forcelimit = 0.1
 		}
 		on_upgraded = {
@@ -14740,7 +14734,6 @@ santa_maria_del_fiore = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			monthly_splendor = 0.5
 			prestige_decay = -0.005
 		}
 		on_upgraded = {
@@ -14760,7 +14753,6 @@ santa_maria_del_fiore = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.1
-			monthly_splendor = 1
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
@@ -14780,7 +14772,6 @@ santa_maria_del_fiore = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.2
-			monthly_splendor = 2
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
