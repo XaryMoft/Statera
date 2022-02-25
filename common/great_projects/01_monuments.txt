@@ -1104,6 +1104,7 @@ parthenon = {
 		country_modifiers = {
 			advisor_cost = -0.2
 			advisor_pool = 1
+			yearly_corruption = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5186,7 +5187,7 @@ bagan_temples = {
 		country_modifiers = {
 			yearly_karma_decay = 0.15
 			global_missionary_strength = 0.02
-			missionaries = 1
+			missionaries = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -6816,7 +6817,7 @@ kanbawzathadi_palace = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			diplomatic_reputation = 1
-			diplomatic_upkeep = 1
+			diplomatic_upkeep = 2
 			dip_advisor_cost = -0.2
 		}
 
@@ -13753,7 +13754,7 @@ mehrangarh_fort = {
 		}
 		country_modifiers = {
 			prestige = 1
-			advisor_cost = -0.1
+			advisor_cost = -0.2
 			special_unit_forcelimit = 0.1
 		}
 		on_upgraded = {
@@ -14734,6 +14735,7 @@ santa_maria_del_fiore = {
 		area_modifier = {
 		}
 		country_modifiers = {
+			monthly_splendor = 0.5
 			prestige_decay = -0.005
 		}
 		on_upgraded = {
@@ -14753,6 +14755,7 @@ santa_maria_del_fiore = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.1
+			monthly_splendor = 1
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
@@ -14772,6 +14775,7 @@ santa_maria_del_fiore = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.2
+			monthly_splendor = 2
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
