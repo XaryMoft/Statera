@@ -716,7 +716,7 @@ christian = {
 			}
 
 			icon_pancreator = {
-				great_project_upgrade_cost = -0.1
+				global_tax_modifier = 0.1
 				build_cost = -0.1
 				
 				allow = {
