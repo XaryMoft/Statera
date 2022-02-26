@@ -322,7 +322,7 @@ christian = {
 			catholic
 		}
 		country = {
-			legitimacy = 1
+			idea_cost = -0.1
 			innovativeness_gain = 0.5
 		}
 		
