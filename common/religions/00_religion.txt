@@ -1039,6 +1039,7 @@ muslim = {
 			picture = "GFX_icon_muslim_school_maliki"
 
 			innovativeness_gain = 0.2
+			technology_cost = -0.05
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -2167,7 +2168,7 @@ dharmic = {
 						type = ADM
 						cost = 50
 
-						trade_goods_size_modifier = 0.05
+						trade_goods_size_modifier = 0.10
 					}
 					divine_justice = {
 						type = DIP
