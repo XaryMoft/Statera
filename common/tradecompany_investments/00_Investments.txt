@@ -274,7 +274,7 @@ property_appraiser = {
 	}
 	
 	owner_company_region_modifier = {
-		trade_steering = 0.5
+		trade_steering = 0.25
 	}
 	
 	ai_global_worth = { factor = 0 }
