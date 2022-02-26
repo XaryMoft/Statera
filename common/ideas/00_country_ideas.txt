@@ -182,7 +182,7 @@ SWE_ideas = {
 
 	kung_och_riksdag = {
 		legitimacy = 1
-		
+		possible_policy = 1
 	}
 	swedish_steel = {
 		discipline = 0.05
