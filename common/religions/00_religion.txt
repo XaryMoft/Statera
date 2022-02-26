@@ -894,7 +894,7 @@ muslim = {
 			picture = "GFX_icon_muslim_school_hanafi"
 
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
-			adm_tech_cost_modifier = -0.05
+			technology_cost = -0.05
 		}
 		hanbali_school = {
 			potential_invite_scholar = {
@@ -1039,7 +1039,7 @@ muslim = {
 			picture = "GFX_icon_muslim_school_maliki"
 
 			innovativeness_gain = 0.2
-			technology_cost = -0.05
+			global_institution_spread = 0.15
 		}
 		shafii_school = {
 			potential_invite_scholar = {
