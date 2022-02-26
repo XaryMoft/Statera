@@ -689,14 +689,11 @@ cathedral = {
 university = {
 	cost = 300
 	time = 12
-	buid_trigger = {
-	    development = 10
-	}
 	modifier = {
 		local_development_cost = -0.15
 		allowed_num_of_buildings = 1
 	}
-
+	
 	on_built = {
 		add_development_from_building = {
 			building = university
