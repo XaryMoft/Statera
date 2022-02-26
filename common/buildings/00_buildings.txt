@@ -696,21 +696,6 @@ university = {
 		local_development_cost = -0.15
 		allowed_num_of_buildings = 1
 	}
-
-	on_built = {
-		add_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
 	on_obsolete = {
 	}
 
