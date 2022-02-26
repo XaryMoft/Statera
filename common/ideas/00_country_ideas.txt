@@ -1342,7 +1342,6 @@ GEN_Ideas = {
 	}
 	overhauled_bureaucracy = {
 		global_tax_modifier = 0.15
-		governing_capacity_modifier = 0.05
 	}
 	the_office_of_grand_admiral = {
 		naval_forcelimit_modifier = 0.25
