@@ -1,7 +1,7 @@
 #231 - Porto
 
-owner = CAS
-controller = CAS
+owner = POR
+controller = POR
 culture = portugese
 religion = catholic
 capital = "Porto"
