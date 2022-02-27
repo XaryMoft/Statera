@@ -1,12 +1,10 @@
 #2728 - Tiwi
 
 add_core = TIW
-owner = TIW
-controller = TIW
 culture = gunwinyguan
 religion = dreamtime
 capital = "Tiwi"
-is_city = yes
+is_city = no
 hre = no
 trade_goods = fish
 base_manpower = 1
