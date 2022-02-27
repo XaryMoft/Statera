@@ -1,14 +1,12 @@
 #1090 - Eora
 
 add_core = EOR
-owner = EOR
-controller = EOR
 culture = aboriginal
 religion = dreamtime
 capital = "Eora"
-trade_goods = fish
+trade_goods = unknown
 hre = no
-is_city = yes
+is_city = no
 base_tax = 5
 base_production = 4
 base_manpower = 2
