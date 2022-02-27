@@ -2120,7 +2120,7 @@ dharmic = {
 						type = DIP
 						cost = 50
 
-						war_taxes_cost_modifier = -0.5
+						war_taxes_cost_modifier = -1.0
 					}
 					the_khalsa_sikh = {
 						type = MIL
