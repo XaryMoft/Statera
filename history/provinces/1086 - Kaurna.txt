@@ -1,14 +1,12 @@
 #1086 - Kaurna
 
 add_core = KAU
-owner = KAU
-controller = KAU
 culture = yura
 religion = dreamtime
 capital = "Kaurna"
-trade_goods = fish
+trade_goods = unknown
 hre = no
-is_city = yes
+is_city = no
 base_tax = 3 
 base_production = 3
 base_manpower = 1
