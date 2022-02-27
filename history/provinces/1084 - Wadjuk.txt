@@ -1,14 +1,12 @@
 #1084 - Wadjuk
 
 add_core = NOO
-owner = NOO
-controller = NOO
 culture = nyoongah
 religion = dreamtime
 capital = "Wadjuk"
 hre = no
-is_city = yes
-trade_goods = livestock
+is_city = no
+trade_goods = unknown
 base_manpower = 2
 base_tax = 3
 base_production = 4

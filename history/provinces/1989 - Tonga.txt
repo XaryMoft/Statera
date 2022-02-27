@@ -1,17 +1,18 @@
 #1989 - Tonga
 
 add_core = TOG
-owner = TOG
-controller = TOG
 culture = polynesian
 religion = animism
 hre = no
 capital = "Mu'a"
-is_city = yes
-trade_goods = naval_supplies
+is_city = no
+trade_goods = unknown
 base_tax = 3 
 base_production = 3
 base_manpower = 2
+native_size = 40
+native_ferocity = 6
+native_hostileness = 4
 discovered_by = polynesian_tech
 extra_cost = 15
 center_of_trade = 1
