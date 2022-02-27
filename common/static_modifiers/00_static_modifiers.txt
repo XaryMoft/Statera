@@ -733,7 +733,7 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
 	land_morale = -0.01
-	global_trade_goods_size_modifier = -0.25
+	global_trade_goods_size_modifier = -0.02
 }
 
 doom = {
