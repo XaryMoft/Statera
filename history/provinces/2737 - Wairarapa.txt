@@ -1,17 +1,18 @@
 #2737 - Wairarapa
 
 add_core = TAK
-owner = TAK
-controller = TAK
 culture = maori
 religion = animism
 hre = no
 capital = "Ahuriri"
-is_city = yes
+is_city = no
 trade_goods = naval_supplies
 base_tax = 3 
 base_production = 3
 base_manpower = 1
+native_size = 50
+native_ferocity = 3
+native_hostileness = 5
 discovered_by = polynesian_tech
 
 
