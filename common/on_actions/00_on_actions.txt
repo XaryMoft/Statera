@@ -4283,7 +4283,7 @@ on_mercenary_recruited = {
 			}
 		}
 		FROM = {
-			add_army_professionalism = -0.05
+			add_army_professionalism = -0.01 # from -0.05, to make hiring mercenaries less punishing on professionalism
 		}
 	}
 }
