@@ -2059,7 +2059,7 @@ aristocratic_court_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		army_tradition_decay = -0.003
+		army_tradition_decay = -0.005
 	}
 	ai = {
 		factor = 1
