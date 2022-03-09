@@ -415,7 +415,7 @@ under_siege = {
 
 devastation = {
 	trade_goods_size_modifier = -1
-	supply_limit_modifier = -0.5
+	supply_limit_modifier = -1.0
 	local_institution_spread = -1.0
 	local_development_cost = 0.2
 	local_manpower_modifier = -1.0
