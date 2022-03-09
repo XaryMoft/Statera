@@ -511,7 +511,7 @@ trade_ideas = {
 		merchants = 1
 	}
 	trade_manipulation = {
-		trade_steering = 0.25
+		trade_steering = 0.10
 	}
 	fast_negotiations = {
 		caravan_power = 0.25
