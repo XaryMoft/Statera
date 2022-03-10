@@ -29,6 +29,7 @@ estate_rajput = {
 		is_nomad = no
 		is_colonial_nation = no
 		NOT = { has_reform = revolutionary_empire_reform }
+		NOT = { has_reform = frequent_elections_reform }
 	}
 
 	# These scale with loyalty & power

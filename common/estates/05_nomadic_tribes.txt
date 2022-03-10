@@ -14,6 +14,7 @@ estate_nomadic_tribes = {
 		is_colonial_nation = no
 		NOT = { has_reform = celestial_empire }
 		NOT = { has_reform = revolutionary_empire_reform }
+		NOT = { has_reform = frequent_elections_reform }
 	}
 
 	# These scale with loyalty & power

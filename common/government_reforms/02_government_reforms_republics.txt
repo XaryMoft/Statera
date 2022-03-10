@@ -1428,18 +1428,6 @@ frequent_elections_reform = {
 		max_absolutism = -10
 		election_cycle = -1
 	}
-	custom_attributes = {
-		disables_nobility = yes
-		disables_church = yes
-		disables_burghers = yes
-		disables_dhimmi = yes 
-		disables_nomadic_tribes = yes 
-		disables_brahmins = yes 
-		disables_vaisyas = yes 
-		disables_cossacks = yes 
-		disables_jains = yes 
-		disables_rajput = yes
-	}
 	ai = {
 		factor = 1
 	}
