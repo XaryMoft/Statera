@@ -1427,6 +1427,7 @@ frequent_elections_reform = {
 	modifiers = {
 		max_absolutism = -10
 		election_cycle = -1
+		disables_estates = yes
 	}
 	ai = {
 		factor = 1
