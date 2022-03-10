@@ -91,7 +91,7 @@ command_aftercastle = {
 
 improved_crows_nest = {
 	modifier = {
-        flagship_morale = 0.20
+        flagship_naval_engagement_modifier = 3
         naval_maintenance_flagship_modifier = 0.5
 	}
     ai_trade_score = {
