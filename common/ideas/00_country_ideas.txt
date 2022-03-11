@@ -377,7 +377,7 @@ NED_ideas = {
 	}
 	
 	bonus = {
-		trade_efficiency = 0.15
+		discipline = 0.05
 	}
 
 	trigger = {
@@ -390,10 +390,11 @@ NED_ideas = {
 	
 	amsterdam_wisselbank = {
 		inflation_reduction = 0.1
+		global_tax_modifier = 0.15
 	}
 	dutch_trading_spirit = {
 		merchants = 1
-		trade_range_modifier = 0.10
+		trade_efficiency = 0.15
 	}
 	polders = {
 		development_cost = -0.1
