@@ -75,30 +75,6 @@ the_provincial_taxation_system = {
 	
 }
 
-the_mining_act = {
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = quality_ideas
-	}
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = quality_ideas
-	}
-	
-	leader_land_fire = 1
-	production_efficiency = 0.1
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
 the_liquor_act = {
 	monarch_power = MIL
 	
@@ -262,7 +238,7 @@ superior_fortification_act = {
 	}
 	
 	defensiveness = 0.20
-	fort_maintenance_modifier = -0.10
+	hostile_attrition = 0.5
 
 
 	ai_will_do = {
@@ -283,7 +259,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.1
+	fire_damage = 0.1
 
 	ai_will_do = {
 		factor = 1.2		
@@ -655,28 +631,24 @@ autonomous_estates = {
 	}
 }
 
-inspirational_leaders = {
-	monarch_power = ADM
+visionary_thinkers = {
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = humanist_ideas
-		has_idea_group = quantity_ideas
+		has_idea_group = quality_ideas
 	}
 	
 	allow = {
 		full_idea_group = humanist_ideas
-		full_idea_group = quantity_ideas
+		full_idea_group = quality_ideas
 	}	
 	
-	leader_land_shock = 1
-	global_manpower_modifier = 0.10	
+	prestige = 0.5
+	land_morale = 0.10
 	
 	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
+		factor = 0.6
 	}
 }
 
@@ -693,7 +665,7 @@ the_naval_inspection_act = {
 		full_idea_group = naval_ideas
 	}	
 	
-	ship_durability = 0.05
+	ship_durability = 0.1
 	recover_navy_morale_speed = 0.05
 	
 	ai_will_do = {

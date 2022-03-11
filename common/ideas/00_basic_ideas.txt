@@ -20,11 +20,12 @@ aristocracy_ideas = {
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.10
-		cavalry_cost = -0.10
+		cavalry_power = 0.20
+		cavalry_cost = -0.20
 	}
 	military_traditions = {
-		mil_tech_cost_modifier  = -0.1
+		mil_tech_cost_modifier = -0.1
+		land_morale = 0.10
 	}
 	local_nobility = {
 		global_autonomy = -0.025
@@ -45,6 +46,7 @@ aristocracy_ideas = {
 	}
 	noble_resilience = {
 		mercenary_manpower = 0.20
+		mercenary_cost = -0.15
 	}
 	
 
@@ -232,7 +234,7 @@ innovativeness_ideas = {
 	        advisor_pool = 1
 	}
 
-	patron_of_art  = {
+	patron_of_art = {
 		prestige_decay = -0.01
 	}
 	empiricism = {
@@ -390,7 +392,7 @@ diplomatic_ideas = {
 	benign_diplomats = {
 		improve_relation_modifier = 0.25
 	}
-	experienced_diplomats  = {
+	experienced_diplomats = {
 		diplomatic_reputation = 2
 	}
 	flexible_negotiation = {
