@@ -610,11 +610,12 @@ exploration_ideas = {
 	
 	overseas_exploration = {
 		range = 0.5
+		naval_attrition = -0.1
 	}
 	land_of_opportunity = {
 		global_colonial_growth = 10
 	}
-	vice_roys  = {
+	vice_roys = {
 		global_tariffs = 0.10
  		envoy_travel_time = -0.20
  	}
@@ -936,15 +937,16 @@ expansion_ideas = {
 	}
 	factories = {
 		global_trade_goods_size_modifier = 0.05
+		defensiveness = 0.1
 	}
 	additional_diplomats = {
 		diplomatic_upkeep = 1
 	}
-	general_colonization_law  = {
+	general_colonization_law = {
 		colonists = 1
 		colonist_placement_chance = 0.05
 	}
-	competetive_merchants  = {
+	competetive_merchants = {
 		global_trade_power = 0.2
 	}
 
