@@ -2578,7 +2578,7 @@ LIT_ideas = {
 	}
 	
 	bonus = {
-		leader_land_manuever = 1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -2605,7 +2605,7 @@ LIT_ideas = {
 		global_unrest = -2
 	}
 	lithuanian_renaissance = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 }
 
