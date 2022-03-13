@@ -8450,7 +8450,7 @@ sankin_kotai_palaces = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			war_taxes_cost_modifier = -0.5
+			war_taxes_cost_modifier = -0.1
 			prestige_from_land = 0.5
 		}
 
@@ -8480,7 +8480,7 @@ sankin_kotai_palaces = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			war_taxes_cost_modifier = -0.5
+			war_taxes_cost_modifier = -0.1
 			prestige_from_land = 1
 			general_cost = -0.1
 		}
