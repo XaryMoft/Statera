@@ -13901,7 +13901,7 @@ SYN_ideas = {
 MOR_ideas = {
 	start = {
 		may_perform_slave_raid = yes
-		naval_forcelimit_modifier = 0.25
+		cavalry_power = 0.15
 	}
 	bonus = {
 		hostile_attrition = 1.5
