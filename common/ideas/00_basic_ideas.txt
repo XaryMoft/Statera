@@ -610,7 +610,6 @@ exploration_ideas = {
 	
 	overseas_exploration = {
 		range = 0.5
-		naval_attrition = -0.1
 	}
 	land_of_opportunity = {
 		global_colonial_growth = 10
