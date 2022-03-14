@@ -4241,6 +4241,7 @@ AZT_ideas = {
 		global_unrest = -2
 	}
 	sustaining_the_gods = {
+		legitimacy = 1
 		land_morale = 0.1
 	}
 	telpochcalli = {
