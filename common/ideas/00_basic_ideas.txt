@@ -932,6 +932,7 @@ expansion_ideas = {
 	}
 	additional_merchants = {
 		merchants = 1
+		center_of_trade_upgrade_cost = -0.20
 	}
 	faster_colonists = {
 		global_colonial_growth = 20
@@ -942,6 +943,7 @@ expansion_ideas = {
 	}
 	additional_diplomats = {
 		diplomatic_upkeep = 1
+		province_warscore_cost = -0.15
 	}
 	general_colonization_law = {
 		colonists = 1
@@ -1023,9 +1025,10 @@ administrative_ideas = {
 	}
 	administrative_efficiency_idea = {
 		advisor_pool = 1
+		advisor_cost = -0.25
 	}
 	civil_servants = {
-		adm_tech_cost_modifier = -0.1
+		technology_cost = -0.1
 	}
 
 	ai_will_do = {
