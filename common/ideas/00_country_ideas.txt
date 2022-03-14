@@ -4229,7 +4229,7 @@ AZT_ideas = {
 	}
 
 	bonus = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 	}
 	
 	trigger = {
@@ -4238,16 +4238,16 @@ AZT_ideas = {
 	free = yes		#wibe added at load.
 	
 	flower_wars = {
-		war_exhaustion_cost = -0.10
+		global_unrest = -2
 	}
 	sustaining_the_gods = {
-		legitimacy = 1
+		land_morale = 0.1
 	}
 	telpochcalli = {
 		manpower_recovery_speed = 0.1
 	}
 	eagles_and_jaguars = {
-		land_morale = 0.10
+		discipline = 0.05
 	}
 	imperial_tribute = {
 		global_tax_modifier = 0.1

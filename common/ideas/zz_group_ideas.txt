@@ -2025,12 +2025,12 @@ CHA_ideas = {
 
 mayan_ideas = {
 	start = {
-		global_unrest = -1
-		defensiveness = 0.15
+		global_trade_goods_size_modifier = 0.05
+		defensiveness = 0.20
 	}
 	
 	bonus = {
-		infantry_power = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -2039,22 +2039,23 @@ mayan_ideas = {
 	free = yes
 	
 	mayan_sacred_cenote = {
-		stability_cost_modifier = -0.1
+		global_missionary_strength = 0.02
 	}
 	mayan_building_traditions = {
 		development_cost = -0.1
 	}
 	mayan_ancient_feuds = {
-		ae_impact = -0.10
+		discipline = 0.05
 	}
 	mayan_shipwreck_survivors = {
 		technology_cost = -0.05
+		idea_cost = -0.05
 	}
 	mayan_kuchkabal = {
 		global_tax_modifier = 0.1
 	}
 	mayan_remote_isolation = {
-		hostile_attrition = 1.0
+		hostile_attrition = 1.5
 	}
 	mayan_caste_war = {
 		land_morale = 0.1
