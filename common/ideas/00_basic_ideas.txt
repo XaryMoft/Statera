@@ -256,7 +256,7 @@ innovativeness_ideas = {
 		war_exhaustion = -0.05
 	}
 	formalized_officer_corps = {
-		free_leader_pool = 1
+		leader_cost = -0.1
 	}
 
 	ai_will_do = {
@@ -432,12 +432,14 @@ offensive_ideas = {
 	}
 	superior_firepower = {
 		leader_land_fire = 1
+		leader_siege = 1
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0
 	}
 	engineer_corps = {
 		siege_ability = 0.20
+		land_attrition = -0.10
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.1
