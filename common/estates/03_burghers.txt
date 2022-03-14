@@ -14,7 +14,6 @@ estate_burghers =
 		NOT = { has_reform = cossacks_reform }
 		NOT = { government = native }
 		NOT = { has_reform = siberian_tribe }
-		NOT = { has_reform = frequent_elections_reform }
 		OR = {
 			NOT = { has_reform = celestial_empire }
 			has_dlc = "Mandate of Heaven"

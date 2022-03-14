@@ -52,7 +52,6 @@ estate_cossacks = {
 		unit_type = eastern
 		religion_group = christian
 		NOT = { has_reform = revolutionary_empire_reform }
-		NOT = { has_reform = frequent_elections_reform }
 		OR = {
 			has_estate = estate_cossacks
 			any_owned_province = {

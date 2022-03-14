@@ -16,7 +16,6 @@ estate_church =
 		NOT = { has_reform = trading_city }
 		NOT = { has_reform = cossacks_reform }
 		NOT = { has_reform = siberian_tribe }
-		NOT = { has_reform = frequent_elections_reform }
 		NOT = { government = native }
 		NOT = { is_revolutionary_republic_trigger = yes }
 		OR = {
