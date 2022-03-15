@@ -478,7 +478,7 @@ FRA_ideas = {
 		land_morale = 0.20
 	}
 	estates_general = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 	native_trading_principles = {
 		native_uprising_chance = -0.5
@@ -486,6 +486,7 @@ FRA_ideas = {
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
+		defensiveness = 0.2
 	}
 	the_philosophes = {
 		technology_cost = -0.1
@@ -533,6 +534,7 @@ TUR_ideas = {
 	}
 	imperial_school_of_naval_engineering = {
 		global_ship_cost = -0.1
+		galley_power = 0.1
 	}
 }
 
@@ -1641,7 +1643,7 @@ MUG_ideas = {
 	}
 	
 	bonus = {
-		technology_cost = -0.05
+		development_cost = -0.1
 	}
 	
 	trigger = {
@@ -1668,7 +1670,7 @@ MUG_ideas = {
 		prestige = 1
 	}
 	fatawa_e_alamgiri = {
-		stability_cost_modifier = -0.10
+		technology_cost = -0.05
 	}
 }
 
