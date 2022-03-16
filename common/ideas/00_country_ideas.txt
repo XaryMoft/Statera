@@ -126,7 +126,7 @@ ENG_ideas = {
 GBR_ideas = {
 	start = {
 		naval_morale = 0.10
-		land_fire_damage = 0.10
+		fire_damage = 0.10
 	}
 
 	bonus = {
@@ -274,7 +274,7 @@ RUS_ideas = {
 		artillery_cost = -0.1
 		artillery_power = 0.05
 	}
-	life_long_conscription  = {
+	life_long_conscription = {
 		land_forcelimit_modifier = 0.33
 	}
 
