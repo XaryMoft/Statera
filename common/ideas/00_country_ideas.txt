@@ -478,7 +478,7 @@ FRA_ideas = {
 		land_morale = 0.20
 	}
 	estates_general = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.10
 	}
 	native_trading_principles = {
 		native_uprising_chance = -0.5
@@ -486,7 +486,6 @@ FRA_ideas = {
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
-		defensiveness = 0.2
 	}
 	the_philosophes = {
 		technology_cost = -0.1
@@ -6495,7 +6494,7 @@ ZAZ_ideas = {
 
 CAN_ideas = {
 	start = {
-		trade_efficiency = 0.1
+		land_morale = 0.1
 		land_attrition = -0.15
 	}
 	
@@ -6515,6 +6514,7 @@ CAN_ideas = {
 	}	
 	the_hudson_bay_company = {
 		merchants = 1
+		trade_efficiency = 0.1
 	}
     settling_the_interior = {
 		colonists = 1
