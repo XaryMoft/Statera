@@ -1,7 +1,7 @@
 -- Format for overwriting define values, this is a custom format for the mod:
 
 
-
+NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10 -- from 25 years, allowing more flexibility in diplomacy
 
 NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 0.5 -- from 2, to shorten wars by reducing the reservoir of manpower of professionalism.
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60 -- from 120, to increase the probability generals improve skill from drilling
