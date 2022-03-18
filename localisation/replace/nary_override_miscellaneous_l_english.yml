@@ -1,4 +1,10 @@
 ﻿l_english:
-# This file exist to override certain localisation features.
-dutch_trade_ships: "Dutch Trade Ships"
-dutch_trade_ships_desc: "Unlike our rivals, our trade ships aren't build for a conversion in wartime to a warship, allowing us to carry twice the cargo, faciliting transoeanic delivery with the maximum space and crew efficiency. These factos should give our ships that are following our flagship model a major competitive advantage."
+ # This file exist to override certain localisation features.
+ dutch_trade_ships: "Dutch Trade Ships"
+ dutch_trade_ships_desc: "Unlike our rivals, our trade ships aren't build for a conversion in wartime to a warship, allowing us to carry twice the cargo, faciliting transoeanic delivery with the maximum space and crew efficiency. These factos should give our ships that are following our flagship model a major competitive advantage."
+ 
+ 
+ # Ideas
+ # Byzantium
+ greek_fire: "Greek Fire"
+ greek_fire_desc: "Greek Fire is a revolutionary incendiary weapon dating back several centuries ago which turned the tide of many naval battles and sieges."
