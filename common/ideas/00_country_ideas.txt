@@ -6526,7 +6526,7 @@ CAN_ideas = {
 		navy_tradition = 1
 	}
 	the_quebec_act = {
-		tolerance_heretic = 2
+		no_religion_penalty = yes
 	}
 	legacy_of_the_empire = {
 		trade_steering = 0.15
