@@ -6572,6 +6572,7 @@ QUE_ideas = {
 	}
 	jesuit_missions = {
 		global_missionary_strength = 0.01
+		papal_influence = 2
 	}
 }
 
