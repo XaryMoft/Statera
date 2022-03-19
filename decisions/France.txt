@@ -140,6 +140,7 @@ country_decisions = {
 	# Retrial of Joan of Arc
 	retrial_of_joan_of_arc = {
 		potential = {
+			tag = ORL
 			NOT = { has_global_flag = retrial_of_joan_of_arc }
 			culture_group = french
 			religion = catholic
