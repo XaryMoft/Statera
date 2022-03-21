@@ -20,8 +20,8 @@ aristocracy_ideas = {
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.10
-		cavalry_cost = -0.10
+		cavalry_power = 0.20
+		cavalry_cost = -0.20
 	}
 	military_traditions = {
 		mil_tech_cost_modifier = -0.1
@@ -45,7 +45,6 @@ aristocracy_ideas = {
 	}
 	noble_resilience = {
 		mercenary_manpower = 0.20
-		mercenary_cost = -0.15
 	}
 	
 
