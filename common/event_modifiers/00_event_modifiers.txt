@@ -10941,8 +10941,8 @@ estate_burghers_the_great_privilege_mod = {
 }
 
 estate_burghers_exclusive_trade_rights_mod = {
-	min_local_autonomy = 25
-	local_development_cost = -0.10
+	min_local_autonomy = 20
+	local_development_cost = -0.15
 }
 
 estate_burghers_monopoly_of_textiles_mod = {
