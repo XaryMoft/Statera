@@ -1536,7 +1536,7 @@ high_harmony = {
 	legitimacy = 0.5
 	devotion = 1
 	harmonization_speed = 0.5
-	yearly_corruption = -0.5
+	yearly_corruption = -0.1
 }
 
 low_harmony = {
