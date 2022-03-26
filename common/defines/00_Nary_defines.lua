@@ -9,7 +9,9 @@ NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 10 -- from 20, to encourage people to
 
 NDefines.NCountry.PS_RAISE_WAR_TAXES = 1 -- From 2 (wiki "50" is outaded), this means war taxes now cost 1 mil point pur month
 NDefines.NCountry.PS_SCORCH_EARTH = 10 -- from 5, since 5 it's too litle and dissipates very quickly
-
+NDefines.NCountry.CORRUPTION_COST = 0.03 -- from 0.05
+NDefines.NCountry.BASE_TARIFF = 0.25 -- from 0.10, to buff colonial nations so that they are more comparable to trade companies
+NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5	-- from 1.0, to account for higher tariffs
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
 NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.12 -- from 0.08, to help prevent infinite money mid and late game
