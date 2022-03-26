@@ -822,7 +822,7 @@ noble_loyalty_act = {
 	}
 
 	cavalry_power = 0.10
-	nobility_loyalty_modifier = 0.1
+	nobles_loyalty_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
