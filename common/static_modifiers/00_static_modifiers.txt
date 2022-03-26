@@ -1138,7 +1138,7 @@ trade_company_bonus = {
 }
 
 bonus_from_merchant_republics = {
-	trade_goods_size_modifier = 0.5
+	trade_goods_size_modifier = 1.0
 }
 
 bonus_from_merchant_republics_for_trade_league_member = {
