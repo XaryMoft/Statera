@@ -1,0 +1,17 @@
+#Bunyoro
+
+
+add_core = BNY
+culture = ganda
+religion = shamanism #Fetishism
+capital = "Mugenyi"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+native_size = 110
+native_ferocity = 10
+native_hostileness = 10
+is_city = no
+discovered_by = central_african

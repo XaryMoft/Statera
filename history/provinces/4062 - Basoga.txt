@@ -1,0 +1,17 @@
+#Basoga
+
+
+add_core = BSG
+culture = masaba
+religion = shamanism #Fetishism
+capital = "Bukaleeba"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 90
+native_ferocity = 10
+native_hostileness = 10
+is_city = no
+discovered_by = central_african
