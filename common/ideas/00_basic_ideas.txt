@@ -1063,7 +1063,7 @@ humanist_ideas = {
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
-		dhimi_influence_modifier = 0.05
+		dhimmi_influence_modifier = 0.05
 		brahmins_muslim_influence_modifier = 0.05
 	}
 	benevolence = {
