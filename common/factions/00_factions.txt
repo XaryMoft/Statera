@@ -69,7 +69,7 @@ mr_traders ={
 		ship_power_propagation = 0.10
 		country_diplomatic_power = 1
 		global_tax_modifier = -0.1
-		privateer_efficiency = -0.2
+		global_trade_goods_size_modifier = -0.05
 	}
 }
 
