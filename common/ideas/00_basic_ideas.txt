@@ -890,7 +890,7 @@ quantity_ideas = {
 		land_forcelimit_modifier  = 0.25
 	}
 	mass_army = {
-		global_manpower_modifier = 0.30
+		global_manpower_modifier = 0.50
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
