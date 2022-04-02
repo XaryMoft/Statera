@@ -126,7 +126,6 @@ seat_in_parliament = {
 	local_sailors_modifier = 0.05
 	local_tax_modifier = 0.1
 	local_production_efficiency = 0.1
-	local_governing_cost = 0.25
 	local_governing_cost_increase = 15
 }
 
@@ -523,6 +522,7 @@ in_trade_company = {
 	local_missionary_strength = -2
 	local_institution_spread = 0.10
 	local_governing_cost = 0.25
+	monthly_fervor_increase = 0.15
 }
 
 left_trade_company = {
@@ -882,7 +882,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	
+	monthly_fervor_increase = -0.15
 }
 
 # Multiplied by Development
