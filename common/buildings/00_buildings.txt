@@ -169,7 +169,7 @@ barracks = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.5
 	}
 	on_built = {
 		if = {
@@ -889,7 +889,7 @@ training_fields = {
 #	}
 
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 1
 	}
 	
 	on_built = {
