@@ -16388,3 +16388,523 @@ ZUL_ideas = {
 		accept_vassalization_reasons = 10
 	}
 }
+
+CUB_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.2
+	}	
+
+	trigger = {
+		tag = CUB
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+CAL_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}	
+
+	trigger = {
+		tag = CAL
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+HAT_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.15
+	}	
+
+	trigger = {
+		tag = HAT
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+VNZ_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		advisor_cost = -0.15
+	}	
+
+	trigger = {
+		tag = VNZ
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+ILI_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		shock_damage = 0.15
+	}	
+
+	trigger = {
+		tag = ILI
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+PRG_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.20
+	}	
+
+	trigger = {
+		tag = PRG
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+LAP_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.20
+	}	
+
+	trigger = {
+		tag = CUB
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+CHL_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.20
+	}	
+
+	trigger = {
+		tag = CHL
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+COL_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}	
+
+	trigger = {
+		tag = COL
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+LOU_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		papal_influence = 2
+	}	
+
+	trigger = {
+		tag = LOU
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+CAM_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		global_trade_power = 0.15
+	}	
+
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+FLO_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}	
+
+	trigger = {
+		tag = FLO
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
+
+PEU_ideas = {
+	start = {
+		ae_impact = -0.15
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		hostile_attrition = 2
+	}	
+
+	trigger = {
+		tag = PEU
+	}
+	free = yes
+	
+	founding_fathers = {
+		republican_tradition = 0.5
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.05
+	}
+	manufacturing_center = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		land_morale = 0.10
+	}
+}
