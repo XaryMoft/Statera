@@ -500,7 +500,7 @@ FRA_ideas = {
 TUR_ideas = {
 	start = {
 		discipline = 0.05
-		tolerance_heathen = 3
+		fire_damage = 0.1
 	}
 	
 	bonus = {
@@ -1001,13 +1001,13 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	army_professionalism = {
-		land_morale = 0.15
+		land_morale = 0.2
 	}	
 	noble_cadets = {
 		nobles_loyalty_modifier = 0.10
 	}
 	goose_step = {
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.25
@@ -1015,6 +1015,7 @@ PRU_ideas = {
 	}
 	religious_toleration = {
 		tolerance_heretic = 1
+		development_cost = -0.05
 	}
 }
 
@@ -1475,7 +1476,7 @@ JAP_ideas = {
 
 MAM_ideas = {
 	start = {
-		trade_steering = 0.25
+		shock_damage = 0.1
 		cavalry_power = 0.10
 	}
 	
@@ -1489,7 +1490,7 @@ MAM_ideas = {
 	free = yes
 	
 	red_sea_trade = {
-		global_trade_power = 0.05
+		global_trade_power = 0.1
 		trade_range_modifier = 0.10
 	}
 	monuments_to_greatness = {
@@ -10727,6 +10728,7 @@ HAN_ideas = {
 	}
 	han_kings_legion = {
 		land_morale = 0.1
+		fire_damage_received = -0.05
 	}
 }
 
@@ -13987,7 +13989,7 @@ TUN_ideas = {
 
 TEX_ideas = {
 	start = {	
-		fire_damage_received = -0.1
+		fire_damage_received = -0.05
 		no_religion_penalty = yes
 	}
 	bonus = {
@@ -14017,7 +14019,7 @@ TEX_ideas = {
 		stability_cost_modifier = -0.15
 	}
 	adelsverin = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 }
 
@@ -14333,7 +14335,7 @@ ADU_ideas = {
 	free = yes        #will be added at load.
     
 	adu_stand_against_the_reconquista = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.10
 	}
 	adu_taifa_adminstration = {
 		vassal_forcelimit_bonus = 1
