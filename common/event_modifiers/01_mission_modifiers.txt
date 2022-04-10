@@ -5761,7 +5761,8 @@ w_african_develop_modifier = {
 }
 
 siberian_forest_roads = {
-	movement_speed = 0.10
+	defensiveness = 0.10
+	garrison_growth = 0.15
 }
 
 increased_spending = {
