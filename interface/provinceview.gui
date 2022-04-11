@@ -6566,8 +6566,6 @@ guiTypes = {
 		text = "2000�"
 	}
 
-}
-
 	windowType =
 	{
 		name = "province_institution_entry"
