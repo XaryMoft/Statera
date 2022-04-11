@@ -961,8 +961,8 @@ corruption = {
 }
 
 root_out_corruption = {
-	yearly_corruption = -1.0
-        all_estate_loyalty_equilibrium = -0.1 # rooting out corruption makes estate more disloyal
+	yearly_corruption = -0.5
+    all_estate_loyalty_equilibrium = -0.1 # rooting out corruption makes estate more disloyal
 }
 
 recovery_motivation = {
@@ -1472,19 +1472,16 @@ divert_trade = {
 # Karma
 ########################################
 
-karma_just_right =
-{
+karma_just_right = {
 	diplomatic_reputation = 2
 	discipline = 0.05
 }
 
-karma_too_high =
-{
+karma_too_high = {
 	diplomatic_reputation = 1
 }
 
-karma_too_low =
-{
+karma_too_low = {
 	discipline = 0.025
 }
 
@@ -1718,6 +1715,7 @@ regiment_drill_modifier = { # Used by individual regiments
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
 	movement_speed = 0.2
+	land_attrition = -0.1
 }
 
 janissary_regiment = {
