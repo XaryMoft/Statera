@@ -239,7 +239,7 @@ provincial_tax_income = {
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.15
+	trade_goods_size = 0.2
 	ship_recruit_speed = -0.01
 	local_governing_cost_increase = 0.5
 }

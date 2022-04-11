@@ -1,7 +1,7 @@
 #1809 - Cheyenne
 
 
-controller = COM
+
 is_city = no
 culture = shoshone
 religion = totemism

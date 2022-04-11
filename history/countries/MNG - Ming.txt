@@ -1,6 +1,5 @@
 government = monarchy
 add_government_reform = celestial_empire
-add_inflation = 10
 add_corruption = 20
 add_meritocracy = -39
 government_rank = 3
