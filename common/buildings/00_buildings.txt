@@ -1808,3 +1808,55 @@ state_house = {
 	}
 }
 
+
+tax_house = {
+	manufactory = {
+		all
+	}
+
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		gold
+		slaves
+		spices
+		cloves
+		fur
+		incense
+		coffee
+		sugar
+		tobacco
+		cocoa
+		wool
+		cloth
+		silk
+		dyes
+	}
+
+	modifier = {
+		tax_income = 2
+	}
+	bonus_modifier = {
+		tax_income = 2
+	}
+	onmap = no
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	on_built = {
+		add_development_from_building = {
+			building = manufactory
+			type = tax
+			value = 2
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = manufactory
+			type = tax
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}

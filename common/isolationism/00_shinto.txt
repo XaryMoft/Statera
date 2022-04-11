@@ -31,7 +31,7 @@ isolationism_isolation = {
 	isolation_value = 3
 
 	modifier = {
-		culture_conversion_cost = -0.15
+		culture_conversion_cost = -0.25
 		missionaries = 1
 	}
 }

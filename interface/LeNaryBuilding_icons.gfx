@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_tax_house"
+        texturefile = "gfx//interface//buildings//trade_company//officers_mess.dds"
+        loadType = "INGAME"
+    }
+
+}
