@@ -1818,7 +1818,6 @@ tax_house = {
 		gold
 		slaves
 		spices
-
 		incense
 		sugar
 		tobacco
