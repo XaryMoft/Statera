@@ -1818,17 +1818,12 @@ tax_house = {
 		gold
 		slaves
 		spices
-		cloves
-		fur
+
 		incense
-		coffee
 		sugar
 		tobacco
-		cocoa
 		wool
-		cloth
-		silk
-		dyes
+		salt
 	}
 
 	modifier = {
