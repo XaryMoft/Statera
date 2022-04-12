@@ -1246,7 +1246,7 @@ guiTypes = {
 		}
 	
 		instantTextBoxType={
-			name = "count_tax_cost"
+			name = "tax_house_cost"
 			position = {x = 321 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
