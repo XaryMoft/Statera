@@ -1839,22 +1839,6 @@ tax_house = {
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
-	on_built = {
-		add_development_from_building = {
-			building = manufactory
-			type = tax
-			value = 2
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = manufactory
-			type = tax
-			value = 2
-		}
-	}
-	on_obsolete = {
-	}
 
 	ai_will_do = {
 		factor = 1
