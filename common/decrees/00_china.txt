@@ -7,7 +7,7 @@ expand_bureaucracy_decree = {
 	duration = 3650
 	modifier = {
 		build_cost = -0.1
-		reform_progress_growth = 0.1
+		reform_progress_growth = 0.2
 	}
 	ai_will_do = {
 		factor = 100
