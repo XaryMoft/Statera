@@ -5761,7 +5761,7 @@ w_african_develop_modifier = {
 }
 
 siberian_forest_roads = {
-	defensiveness = 0.10
+	defensiveness = 0.15
 	garrison_growth = 0.15
 }
 
@@ -5780,7 +5780,7 @@ cultural_unification = {
 }
 
 defying_nature = {
-	development_cost = -0.025
+	development_cost = -0.1
 }
 
 booming_trade = {
@@ -5788,7 +5788,7 @@ booming_trade = {
 }
 
 free_flow_of_ideas = {
-	idea_cost = -0.05
+	idea_cost = -0.1
 }
 
 unshackled = {

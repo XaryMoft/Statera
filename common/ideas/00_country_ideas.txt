@@ -5353,12 +5353,12 @@ PLT_ideas = {
 
 PRM_ideas = {
 	start = {
-		prestige_decay = -0.01
+		defensiveness = 0.2
 		tolerance_heathen = 2	
 	}
 	
 	bonus = {
-		defensiveness = 0.2
+		may_establish_frontier = yes
 	}
 	
 	trigger = {
@@ -5369,8 +5369,9 @@ PRM_ideas = {
 	capital_of_prikamye = {
 		advisor_cost = -0.1
 	}
-	turkic_mercenaries = {
-		cavalry_cost = -0.1
+	amidst_forests_of_the_komi = {
+		fire_damage_received = -0.05
+		shock_damage_received = -0.05
 	}	
 	the_old_traditions = {
 		global_unrest = -1		
@@ -5379,10 +5380,12 @@ PRM_ideas = {
 		trade_efficiency = 0.10		
 	}
 	warriors_of_taiga = {
-		leader_land_manuever = 1		
+		leader_land_manuever = 1
+		hostile_attrition = 1		
 	}
-	komi_tolerance = {
-		religious_unity = 0.25
+	land_of_the_endless_towers = {
+		garrison_size = 0.25
+		fort_maintenance_modifier = -0.1
 	}
 	permian_army_reform = {
 		land_forcelimit_modifier = 0.25
