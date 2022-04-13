@@ -5761,7 +5761,7 @@ w_african_develop_modifier = {
 }
 
 siberian_forest_roads = {
-	defensiveness = 0.15
+	defensiveness = 0.2
 	garrison_growth = 0.15
 }
 

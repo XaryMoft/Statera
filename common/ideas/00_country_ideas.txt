@@ -264,7 +264,7 @@ RUS_ideas = {
 
 	land_of_the_rus = {
 		ae_impact = -0.1
-		land_attrition = -0.10
+		land_attrition = -0.15
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -272,7 +272,7 @@ RUS_ideas = {
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.1
-		artillery_power = 0.05
+		artillery_power = 0.1
 	}
 	life_long_conscription = {
 		land_forcelimit_modifier = 0.33
@@ -5353,12 +5353,12 @@ PLT_ideas = {
 
 PRM_ideas = {
 	start = {
-		defensiveness = 0.2
+		land_attrition = -0.15
 		tolerance_heathen = 2	
 	}
 	
 	bonus = {
-		may_establish_frontier = yes
+		advisor_cost = -0.10
 	}
 	
 	trigger = {
@@ -5366,29 +5366,27 @@ PRM_ideas = {
 	}
 	free = yes
 	
-	capital_of_prikamye = {
-		advisor_cost = -0.1
+	new_traditions = {
+		global_missionary_strength = 0.02
 	}
-	amidst_forests_of_the_komi = {
-		fire_damage_received = -0.05
-		shock_damage_received = -0.05
+	standing_army = {
+		land_forcelimit_modifier = 0.25
 	}	
-	the_old_traditions = {
-		global_unrest = -1		
+	cherdyn_market = {
+		global_trade_goods_size_modifier = 0.1		
 	}
 	the_great_perm = {
-		trade_efficiency = 0.10		
+		may_establish_frontier = yes
 	}
 	warriors_of_taiga = {
-		leader_land_manuever = 1
-		hostile_attrition = 1		
+		movement_speed = 0.1
 	}
 	land_of_the_endless_towers = {
 		garrison_size = 0.25
 		fort_maintenance_modifier = -0.1
 	}
 	permian_army_reform = {
-		land_forcelimit_modifier = 0.25
+		artillery_power = 0.1
 	}
 }
 
