@@ -5760,6 +5760,8 @@ w_african_develop_modifier = {
 	development_cost = -0.1
 }
 
+# Perm missions
+
 siberian_forest_roads = {
 	defensiveness = 0.2
 	garrison_growth = 0.15

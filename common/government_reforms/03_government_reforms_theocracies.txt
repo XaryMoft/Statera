@@ -148,6 +148,7 @@ combat_heresy_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		land_morale = 0.1
+		tolerance_heretic = -3
 	}
 }
 
@@ -156,6 +157,8 @@ expel_heathens_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		development_cost = -0.05
+		tolerance_heathen = -2
+		tolerance_heretic = -2
 	}
 }
 
