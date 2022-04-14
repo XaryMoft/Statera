@@ -14337,6 +14337,7 @@ ADU_ideas = {
     
 	adu_stand_against_the_reconquista = {
 		fire_damage_received = -0.10
+		discipline = 0.025
 	}
 	adu_taifa_adminstration = {
 		vassal_forcelimit_bonus = 1
