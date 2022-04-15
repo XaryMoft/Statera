@@ -11749,7 +11749,7 @@ RUM_ideas = {
 		land_morale = 0.1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.15
+		land_forcelimit_modifier = 0.25
 	}
 	trigger = {
 		tag = RUM
