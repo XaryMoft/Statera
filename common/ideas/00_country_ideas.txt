@@ -14689,7 +14689,7 @@ LOT_ideas = {
 	}
 	
 	bonus = {
-		ae_impact = -0.1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -14718,6 +14718,7 @@ LOT_ideas = {
 	}
 	lot_european_empire = {
 		core_creation = -0.2
+		ae_impact = -0.1
 	}
 }
 
