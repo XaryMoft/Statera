@@ -18,3 +18,5 @@ NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.12 -- from 0.08, to help
 
 
 NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic religion is more viable for nations unable to acquire cardinals
+
+NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this (in theory at 0 the AI wont debase it's currency if it's making money or just lost a huge ammount).

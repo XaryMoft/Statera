@@ -380,15 +380,18 @@ diplomatic_ideas = {
 
 	foreign_embassies = {
 		diplomats = 1
+		spy_offence = 0.25
 	}
 	cabinet = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 2
 	}
 	grand_banquets = {
-		diplomats = 1
+		prestige = 1
+		advisor_cost = -0.1
 	}
 	benign_diplomats = {
 		improve_relation_modifier = 0.25
+		rival_change_cost = -0.5
 	}
 	experienced_diplomats = {
 		diplomatic_reputation = 2
@@ -941,7 +944,7 @@ expansion_ideas = {
 	}
 	additional_diplomats = {
 		diplomatic_upkeep = 1
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 	}
 	general_colonization_law = {
 		colonists = 1
@@ -1091,6 +1094,7 @@ influence_ideas = {
 
 	tribute_system = {
 		vassal_income = 0.25
+		global_tariffs = 0.1
 	}
 	
 	additional_loyalist_recruitment = {
@@ -1102,11 +1106,13 @@ influence_ideas = {
 	}
 	buffer_states = {
 		diplomatic_upkeep = 1
+		accept_vassalization_reasons = 10
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
 	}
 	postal_service = {
+		diplomats = 1
 		envoy_travel_time = -0.25
 	}
 	marcher_lords = {
