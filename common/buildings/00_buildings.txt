@@ -1350,6 +1350,7 @@ manufactory = {
 	time = 60
 	modifier = {
 		trade_goods_size_modifier = 0.5
+		trade_goods_size = 0.2
 	}
 }
 
