@@ -433,7 +433,6 @@ offensive_ideas = {
 	}
 	superior_firepower = {
 		leader_land_fire = 1
-		leader_siege = 1
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0
