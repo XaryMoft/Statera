@@ -2,6 +2,7 @@
 
 
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10 -- from 25 years, allowing more flexibility in diplomacy
+NDefines.NDiplomacy.SUPPORT_REBELS_EFFECT = 25 -- from 10, so rebel support eff isn't useless
 
 NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 1 -- from 2 years worth of manpower, to shorten wars by reducing the reservoir of manpower of professionalism.
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60 -- from 120, to increase the probability generals improve skill from drilling
@@ -12,6 +13,8 @@ NDefines.NCountry.PS_SCORCH_EARTH = 10 -- from 5, since 5 it's too litle and dis
 NDefines.NCountry.CORRUPTION_COST = 0.03 -- from 0.05
 NDefines.NCountry.BASE_TARIFF = 0.25 -- from 0.10, to buff colonial nations so that they are more comparable to trade companies
 NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5	-- from 1.0, to account for higher tariffs
+NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so the base number of units you can rent out as condottieri late game aren't that useless
+
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
 NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.12 -- from 0.08, to help prevent infinite money mid and late game

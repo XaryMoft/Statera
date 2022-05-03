@@ -97,6 +97,7 @@ technology = { #Basic Financial Instruments
 	trade_range				=	20
 	
 	coastal_defence = yes
+	may_slander_merchants = yes
 }
 
 technology = { #Shipyards
@@ -124,6 +125,7 @@ technology = { #Naval Ambitions
 	range					= 115
 	impressment_offices 	= yes
 	naval_engagement_width = 10
+	may_study_technology = yes
 }
 
 technology  = { #Docks
@@ -157,7 +159,6 @@ technology = { #Carracks & Caravel
 	
 	enable = carrack
 	enable = caravel
-	may_study_technology = yes
 	
 }
 
@@ -189,6 +190,7 @@ technology = { #Wharf
 	range					= 	100
 
 	wharf = yes
+	may_sabotage_recruitment = yes
 
 }
 
@@ -202,10 +204,10 @@ technology = { #Man of War
 	}
 
 	naval_morale			=	0.4
-	may_slander_merchants = yes
 
 	naval_battery = yes
 	naval_engagement_width = 15
+	may_sow_discontent = yes
 	
 }
 
@@ -221,6 +223,7 @@ technology = { #Chartered Companies
 	
 	trade_efficiency 		= 	0.02
 	enable = brig
+	may_sabotage_reputation = yes
 
 }
 
@@ -236,6 +239,7 @@ technology = { #The Galleass
 	
 	tradecompany = yes
 	num_accepted_cultures = 1
+	may_corrupt_officials = yes
 
 	
 	enable = galleass
@@ -257,7 +261,6 @@ technology = { #The Galleon
 	
 	enable = galleon
 	enable = early_frigate
-	may_sabotage_recruitment = yes
 
 }
 
@@ -273,6 +276,7 @@ technology = { #Development of Maritime Law
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	may_agitate_for_liberty = yes
 
 }
 
@@ -292,6 +296,7 @@ technology = { #Merchantman
 	
 	
 	trade_depot = yes 
+	may_infiltrate_administration = yes
 
 
 	enable = merchantman
@@ -310,7 +315,6 @@ technology = { #Line of Battle
 	
 	enable = galiot
 	naval_morale			=	0.5
-	may_sow_discontent = yes
 	
 	naval_engagement_width = 10
 
@@ -368,7 +372,6 @@ technology = { #The Chebeck
 	}
 
 	enable = chebeck
-	may_sabotage_reputation = yes
 
 }
 
@@ -435,7 +438,6 @@ technology = { #The Archipelago Frigate
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	enable = archipelago_frigate
-	may_corrupt_officials = yes
 	naval_engagement_width = 10
 
 }
@@ -495,7 +497,6 @@ technology = { #Public Punishments
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
-	may_agitate_for_liberty = yes
 
 }
 
@@ -551,7 +552,6 @@ technology = { #Insurance Companies
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
-	may_infiltrate_administration = yes
 }
 
 technology = { #Superior Ship Design

@@ -200,7 +200,7 @@ severe_winter = {
 }
 
 mild_monsoon = {
-	local_hostile_attrition = 1
+	local_hostile_attrition = 0.5
 	local_hostile_movement_speed = -0.20
 	local_friendly_movement_speed = -0.20
 
@@ -208,7 +208,7 @@ mild_monsoon = {
 }
 
 normal_monsoon = {
-	local_hostile_attrition = 2
+	local_hostile_attrition = 1.5
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
 
@@ -216,7 +216,7 @@ normal_monsoon = {
 }
 
 severe_monsoon = {
-	local_hostile_attrition = 3
+	local_hostile_attrition = 2.5
 	local_hostile_movement_speed = -0.50
 	local_friendly_movement_speed = -0.50
 
@@ -964,7 +964,6 @@ corruption = {
 
 root_out_corruption = {
 	yearly_corruption = -0.5
-    all_estate_loyalty_equilibrium = -0.1 # rooting out corruption makes estate more disloyal
 }
 
 recovery_motivation = {

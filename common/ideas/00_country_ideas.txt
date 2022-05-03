@@ -500,7 +500,7 @@ FRA_ideas = {
 TUR_ideas = {
 	start = {
 		discipline = 0.05
-		fire_damage = 0.1
+		tolerance_heathen = 3
 	}
 	
 	bonus = {
@@ -1476,7 +1476,7 @@ JAP_ideas = {
 
 MAM_ideas = {
 	start = {
-		shock_damage = 0.1
+		trade_steering = 0.25
 		cavalry_power = 0.10
 	}
 	
@@ -5358,7 +5358,7 @@ PRM_ideas = {
 	}
 	
 	bonus = {
-		advisor_cost = -0.10
+		may_establish_frontier = yes
 	}
 	
 	trigger = {
@@ -5373,12 +5373,13 @@ PRM_ideas = {
 		land_forcelimit_modifier = 0.25
 	}	
 	cherdyn_market = {
-		global_trade_goods_size_modifier = 0.1		
+		trade_efficiency = 0.1		
 	}
 	the_great_perm = {
-		may_establish_frontier = yes
+		advisor_cost = -0.1
 	}
 	warriors_of_taiga = {
+		leader_land_manuever = 1
 		movement_speed = 0.1
 	}
 	land_of_the_endless_towers = {

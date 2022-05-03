@@ -331,7 +331,7 @@ spy_ideas = {
 	category = DIP
 
 	bonus = {
-		rebel_support_efficiency = 0.50
+		rebel_support_efficiency = 0.75
 	}
 	
 	claim_fabrication = {
@@ -341,6 +341,7 @@ spy_ideas = {
 
 	state_propaganda = {
 		ae_impact = -0.2
+		war_exhaustion = -0.03
 	}
 
 	efficient_spies = {
@@ -355,6 +356,7 @@ spy_ideas = {
 
 	vetting = {
 		global_spy_defence = 0.33
+		yearly_corruption = -0.1
 	}
 	
 	privateers = {
@@ -363,7 +365,7 @@ spy_ideas = {
 	}
 
 	audit_checks = {
-		yearly_corruption = -0.1
+		stability_cost_modifier = -0.25
 	}
 
 	ai_will_do = {
