@@ -1323,7 +1323,7 @@ cultural_understanding = {
 	}	
 	
 	global_unrest = -1
-	rebel_support_efficiency = 0.25
+	rebel_support_efficiency = 0.50
 	
 	ai_will_do = {
 		factor = 1

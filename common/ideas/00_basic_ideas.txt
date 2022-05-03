@@ -332,6 +332,7 @@ spy_ideas = {
 
 	bonus = {
 		rebel_support_efficiency = 0.75
+		discovered_relations_impact = -0.15
 	}
 	
 	claim_fabrication = {
@@ -356,7 +357,7 @@ spy_ideas = {
 
 	vetting = {
 		global_spy_defence = 0.33
-		yearly_corruption = -0.1
+		yearly_corruption = -0.10
 	}
 	
 	privateers = {
@@ -365,7 +366,7 @@ spy_ideas = {
 	}
 
 	audit_checks = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.20
 	}
 
 	ai_will_do = {
