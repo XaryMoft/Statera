@@ -3,6 +3,7 @@ fervor_trade = {
 	effect = {
 		global_trade_power = 0.10
 		trade_efficiency = 0.10
+		trade_steering = 0.10
 	}
 	ai_will_do = {
 		factor = 1
