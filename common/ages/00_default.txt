@@ -678,13 +678,13 @@ age_of_revolutions = {
 		obj_disc_army = {
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.25
+				value = 0.20
 				extra_shortcut = yes
 			}
 		}
 		obj_huge_capital = {
 			capital_scope = {
-				development = 50
+				development = 40
 			}
 		}
 		obj_great_general = {
