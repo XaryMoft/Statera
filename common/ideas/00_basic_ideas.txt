@@ -156,7 +156,7 @@ theocracy_gov_ideas = {
 		legitimacy = 0.5
 	}
 	by_the_grace_of_god = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	friends_in_high_places = {
 		leader_cost = -0.1
