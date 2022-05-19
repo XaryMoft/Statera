@@ -1092,6 +1092,7 @@ influence_ideas = {
 
 	bonus = {
 		unjustified_demands = -0.5
+		reduced_stab_impacts = yes
 	}
 
 	tribute_system = {
@@ -1100,22 +1101,25 @@ influence_ideas = {
 	}
 	
 	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 15
+		reduced_liberty_desire = 25
+		improve_relation_modifier = 0.50
 	}
 	
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25
+		province_warscore_cost = -0.2
 	}
 	buffer_states = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 2
 		accept_vassalization_reasons = 10
 	}
 	diplomatic_influence = {
-		diplomatic_reputation = 2
+		diplomatic_reputation = 3
+		dip_tech_cost_modifier = -0.1
 	}
 	postal_service = {
 		diplomats = 1
-		envoy_travel_time = -0.25
+		envoy_travel_time = -0.50
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
