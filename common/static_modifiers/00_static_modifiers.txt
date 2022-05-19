@@ -1779,7 +1779,7 @@ over_governing_capacity_modifier = {
 	stability_cost_modifier = 1.0
 	ae_impact = 0.5
 	improve_relation_modifier = -0.5
-	core_creation = 0.2
+	core_creation = 1.0
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
 }
