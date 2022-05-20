@@ -179,7 +179,7 @@ the_espionage_act = {
 		full_idea_group = spy_ideas
 	}
 
-	stability_cost_modifier = -0.25
+	global_spy_defence = 0.2
 	diplomats = 1
 	
 	ai_will_do = {
