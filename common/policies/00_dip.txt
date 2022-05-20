@@ -1088,7 +1088,7 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	spy_offence = 0.10
+	spy_offence = 0.30
 	diplomats = 1
 
 	ai_will_do = {
