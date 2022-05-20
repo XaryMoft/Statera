@@ -31,7 +31,7 @@ NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic 
 NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this, in theory at 0 the AI wont debase it's currency if it's making money, it only will do it if it just lost a huge ammount.
 
 
-NDefines.NGovernment.GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 20.0 -- Government Reform cost for centralize state
-NDefines.NGovernment.CENTRALIZE_STATE_ADM_COST = 75 -- ADM cost for centralize state
+NDefines.NGovernment.GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 0.0 -- Government Reform cost for centralize state
+NDefines.NGovernment.CENTRALIZE_STATE_ADM_COST = 100 -- ADM cost for centralize state
 
 

@@ -1783,6 +1783,9 @@ over_governing_capacity_modifier = {
 	core_creation = 1.0
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
+	global_autonomy = 0.20
+	autonomy_change_time = 0.20
+	yearly_corruption = 0.20
 }
 
 
