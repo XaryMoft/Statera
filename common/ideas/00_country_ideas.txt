@@ -147,7 +147,7 @@ GBR_ideas = {
 	}
 	british_merchant_navy = {
 		global_tariffs = 0.15
-		navy_tradition = 0.5
+		navy_tradition = 1
 	}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
@@ -317,7 +317,7 @@ SPA_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	spanish_armada = {
-		heavy_ship_power = 0.1
+		heavy_ship_power = 0.10
 		leader_naval_manuever = 1
 	}
 	spa_casa_de_contracion = {
@@ -1062,7 +1062,7 @@ BRA_ideas = {
 POR_ideas = {
 	start = {
 		shock_damage_received = -0.10
-		infantry_power = 0.10
+		infantry_power = 0.20
 	}
 	
 	bonus = {
@@ -1076,7 +1076,7 @@ POR_ideas = {
 	
 	legacy_of_the_navigator = {
 		naval_morale = 0.1
-		disengagement_chance = 0.05
+		disengagement_chance = 0.15
 	}
 	afonsine_ordinances = {
 		trade_efficiency = 0.15
@@ -1096,7 +1096,8 @@ POR_ideas = {
 	}
 	por_royal_military_academy = {
 		defensiveness = 0.1
-		artillery_fire = 1
+		artillery_power = 0.1
+		heavy_ship_power = 0.1
 	}
 }
 

@@ -110,6 +110,7 @@ technology = { #Shipyards
 	
 	dock = yes	
 	may_steal_maps = yes
+	may_study_technology = yes
 
 }
 
@@ -125,7 +126,6 @@ technology = { #Naval Ambitions
 	range					= 115
 	impressment_offices 	= yes
 	naval_engagement_width = 10
-	may_study_technology = yes
 }
 
 technology  = { #Docks

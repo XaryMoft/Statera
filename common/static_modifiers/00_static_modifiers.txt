@@ -1399,11 +1399,12 @@ recruitment_sabotaged = {
 }
 
 merchants_slandered = {
-	global_trade_power = -0.1
+	global_trade_power = -0.15
+	trade_efficiency = -0.05
 }
 
 discontent_sowed = {
-	global_unrest = 2
+	global_unrest = 6
 	legitimacy = -1
 	republican_tradition = -0.2
 	devotion = -1
@@ -1416,7 +1417,7 @@ reputation_sabotaged = {
 }
 
 corrupt_officials = {
-	yearly_corruption = 0.1
+	yearly_corruption = 0.25
 }
 
 scaled_trade_league_leader = { #scaled by number of members

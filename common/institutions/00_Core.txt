@@ -829,6 +829,7 @@ printing_press = {
 
 	bonus = {
 		stability_cost_modifier = -0.05
+		possible_condottieri = 0.1
 	}
 
 	trade_company_efficiency = 0.8
@@ -1180,6 +1181,7 @@ global_trade = {
 
 	bonus = {
 		merchants = 1
+		possible_condottieri = 0.1
 	}
 
 	trade_company_efficiency = 1.0
@@ -1482,6 +1484,7 @@ manufactories = {
 
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
+		possible_condottieri = 0.1
 	}
 
 	trade_company_efficiency = 1.25

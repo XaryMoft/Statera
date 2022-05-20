@@ -194,7 +194,12 @@ indigenous_ideas = {
 	}
 
 	trigger = {
-		has_government_attribute = enables_natives_idea_group
+		OR = { has_government_attribute = enables_natives_idea_group
+		tag = AZT
+		tag = INC
+		tag = CSU
+		tag = MAY
+	}
 	}
 
 	indigenous_bountiful_land = {
@@ -380,6 +385,7 @@ diplomatic_ideas = {
 	bonus = {
 		reduced_stab_impacts = yes
 	}
+	allow = { corruption = 90 }
 
 	foreign_embassies = {
 		diplomats = 1
@@ -387,6 +393,7 @@ diplomatic_ideas = {
 	}
 	cabinet = {
 		diplomatic_upkeep = 2
+		yearly_corruption = -0.1
 	}
 	grand_banquets = {
 		prestige = 1
@@ -404,6 +411,7 @@ diplomatic_ideas = {
 	}
 	diplomatic_corps = {
 		dip_tech_cost_modifier = -0.1
+		inflation_reduction = 0.1
 	}
 
 	ai_will_do = {

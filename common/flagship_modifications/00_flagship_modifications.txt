@@ -185,7 +185,8 @@ portuguese_bombardier = {
     }
 	modifier = {
         barrage_cost_in_fleet_modifier = -0.4
-        naval_maintenance_flagship_modifier = 0.5
+        number_of_cannons_flagship_modifier = 0.5
+        naval_maintenance_flagship_modifier = 0.75
 	}
     ai_trade_score = {
         factor = 0
