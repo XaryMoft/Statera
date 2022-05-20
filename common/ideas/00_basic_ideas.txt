@@ -385,7 +385,7 @@ diplomatic_ideas = {
 	bonus = {
 		reduced_stab_impacts = yes
 	}
-	allow = { corruption = 90 }
+	trigger = { corruption = 25 } 
 
 	foreign_embassies = {
 		diplomats = 1
@@ -1109,7 +1109,7 @@ influence_ideas = {
 	}
 	
 	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 25
+		reduced_liberty_desire = 15
 		improve_relation_modifier = 0.50
 	}
 	
