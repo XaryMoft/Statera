@@ -1095,8 +1095,7 @@ POR_ideas = {
 		yearly_absolutism = 0.5
 	}
 	por_royal_military_academy = {
-		defensiveness = 0.1
-		artillery_power = 0.1
+		defensiveness = 0.25
 		heavy_ship_power = 0.1
 	}
 }
