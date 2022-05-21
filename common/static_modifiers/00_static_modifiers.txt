@@ -1204,8 +1204,7 @@ low_army_professionalism = {
 high_army_professionalism = {
 	fire_damage = 0.15
 	shock_damage = 0.15
-	siege_ability = 0.3
-	defensiveness = 0.1
+	siege_ability = 0.20
 	drill_decay_modifier = -0.5
 	reserves_organisation = 0.5
 }
