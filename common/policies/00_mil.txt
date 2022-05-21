@@ -212,7 +212,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.25
+	siege_ability = 0.10
 	leader_siege = 1
 
 	ai_will_do = {
@@ -292,7 +292,7 @@ the_garrison_act = {
 	}
 	
 	fort_maintenance_modifier = -0.20
-	garrison_size = 0.25
+	garrison_size = 0.20
 
 	ai_will_do = {
 		factor = 1
