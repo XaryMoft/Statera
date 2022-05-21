@@ -1003,6 +1003,7 @@ deserteur_act = {
 	}
 
 	army_tradition_decay = -0.005
+	land_morale = 0.10
 	
 	ai_will_do = {
 		factor = 0.75
@@ -1300,7 +1301,8 @@ my_word_is_my_bond_policy = {
 		full_idea_group = spy_ideas
 	}
 
-	siege_ability = 0.2
+	siege_ability = 0.25
+	leader_siege = 1
 
 	ai_will_do = {
 		factor = 1.0
