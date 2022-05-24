@@ -200,13 +200,12 @@ superior_supply_system = {
 
 
 modern_siege_weapons = {
-	monarch_power = MIL
+	monarch_power = adm
 	
 	potential = {
 		has_idea_group = innovativeness_ideas
 		has_idea_group = offensive_ideas
 	}
-	
 	allow = {
 		full_idea_group = innovativeness_ideas
 		full_idea_group = offensive_ideas
@@ -279,7 +278,7 @@ modern_firearm_techniques = {
 }
 
 the_garrison_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = innovativeness_ideas
@@ -846,7 +845,7 @@ noble_loyalty_act = {
 }
 
 the_colonial_nobility_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	potential = {
 		has_idea_group = aristocracy_ideas
 		has_idea_group = exploration_ideas
@@ -889,7 +888,7 @@ nobles_in_navy_act = {
 }
 
 military_allotment_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = spy_ideas
@@ -901,7 +900,7 @@ military_allotment_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	global_manpower_modifier = 0.33
+	global_manpower_modifier = 0.25
 
 	ai_will_do = {
 		factor = 0.8
