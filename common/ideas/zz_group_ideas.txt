@@ -128,7 +128,7 @@ pirate_ideas = {
 		free_leader_pool = 1
 	}
 	bonus = {
-		unjustified_demands = -0.25
+		naval_forcelimit_modifier = 0.20
 	}
 	trigger = {
 		OR = {
@@ -150,13 +150,15 @@ pirate_ideas = {
 		no_religion_penalty = yes
 	}	
 	pirates_plunder = {
+		infantry_power = 0.10
 		loot_amount = 0.25
 	}
 	pirates_bucanneers_ideas = {	
-		infantry_cost = -0.1
+		allowed_marine_fraction = 0.25
+		infantry_cost = -0.10
 	}
 	pirates_sail_in_consort = {
-		global_naval_engagement_modifier = 0.2
+		leader_naval_manuever = 1
 	}
 	pirates_elected_quartermasters = {
 		global_unrest = -2
@@ -166,7 +168,7 @@ pirate_ideas = {
 		own_coast_naval_combat_bonus = 1
 	}
 	pirate_life_of_liberty = {
-		rebel_support_efficiency = 0.25
+		rebel_support_efficiency = 0.35
 		sailors_recovery_speed = 0.1
 	}
 }
