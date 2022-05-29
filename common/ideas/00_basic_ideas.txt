@@ -442,7 +442,7 @@ offensive_ideas = {
 		leader_land_shock = 1
 	}
 	national_conscripts = {
-		global_manpower_modifier = 0.05
+		global_manpower_modifier = 0.1
 		global_regiment_recruit_speed = -0.1
 	}
 	superior_firepower = {
