@@ -11,10 +11,12 @@ NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 1 -- from 2 years worth of manpow
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60 -- from 120, to increase the probability generals improve skill from drilling
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 10 -- from 20, to encourage people to build supply depots due to the attrition/supply changes
 NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.5 -- Reduced from 2.0 since merc manpower is big if we count the amount of merc companies you can get
+NDefines.NMilitary.CONTROL_DEVASTATION_IMPACT = -2 -- from -1, this means in 1 year it decays -2 devastation if you control a province, aka -0.16 monthly devastation from -0.08, since base devastation reduction is really bad
+NDefines.NMilitary.MARINE_SHOCK_DAMAGE_TAKEN = 0 -- from 0.10, using sailors is already a limiting factor to marines
 
 
 NDefines.NCountry.PS_RAISE_WAR_TAXES = 1 -- From 2, wiki "50" is outaded, this means war taxes now cost 1 mil point pur month
-NDefines.NCountry.PS_SCORCH_EARTH = 10 -- from 5, since 5 it's too litle and dissipates very quickly
+NDefines.NCountry.PS_SCORCH_EARTH = 20 -- from 5, since 5 it's too litle and dissipates very quickly
 NDefines.NCountry.CORRUPTION_COST = 0.03 -- from 0.05
 NDefines.NCountry.BASE_TARIFF = 0.25 -- from 0.10, to buff colonial nations so that they are more comparable to trade companies
 NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5	-- from 1.0, to account for higher tariffs
@@ -22,14 +24,14 @@ NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
-NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.12 -- from 0.08, to help prevent infinite money mid and late game
+NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.10 -- from 0.08, to help prevent infinite money mid and late game
 
 
 NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic religion is more viable for nations unable to acquire cardinals
 
 
 NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this, in theory at 0 the AI wont debase it's currency if it's making money, it only will do it if it just lost a huge ammount.
-NDefines.NAI.DEVELOPMENT_CAP_BASE = 30 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger
+NDefines.NAI.DEVELOPMENT_CAP_BASE = 30 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger, so for example AI would dev Paris to 46 dev
 
 NDefines.NGovernment.GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 0.0 -- Government Reform cost for centralize state
 NDefines.NGovernment.CENTRALIZE_STATE_ADM_COST = 100 -- ADM cost for centralize state

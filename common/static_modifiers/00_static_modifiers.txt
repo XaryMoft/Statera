@@ -428,7 +428,6 @@ devastation = {
 	ship_recruit_speed = 1
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
-	local_monthly_devastation = -0.4
 
 }
 
@@ -1141,7 +1140,7 @@ trade_company_bonus = {
 }
 
 bonus_from_merchant_republics = {
-	trade_goods_size_modifier = 1.0
+	trade_goods_size_modifier = 0.5
 }
 
 bonus_from_merchant_republics_for_trade_league_member = {

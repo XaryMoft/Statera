@@ -936,8 +936,8 @@ VRN_ideas = {
 
 VEN_ideas = {
 	start = {
-		trade_efficiency = 0.15
-		global_trade_power = 0.15
+		trade_steering = 0.33
+		republican_tradition = 0.25
 	}
 	
 	bonus = {
@@ -951,29 +951,27 @@ VEN_ideas = {
 	
 	venetian_arsenal = {
 		naval_forcelimit_modifier = 0.25
-		naval_morale = 0.10
+		ship_durability = 0.05
 	}
 	printing_industry = {
 		technology_cost = -0.05
 		global_institution_spread = 0.1
 	}
 	stato_da_mar = {
-		global_foreign_trade_power = 0.10
+		trade_efficiency = 0.2
 	}
 	state_inquisition = {
-		land_morale = 0.15
+		global_spy_defence = 0.3
+		yearly_corruption = -0.05
 	}
 	conscription = {
-		global_sailors_modifier = 0.2
-		sailor_maintenance_modifer = -0.05
+		global_sailors_modifier = 0.33
 	}
 	defend_the_law = {
-		republican_tradition = 0.3
-		
+		global_unrest = -2
 	}
 	provveditori_ai_beni_inculti = {
 		development_cost = -0.10
-		
 	}
 }
 
@@ -1061,7 +1059,7 @@ BRA_ideas = {
 
 POR_ideas = {
 	start = {
-		shock_damage_received = -0.10
+		heavy_ship_power = 0.1
 		infantry_power = 0.20
 	}
 	
@@ -1096,7 +1094,7 @@ POR_ideas = {
 	}
 	por_royal_military_academy = {
 		defensiveness = 0.25
-		heavy_ship_power = 0.1
+		artillery_power = 0.1
 	}
 }
 

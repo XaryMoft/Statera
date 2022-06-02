@@ -483,6 +483,7 @@ regimental_camp = {
 	time = 12
 	modifier = {
 		land_forcelimit = 0.5
+		regiment_recruit_speed = -0.10
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1263,6 +1264,7 @@ conscription_center = {
 
 	modifier = {
 		land_forcelimit = 1
+		regiment_recruit_speed = -0.20
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -1602,7 +1604,7 @@ furnace = {
 	}
 
 	modifier = {
-		development_cost = -0.05 #National Bonus
+		development_cost = -0.025 #National Bonus
 		trade_goods_size_modifier = 0.5
 	}
 	onmap = yes
