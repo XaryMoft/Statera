@@ -710,6 +710,7 @@ peace = {
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
+	global_monthly_devastation = -0.3
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
 }
