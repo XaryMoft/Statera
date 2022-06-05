@@ -89,7 +89,7 @@ the_liquor_act = {
 		full_idea_group = administrative_ideas
 	}	
 	
-	recover_army_morale_speed = 0.15
+	land_morale = 0.10
 	reinforce_speed = 0.15
 
 	ai_will_do = {
@@ -491,7 +491,7 @@ colonial_garrisons = {
 	}
 
 	land_forcelimit_modifier = 0.1
-	global_colonial_growth = 10
+	land_attrition = -0.2
 
 	ai_will_do = {
 		factor = 0.8
@@ -520,7 +520,7 @@ the_maritime_intelligencer_unit = {
 	}	
 	
 	siege_blockade_progress = 1
-	global_naval_engagement_modifier = 0.1
+	heavy_ship_power = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -723,7 +723,7 @@ local_militias = {
 }
 
 foreign_conscription_centers = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -736,7 +736,7 @@ foreign_conscription_centers = {
 	}	
 	
 	reinforce_cost_modifier = -0.20
-	diplomatic_upkeep = 1
+	global_manpower_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -1101,7 +1101,7 @@ omne_datum_optimum_policy = {
 	}
 
 	manpower_in_true_faith_provinces = 0.2
-	recover_army_morale_speed = 0.05
+	infantry_power = 0.075
 	
 	ai_will_do = {
 		factor = 1.0
