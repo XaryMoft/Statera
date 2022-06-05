@@ -11,7 +11,6 @@ NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 1 -- from 2 years worth of manpow
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60 -- from 120, to increase the probability generals improve skill from drilling
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 10 -- from 20, to encourage people to build supply depots due to the attrition/supply changes
 NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.5 -- Reduced from 2.0 since merc manpower is big if we count the amount of merc companies you can get
-NDefines.NMilitary.FORT_DEVASTATION_IMPACT = -7 -- from -10, to balance out the passive devastation in peace time
 NDefines.NMilitary.MARINE_SHOCK_DAMAGE_TAKEN = 0 -- from 0.10, using sailors is already a limiting factor to marines
 
 

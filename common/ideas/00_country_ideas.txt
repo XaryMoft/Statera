@@ -1074,7 +1074,7 @@ POR_ideas = {
 	
 	legacy_of_the_navigator = {
 		naval_morale = 0.1
-		disengagement_chance = 0.15
+		disengagement_chance = 0.05
 	}
 	afonsine_ordinances = {
 		trade_efficiency = 0.15

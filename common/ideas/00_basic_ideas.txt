@@ -1162,7 +1162,7 @@ naval_ideas = {
 
 	bonus = {
 		ship_durability = 0.1
-		disengagement_chance = 0.15
+		disengagement_chance = 0.1
 	}
 
 	boarding_parties = {
