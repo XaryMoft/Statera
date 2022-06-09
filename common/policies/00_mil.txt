@@ -402,7 +402,7 @@ local_army_organisation = {
 	}
 
 	shock_damage_received = -0.1
-	
+	global_regiment_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -776,7 +776,7 @@ guerilla_warfare = {
 		full_idea_group = quantity_ideas
 	}	
 	
-	hostile_attrition = 1
+	hostile_attrition = 2
 	global_garrison_growth = 0.1
 	
 	ai_will_do = {

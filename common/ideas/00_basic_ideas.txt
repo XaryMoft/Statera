@@ -824,7 +824,7 @@ maritime_ideas = {
 	}
 	naval_fighting_instruction = {
 		blockade_efficiency = 0.5
-		privateer_efficiency = 0.25
+		privateer_efficiency = 0.15
 	}
 
 	ai_will_do = {
@@ -939,10 +939,12 @@ expansion_ideas = {
 
 	bonus = {
  		min_autonomy_in_territories = -0.1
+		reform_progress_growth = 0.20
 	}
 
 	additional_colonists = {
 		colonists = 1
+		production_efficiency = 0.05
 	}
 	additional_merchants = {
 		merchants = 1

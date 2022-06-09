@@ -1787,7 +1787,8 @@ over_governing_capacity_modifier = {
 	monthly_militarized_society = -1.0
 	global_autonomy = 0.20
 	autonomy_change_time = 0.20
-	yearly_corruption = 0.20
+	yearly_corruption = 0.50
+	development_cost = 0.5
 }
 
 
@@ -1820,6 +1821,7 @@ expanded_infrastructure = {
 	local_governing_cost_increase = 15
 	local_governing_cost = 0.1
 	local_great_project_upgrade_cost = -0.05
+	land_forcelimit = 1
 }
 
 centralize_state = {

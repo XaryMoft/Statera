@@ -248,7 +248,7 @@ edict_of_resistance = {
 
 
 	global_unrest = -1
-	hostile_attrition = 1
+	hostile_attrition = 2
 
 	ai_will_do = {
 		factor = 1
@@ -472,8 +472,8 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	siege_ability = 0.1
-	colonist_placement_chance = 0.15
+	land_attrition = 0.2
+	war_exhaustion = -0.03
 	
 	ai_will_do = {
 		factor = 0.6

@@ -11355,11 +11355,11 @@ colony_inspired_by_revolution = {
 
 estate_cossacks_prime_herding_rights_mod = {
 	local_tax_modifier = -0.3
-	local_manpower_modifier = 0.1
+	local_manpower_modifier = 0.15
 }
 
 estate_cossacks_exploration_expedition_mod = {
-	local_development_cost = -0.15
+	local_development_cost = -0.1
 }
 
 shortage_of_officers = {

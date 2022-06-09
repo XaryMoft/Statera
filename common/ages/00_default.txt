@@ -687,7 +687,7 @@ age_of_revolutions = {
 		}
 		obj_huge_capital = {
 			capital_scope = {
-				development = 40
+				development = 50
 			}
 		}
 		obj_great_general = {

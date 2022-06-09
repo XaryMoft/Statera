@@ -288,6 +288,7 @@ naval_infrastructure_act = {
 
 
 	naval_forcelimit_modifier = 0.33
+	sailor_maintenance_modifer = -0.1
 
 
 	ai_will_do = {
@@ -389,7 +390,7 @@ naval_secrecy_act = {
 	}
 
 	global_spy_defence = 0.2
-	naval_morale = 0.1
+	naval_morale = 0.15
 
 	ai_will_do = {
 		factor = 0.8
@@ -1175,7 +1176,7 @@ the_naval_supremacy_act = {
 		full_idea_group = maritime_ideas
 	}	
 	
-	privateer_efficiency = 0.5
+	privateer_efficiency = 0.2
 	blockade_efficiency = 0.5
 	
 	ai_will_do = {
@@ -1200,7 +1201,7 @@ letters_of_marque = {
 		full_idea_group = exploration_ideas
 	}
 	
-	privateer_efficiency = 0.5
+	global_ship_trade_power = 0.25
 	ship_durability = 0.05
 
 	
