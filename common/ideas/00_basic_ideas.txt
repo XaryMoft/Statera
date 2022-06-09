@@ -636,7 +636,7 @@ exploration_ideas = {
  	}
 	free_colonies = {
 		expel_minorities_cost = -1.0
-		colonist_placement_chance = 0.1
+		colonist_placement_chance = 0.05
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
@@ -944,7 +944,6 @@ expansion_ideas = {
 
 	additional_colonists = {
 		colonists = 1
-		production_efficiency = 0.05
 	}
 	additional_merchants = {
 		merchants = 1

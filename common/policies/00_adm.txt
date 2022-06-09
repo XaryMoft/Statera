@@ -472,7 +472,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	land_attrition = 0.2
+	reinforce_speed = 0.2
 	war_exhaustion = -0.03
 	
 	ai_will_do = {
