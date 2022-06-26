@@ -33,7 +33,7 @@ world_port = {
         allowed_num_of_buildings = 1
     }
     global_modifiers = {
-        navy_tradition_decay = -0.002
+        navy_tradition_decay = -0.0013
     }
 }
 

@@ -801,7 +801,7 @@ maritime_ideas = {
 
 	merchant_traditions = {
 		naval_tradition_from_trade = 1.0
-		trade_range_modifier = 0.25
+		merchants = 1
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.5
@@ -817,6 +817,7 @@ maritime_ideas = {
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
+		trade_range_modifier = 0.25
 	}
 	sea_hawks = {
 		free_leader_pool = 1
@@ -824,7 +825,7 @@ maritime_ideas = {
 	}
 	naval_fighting_instruction = {
 		blockade_efficiency = 0.5
-		privateer_efficiency = 0.15
+		light_ship_power = 0.15
 	}
 
 	ai_will_do = {
@@ -881,13 +882,15 @@ quality_ideas = {
 		cavalry_power = 0.1
 	}
 	escort_ships = {
-		ship_durability = 0.05
+		heavy_ship_power = 0.05
+		galley_power = 0.05
 	}
 	naval_drill = {
 		naval_morale = 0.10
 	}
 	copper_bottoms = {
 		naval_attrition = -0.25
+		ship_durability = 0.05
 	}
 	massed_battery = {
 		artillery_power = 0.1
@@ -1185,7 +1188,7 @@ naval_ideas = {
 		allowed_marine_fraction = 0.25
 	}
 	oak_forests_for_ships = {
-		heavy_ship_power = 0.10
+		heavy_ship_power = 0.15
 	}
 	superior_seamanship = {
 		naval_morale = 0.1
