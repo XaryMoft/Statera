@@ -16,6 +16,11 @@
 # Diplo
 diplomatic_ideas: "Shru Ideas"
 
+# Ages
+obj_90_absolutism_desc: "Absolutism must be at least 80."
+obj_cultures_accepted_desc: "Have at least four different promoted cultures."
+obj_disc_army_desc: "Have least 120% discipline in your armies."
+
 # Perm
 # Perm Events
  permevent.1.t:0 "Question of Faith"

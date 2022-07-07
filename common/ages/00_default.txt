@@ -489,7 +489,7 @@ age_of_absolutism = {
 			land_forcelimit = 200
 		}
 		
-		obj_80_absolutism = {
+		obj_90_absolutism = {
 			absolutism = 80
 		}
 		
@@ -577,7 +577,7 @@ age_of_absolutism = {
 		ab_yearly_absolutism = {
 			modifier = {
 				yearly_absolutism = 1
-				max_absolutism = 0.05
+				max_absolutism = 5
 			}
 			ai_will_do = {
 				factor = 100
