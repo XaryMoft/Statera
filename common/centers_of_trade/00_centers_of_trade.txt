@@ -20,7 +20,7 @@ entrepot = {
 
 world_port = {
     level = 3
-	development = 15
+	development = 20
     cost = 1000
     type = coastal
     province_modifiers = {
@@ -59,7 +59,7 @@ market_town = {
 world_trade_center = {
     level = 3
     cost = 1000
-	development = 15
+	development = 20
     type = inland
     province_modifiers = {
         province_trade_power_value = 25

@@ -198,31 +198,6 @@ superior_supply_system = {
 	}
 }
 
-
-modern_siege_weapons = {
-	monarch_power = adm
-	
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = offensive_ideas
-	}
-	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = offensive_ideas
-	}
-	
-	siege_ability = 0.10
-	leader_siege = 1
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
 superior_fortification_act = {
 	monarch_power = MIL
 	
@@ -274,27 +249,6 @@ modern_firearm_techniques = {
 			factor = 1.5
 			infantry_fraction = 0.45
 		}
-	}
-}
-
-the_garrison_act = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = quantity_ideas
-	}
-	
-	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = quantity_ideas
-	}
-	
-	fort_maintenance_modifier = -0.20
-	garrison_size = 0.20
-
-	ai_will_do = {
-		factor = 1
 	}
 }
 
@@ -722,47 +676,6 @@ local_militias = {
 	}
 }
 
-foreign_conscription_centers = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = influence_ideas
-		has_idea_group = offensive_ideas
-	}
-	
-	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = offensive_ideas
-	}	
-	
-	reinforce_cost_modifier = -0.20
-	global_manpower_modifier = 0.20
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}	
-	}
-}
-
 guerilla_warfare = {
 	monarch_power = MIL
 	
@@ -844,25 +757,6 @@ noble_loyalty_act = {
 	}
 }
 
-the_colonial_nobility_act = {
-	monarch_power = ADM
-	potential = {
-		has_idea_group = aristocracy_ideas
-		has_idea_group = exploration_ideas
-	}
-	
-	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = exploration_ideas
-	}
-
-	global_manpower_modifier = 0.33
-
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
 nobles_in_navy_act = {
 	monarch_power = MIL
 	potential = {
@@ -884,26 +778,6 @@ nobles_in_navy_act = {
 			factor = 0
 			NOT = { navy_size = 20 }
 		}		
-	}
-}
-
-military_allotment_act = {
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = spy_ideas
-		has_idea_group = plutocracy_ideas
-	}
-	
-	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = plutocracy_ideas
-	}
-
-	global_manpower_modifier = 0.25
-
-	ai_will_do = {
-		factor = 0.8
 	}
 }
 

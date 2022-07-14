@@ -17,9 +17,8 @@ NDefines.NMilitary.MARINE_SHOCK_DAMAGE_TAKEN = 0 -- from 0.10, using sailors is 
 NDefines.NCountry.PS_RAISE_WAR_TAXES = 1 -- From 2, wiki "50" is outaded, this means war taxes now cost 1 mil point pur month
 NDefines.NCountry.PS_SCORCH_EARTH = 20 -- from 5, since 5 it's too litle and dissipates very quickly
 NDefines.NCountry.CORRUPTION_COST = 0.03 -- from 0.05
-NDefines.NCountry.BASE_TARIFF = 0.25 -- from 0.10, to buff colonial nations so that they are more comparable to trade companies
-NDefines.NCountry.TARIFF_LIBERTY_INCREASE = 0.5	-- from 1.0, to account for higher tariffs
 NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
+NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min influence of a single modifier (paid of debt)
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game

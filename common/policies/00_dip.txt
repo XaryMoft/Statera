@@ -885,7 +885,7 @@ the_integrated_administration_act = {
 	}	
 	
 	vassal_income = 0.25
-	global_institution_spread = 0.1
+	diplomatic_reputation = 2
 	
 	ai_will_do = {
 		factor = 1
@@ -1176,7 +1176,7 @@ the_naval_supremacy_act = {
 		full_idea_group = maritime_ideas
 	}	
 	
-	privateer_efficiency = 0.2
+	siege_blockade_progress = 1
 	blockade_efficiency = 0.5
 	
 	ai_will_do = {
@@ -1518,6 +1518,27 @@ canoe_expertise_policy = {
 	}
 	
 	disengagement_chance = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+the_garrison_act = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = innovativeness_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = innovativeness_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	fort_maintenance_modifier = -0.20
+	garrison_size = 0.20
 
 	ai_will_do = {
 		factor = 1

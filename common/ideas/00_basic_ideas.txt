@@ -1133,7 +1133,7 @@ influence_ideas = {
 		dip_tech_cost_modifier = -0.1
 	}
 	postal_service = {
-		diplomats = 1
+		diplomats = 2
 		envoy_travel_time = -0.50
 	}
 	marcher_lords = {
@@ -1165,7 +1165,7 @@ naval_ideas = {
 	}
 
 	bonus = {
-		ship_durability = 0.1
+		global_naval_barrage_cost = -1
 		disengagement_chance = 0.1
 	}
 
@@ -1182,6 +1182,7 @@ naval_ideas = {
 	}
 	naval_glory = {
 		navy_tradition = 1
+		siege_blockade_progress = 1
 	}
 	press_gangs = {
 		sailors_recovery_speed = 0.25
@@ -1189,6 +1190,7 @@ naval_ideas = {
 	}
 	oak_forests_for_ships = {
 		heavy_ship_power = 0.15
+		ship_durability = 0.10
 	}
 	superior_seamanship = {
 		naval_morale = 0.1

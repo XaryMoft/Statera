@@ -226,7 +226,8 @@ severe_monsoon = {
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.2
-	local_monthly_devastation = 0.4
+	local_monthly_devastation = 0.25
+	province_trade_power_modifier = -0.5
 }
 
 no_adjacent_controlled = {
@@ -1120,6 +1121,8 @@ total_occupation = {
 
 total_blockaded = {
 	war_exhaustion = 0.10					#increases exhaustion.
+	global_trade_power = -0.75
+	trade_steering = -0.75
 }
 
 uncontested_cores = {
@@ -1787,7 +1790,7 @@ over_governing_capacity_modifier = {
 	monthly_militarized_society = -1.0
 	global_autonomy = 0.20
 	autonomy_change_time = 0.20
-	yearly_corruption = 0.50
+	yearly_corruption = 1
 	development_cost = 0.5
 }
 
