@@ -1317,7 +1317,7 @@ council_of_captains_reform = {
 	}
 	modifiers = {
 		pr_captains_influence = 0.1
-		privateer_efficiency = 0.20
+		global_ship_trade_power = 0.20
 	}
 	ai = {
 		factor = 2.5

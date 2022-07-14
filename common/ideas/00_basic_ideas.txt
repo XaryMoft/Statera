@@ -366,8 +366,8 @@ spy_ideas = {
 	}
 	
 	privateers = {
-		embargo_efficiency = 0.25
-		privateer_efficiency = 0.33
+		embargo_efficiency = 0.33
+		global_ship_trade_power = 0.15
 	}
 
 	audit_checks = {
@@ -1043,7 +1043,7 @@ administrative_ideas = {
 	}
 	administrative_efficiency_idea = {
 		advisor_pool = 1
-		advisor_cost = -0.25
+		advisor_cost = -0.15
 	}
 	civil_servants = {
 		technology_cost = -0.1
@@ -1088,6 +1088,7 @@ humanist_ideas = {
 	}
 	benevolence = {
 		improve_relation_modifier = 0.3
+		development_cost = -0.05
 	}
 	humanist_tolerance = {
 		tolerance_heathen = 2
@@ -1165,7 +1166,7 @@ naval_ideas = {
 	}
 
 	bonus = {
-		global_naval_barrage_cost = -1
+		global_naval_barrage_cost = -0.33
 		disengagement_chance = 0.1
 	}
 

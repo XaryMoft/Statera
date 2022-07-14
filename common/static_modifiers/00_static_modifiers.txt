@@ -126,7 +126,7 @@ seat_in_parliament = {
 	local_sailors_modifier = 0.05
 	local_tax_modifier = 0.1
 	local_production_efficiency = 0.1
-	local_governing_cost_increase = 15
+	local_governing_cost_increase = 10
 }
 
 non_coastal = {
@@ -138,7 +138,7 @@ coastal_sea = {
 
 tropical = {
 	local_colonial_growth = -20
-	supply_limit_modifier = -0.3
+	supply_limit = -0.3
 	local_hostile_attrition = 3
 
 	local_development_cost = 0.1
@@ -148,7 +148,7 @@ tropical = {
 
 arctic = {
 	local_colonial_growth = -30
-	supply_limit_modifier = -0.4
+	supply_limit = -0.4
 	local_hostile_attrition = 5
 
 	allowed_num_of_buildings = -1
@@ -159,7 +159,7 @@ arctic = {
 
 arid = {
 	local_colonial_growth = -10
-	supply_limit_modifier = -0.1
+	supply_limit = -0.2
 	local_hostile_attrition = 2.5
 
 	local_development_cost = 0.15
@@ -178,14 +178,14 @@ land_province = {
 
 mild_winter = {
 	local_hostile_attrition = 1.5
-	supply_limit_modifier = -0.20
+	supply_limit = -0.10
 
 	picture = "winter_mild"
 }
 
 normal_winter = {
 	local_hostile_attrition = 3
-	supply_limit_modifier = -0.40
+	supply_limit = -0.20
 	migration_cost = 0.15
 
 	picture = "winter_normal"
@@ -193,7 +193,7 @@ normal_winter = {
 
 severe_winter = {
 	local_hostile_attrition = 4.5
-	supply_limit_modifier = -0.60
+	supply_limit = -0.30
 	migration_cost = 0.3
 
 	picture = "winter_severe"
@@ -796,7 +796,7 @@ navy_tradition = {
 	recover_navy_morale_speed = 0.1
 	naval_morale = 0.25
 	trade_steering = 0.50
-	privateer_efficiency = 0.25
+	global_ship_trade_power = 0.15
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
@@ -953,10 +953,12 @@ corruption = {
 	imperial_mandate = -0.5
 	
 	# military effects
-	discipline = -0.2
+	discipline = -0.25
 	reinforce_speed = -0.5
 	yearly_army_professionalism = -0.005
-	ship_durability = -0.2
+	ship_durability = -0.25
+	global_manpower_modifier = -0.25
+	global_sailors_modifier = -0.25
 	
 	# Estate effects
 	all_estate_loyalty_equilibrium = 0.1 
@@ -1612,6 +1614,7 @@ subject_sword_hunt = {
 
 supply_depot_area = {
 	supply_limit_modifier = 0.5
+	supply_limit = 0.3
 }
 
 ########################################

@@ -15649,7 +15649,7 @@ tortuga_island = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.2
+			global_ship_trade_power = 0.2
 			capture_ship_chance = 0.1
 		}
 		on_upgraded = {
@@ -15670,7 +15670,7 @@ tortuga_island = {
 			blockade_force_required = 1
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.33
+			global_ship_trade_power = 0.33
 			power_projection_from_insults = 0.5
 			capture_ship_chance = 0.2
 		}
@@ -15692,7 +15692,7 @@ tortuga_island = {
 			blockade_force_required = 1
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.5
+			global_ship_trade_power = 0.5
 			power_projection_from_insults = 1
 			capture_ship_chance = 0.3
 		}
