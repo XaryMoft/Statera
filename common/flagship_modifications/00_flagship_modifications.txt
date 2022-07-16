@@ -160,7 +160,7 @@ portuguese_navigators = {
         normal_or_historical_nations = yes
     }
 	modifier = {
-        exploration_mission_range_in_fleet_modifier = 10
+        exploration_mission_range_in_fleet_modifier = 1
         naval_maintenance_flagship_modifier = 0.5
 	}
     ai_trade_score = {

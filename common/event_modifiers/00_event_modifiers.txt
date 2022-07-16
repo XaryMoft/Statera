@@ -818,8 +818,9 @@ revocation_of_restraint_of_appeals = {
 
 hire_privateers = {
 	embargo_efficiency = 0.1
-	global_ship_trade_power = 0.25
+	global_ship_trade_power = 0.15
 	improve_relation_modifier = -0.10
+	trade_efficiency = -0.05
 }
 
 counter_reformation = {
