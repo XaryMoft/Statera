@@ -367,7 +367,7 @@ spy_ideas = {
 	
 	privateers = {
 		embargo_efficiency = 0.33
-		global_ship_trade_power = 0.15
+		global_own_trade_power = 0.20
 	}
 
 	audit_checks = {
@@ -612,12 +612,13 @@ exploration_ideas = {
 	important = yes
 
 	bonus = {
-		cb_on_primitives = yes
+		navy_tradition = 0.5
+		naval_attrition = -0.25
 	}
 
 	quest_for_the_new_world	= {
 		may_explore = yes
-		leader_naval_manuever = 1
+		leader_land_manuever = 1
 	}
 
 	colonial_ventures = {
@@ -626,17 +627,19 @@ exploration_ideas = {
 	
 	overseas_exploration = {
 		range = 0.5
+		leader_naval_manuever = 1
 	}
 	land_of_opportunity = {
 		global_colonial_growth = 10
+		colonist_placement_chance = 0.05
 	}
 	vice_roys = {
-		global_tariffs = 0.10
+		global_tariffs = 0.25
  		envoy_travel_time = -0.20
  	}
 	free_colonies = {
 		expel_minorities_cost = -1.0
-		colonist_placement_chance = 0.05
+		cb_on_primitives = yes
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
@@ -1026,8 +1029,9 @@ administrative_ideas = {
 		governing_capacity_modifier = 0.25
 	}
 
-	organised_mercenary_payment = {
-		mercenary_cost = -0.10
+	administrative_efficiency_idea = {
+		advisor_pool = 2
+		advisor_cost = -0.10
 	}
 	adaptability = {
 		core_creation = -0.25
@@ -1041,12 +1045,12 @@ administrative_ideas = {
 	organised_mercenary_recruitment = {
 		mercenary_manpower = 0.25
 	}
-	administrative_efficiency_idea = {
-		advisor_pool = 1
-		advisor_cost = -0.15
+	organised_mercenary_payment = {
+		mercenary_cost = -0.10
 	}
 	civil_servants = {
 		technology_cost = -0.1
+		monthly_reform_progress = 0.15
 	}
 
 	ai_will_do = {
