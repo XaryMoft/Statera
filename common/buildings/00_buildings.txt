@@ -343,7 +343,7 @@ courthouse = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		local_autonomy = -0.1
-		local_governing_cost = -0.15
+		local_governing_cost = -0.20
 	}
 	on_built = {
 		add_development_from_building = {
@@ -1086,7 +1086,7 @@ town_hall = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		local_autonomy = -0.2
-		local_governing_cost = -0.3
+		local_governing_cost = -0.4
 	}
 
 	on_built = {
