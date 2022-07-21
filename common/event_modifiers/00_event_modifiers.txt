@@ -5521,7 +5521,7 @@ refused_aid_traders = {
 }
 
 reckless_privateer = {
-	privateer_efficiency = 0.15
+	global_ship_trade_power = 0.15
 	improve_relation_modifier = -0.15
 }
 
@@ -5535,11 +5535,11 @@ rogue_privateer = {
 }
 
 employed_pirates = {
-	privateer_efficiency = 0.2
+	global_ship_trade_power = 0.2
 }
 
 supported_republic_feud = {
-	privateer_efficiency = 0.15
+	global_ship_trade_power = 0.15
 }
 
 denied_knowledge_privateer = {

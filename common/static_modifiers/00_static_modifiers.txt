@@ -1614,7 +1614,7 @@ subject_sword_hunt = {
 
 supply_depot_area = {
 	supply_limit_modifier = 0.5
-	supply_limit = 0.3
+	supply_limit = 0.15
 }
 
 ########################################

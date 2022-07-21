@@ -2003,7 +2003,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		artillery_fire = 1
+		backrow_artillery_damage = 0.2
 	}
 	
 	trigger = {
@@ -2018,7 +2018,7 @@ KOR_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	hyanyak_system = {
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	geobukseon = {
 		ship_durability = 0.1
@@ -2031,6 +2031,7 @@ KOR_ideas = {
 	}
 	kor_economy_reform = {
 		production_efficiency = 0.10
+		global_tax_modifier = 0.10
 	}
 	
 }
@@ -13935,7 +13936,8 @@ MOR_ideas = {
 		galley_power = 0.2
 	}
 	mor_pirate_republics = {
-		privateer_efficiency = 0.2
+		global_ship_trade_power = 0.15
+		naval_forcelimit_modifier = 0.25
 	}
 	mor_slave_soldiers = {
 		land_maintenance_modifier = -0.05
@@ -13969,7 +13971,7 @@ TUN_ideas = {
 	}
 	corsairs = {
 		navy_tradition = 1
-		privateer_efficiency = 0.20
+		global_ship_trade_power = 0.20
 	}
 	tun_attract_foreign_pirates = {
 		global_sailors_modifier = 0.25
