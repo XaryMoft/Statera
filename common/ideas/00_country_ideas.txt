@@ -489,6 +489,7 @@ FRA_ideas = {
 	}
 	the_philosophes = {
 		technology_cost = -0.1
+		cavalry_power = 0.20
 	}
 	liberty_egalite_fraternity = {
 		tolerance_heathen = 2
@@ -2003,7 +2004,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		backrow_artillery_damage = 0.2
+		artillery_power = 0.20
 	}
 	
 	trigger = {
@@ -2025,6 +2026,7 @@ KOR_ideas = {
 	}
 	hopae_system = {
 		global_manpower_modifier = 0.10
+		discipline = 0.05
 	}
 	kyujanggak = {
 		idea_cost = -0.1
