@@ -1030,8 +1030,8 @@ administrative_ideas = {
 	}
 
 	administrative_efficiency_idea = {
-		advisor_pool = 2
-		advisor_cost = -0.10
+		advisor_pool = 1
+		advisor_cost = -0.25
 	}
 	adaptability = {
 		core_creation = -0.25
