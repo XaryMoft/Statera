@@ -2004,7 +2004,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		artillery_power = 0.20
+		artillery_fire = 1
 	}
 	
 	trigger = {
@@ -2033,7 +2033,6 @@ KOR_ideas = {
 	}
 	kor_economy_reform = {
 		production_efficiency = 0.10
-		global_tax_modifier = 0.10
 	}
 	
 }
