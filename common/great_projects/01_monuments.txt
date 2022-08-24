@@ -9766,7 +9766,7 @@ holy_city_jerusalem = {
 			global_heretic_missionary_strength = 0.01
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
-			papal_influence = 0.25
+			papal_influence = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -9800,7 +9800,7 @@ holy_city_jerusalem = {
 			global_heretic_missionary_strength = 0.02
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
-			papal_influence = 0.5
+			papal_influence = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -9835,7 +9835,7 @@ holy_city_jerusalem = {
 			missionaries = 1
 			monthly_fervor_increase = 1
 			church_power_modifier = 0.15
-			papal_influence = 1
+			papal_influence = 4
 		}
 
 		#what effects happen when this tier is achieved

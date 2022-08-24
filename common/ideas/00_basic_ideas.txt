@@ -33,7 +33,6 @@ aristocracy_ideas = {
 	}
 	serfdom = {
 		global_manpower_modifier = 0.30
-		nobles_influence_modifier = 0.05
 	}
 	noble_officers = {
 		army_tradition_decay = -0.01
@@ -170,9 +169,6 @@ theocracy_gov_ideas = {
 	}
 	conviction_of_sin = {
 		global_unrest = -2
-		church_influence_modifier = 0.05
-		brahmins_hindu_influence_modifier = 0.05
-		brahmins_muslim_influence_modifier = 0.05
 	}
 	martyrs = {
 		global_manpower_modifier = 0.15
@@ -315,8 +311,6 @@ religious_ideas = {
 	}
 	inquisition = {
 		missionary_maintenance_cost = -0.5
-		church_influence_modifier = 0.05
-		brahmins_hindu_influence_modifier = 0.05
 	}
 	deus_vult = {
 		cb_on_religious_enemies = yes
@@ -442,7 +436,6 @@ offensive_ideas = {
 		leader_land_shock = 1
 	}
 	national_conscripts = {
-		global_manpower_modifier = 0.1
 		global_regiment_recruit_speed = -0.1
 	}
 	superior_firepower = {

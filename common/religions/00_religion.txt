@@ -322,7 +322,7 @@ christian = {
 			catholic
 		}
 		country = {
-			idea_cost = -0.1
+			development_cost = -0.05
 			innovativeness_gain = 0.5
 		}
 		
@@ -354,7 +354,7 @@ christian = {
 			catholic
 		}
 		country = {
-			shock_damage_received = -0.05
+			shock_damage_received = -0.15
 			global_heretic_missionary_strength = 0.02
 		}
 		
