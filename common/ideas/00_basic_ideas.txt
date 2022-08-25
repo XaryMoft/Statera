@@ -429,7 +429,7 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		recover_army_morale_speed = 0.15
+		recover_army_morale_speed = 0.05
 	}
 
 	bayonet_leaders = {

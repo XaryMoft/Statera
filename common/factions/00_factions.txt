@@ -51,7 +51,6 @@ mr_aristocrats ={
 	modifier = {
 		land_morale = 0.05
 		global_sailors_modifier = 0.25
-		naval_morale = 0.05
 		global_foreign_trade_power = -0.1
 	}
 }
@@ -64,7 +63,6 @@ mr_traders ={
 	modifier = {
 		global_trade_power = 0.10
 		global_tax_modifier = -0.05
-		global_ship_trade_power = 0.15
 		naval_maintenance_modifier = -0.10
 	}
 }
@@ -76,7 +74,6 @@ mr_guilds ={
 	modifier = {
 		global_trade_goods_size_modifier = 0.10
 		build_cost = -0.10
-		global_prov_trade_power_modifier = 0.10
 		global_manpower_modifier = -0.1
 	}
 }

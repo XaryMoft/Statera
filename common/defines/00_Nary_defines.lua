@@ -21,7 +21,6 @@ NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 y
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
-NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.10 -- from 0.08, to help prevent infinite money mid and late game
 NDefines.NEconomy.PIRATES_MONOPOLY_BONUS = 0.5 -- from 1, to nerf privateering, this modifier doesn't actually work but just in case PDX suddently fixes it or starts working again
 
 
