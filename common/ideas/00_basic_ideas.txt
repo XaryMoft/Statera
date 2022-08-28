@@ -605,8 +605,8 @@ exploration_ideas = {
 	important = yes
 
 	bonus = {
-		navy_tradition = 0.5
 		naval_attrition = -0.25
+		cb_on_primitives = yes
 	}
 
 	quest_for_the_new_world	= {
@@ -632,7 +632,6 @@ exploration_ideas = {
  	}
 	free_colonies = {
 		expel_minorities_cost = -1.0
-		cb_on_primitives = yes
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
