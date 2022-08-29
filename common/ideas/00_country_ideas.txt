@@ -2004,7 +2004,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		artillery_fire = 1
+		artillery_power = 0.15
 	}
 	
 	trigger = {
