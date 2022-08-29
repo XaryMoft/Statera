@@ -126,7 +126,6 @@ seat_in_parliament = {
 	local_sailors_modifier = 0.05
 	local_tax_modifier = 0.1
 	local_production_efficiency = 0.1
-	local_governing_cost_increase = 10
 }
 
 non_coastal = {
