@@ -233,7 +233,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	fire_damage = 0.1
+	infantry_power = 0.15
 
 	ai_will_do = {
 		factor = 1.2		
@@ -709,7 +709,8 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.10
+	fire_damage = 0.05
+	shock_damage = 0.05
 	
 	ai_will_do = {
 		factor = 2
@@ -733,7 +734,7 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	cavalry_power = 0.10
+	cavalry_power = 0.15
 	nobles_loyalty_modifier = 0.1
 	
 	ai_will_do = {

@@ -20,6 +20,7 @@ NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
 NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min influence of a single modifier (paid of debt)
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 years to 10 years
 NDefines.NCountry.ESTATE_PRIVILEGES_MAX_CONCURRENT = 6 -- from 4, 1.34 change
+NDefines.NCountry.GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 40 -- from 50
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
