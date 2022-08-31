@@ -40,7 +40,6 @@ trade_route_map = {
                 OR = {
                     tag = POR
                     tag = BRZ
-                    tag = NED
                 }
             }
             normal_or_historical_nations = no
@@ -478,28 +477,5 @@ captains_log = {
     }
     ai_war_score = {
         factor = 1
-    }
-}
-
-dutch_trade_ships = {
-    trigger = {
-		OR = {
-			tag = NED
-		}
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        trade_power_in_fleet_modifier = 2
-        naval_maintenance_flagship_modifier = 0.50
-	}
-    ai_trade_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            tag = NED
-        }
-    }
-    ai_war_score = {
-        factor = 0
     }
 }
