@@ -159,13 +159,13 @@ theocracy_gov_ideas = {
 		development_cost = -0.05
 	}
 	by_the_grace_of_god = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	friends_in_high_places = {
-		leader_cost = -0.1
+		leader_cost = -0.2
 	}
 	flesh_is_weak = {
-		fire_damage_received = -0.05
+		fire_damage_received = -0.075
 	}
 	alpha_and_omega = {
 		enforce_religion_cost = -0.1

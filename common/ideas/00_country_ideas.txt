@@ -489,10 +489,10 @@ FRA_ideas = {
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
+		cavalry_power = 0.20
 	}
 	the_philosophes = {
 		technology_cost = -0.1
-		cavalry_power = 0.20
 	}
 	liberty_egalite_fraternity = {
 		tolerance_heathen = 2
@@ -5356,12 +5356,12 @@ PLT_ideas = {
 
 PRM_ideas = {
 	start = {
-		land_attrition = -0.15
+		prestige_decay = -0.01
 		tolerance_heathen = 2	
 	}
 	
 	bonus = {
-		may_establish_frontier = yes
+		defensiveness = 0.2
 	}
 	
 	trigger = {
@@ -5369,28 +5369,26 @@ PRM_ideas = {
 	}
 	free = yes
 	
-	new_traditions = {
-		global_missionary_strength = 0.02
+	capital_of_prikamye = {
+		advisor_cost = -0.1
 	}
-	standing_army = {
-		land_forcelimit_modifier = 0.25
+	turkic_mercenaries = {
+		cavalry_cost = -0.1
 	}	
-	cherdyn_market = {
-		trade_efficiency = 0.1		
+	the_old_traditions = {
+		global_unrest = -1		
 	}
 	the_great_perm = {
-		advisor_cost = -0.1
+		trade_efficiency = 0.1
 	}
 	warriors_of_taiga = {
 		leader_land_manuever = 1
-		movement_speed = 0.1
 	}
-	land_of_the_endless_towers = {
-		garrison_size = 0.25
-		fort_maintenance_modifier = -0.1
+	komi_tolerance = {
+		religious_unity = 0.25
 	}
 	permian_army_reform = {
-		artillery_power = 0.1
+		land_forcelimit_modifier = 0.25
 	}
 }
 
@@ -14342,8 +14340,7 @@ ADU_ideas = {
 	free = yes        #will be added at load.
     
 	adu_stand_against_the_reconquista = {
-		fire_damage_received = -0.10
-		discipline = 0.025
+		fire_damage_received = -0.15
 	}
 	adu_taifa_adminstration = {
 		vassal_forcelimit_bonus = 1
