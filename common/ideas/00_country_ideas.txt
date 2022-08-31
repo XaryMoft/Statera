@@ -417,8 +417,8 @@ NED_ideas = {
 
 DAN_ideas = {
 	start = {
-		ship_durability = 0.05
-		global_tax_modifier = 0.10
+		navy_tradition = 1
+		global_manpower_modifier = 0.20
 	}
 	
 	bonus = {
@@ -431,27 +431,30 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	nordic_rulers_legacy = {
-		land_morale = 0.1
+		liberty_desire_from_subject_development = -0.2
+		diplomatic_annexation_cost = -0.1
 	}
 	vornedskab = {
-		global_manpower_modifier = 0.2
-		global_sailors_modifier = 0.2
+		global_own_trade_power = 0.2
+		trade_efficiency = 0.05
 	}
 	old_naval_traditions = {
-		naval_morale = 0.1
-		disengagement_chance = 0.05
+		naval_forcelimit_modifier = 0.5
 	}
 	rentekammer = {
-		build_cost = -0.15
+		shock_damage = 0.10
+		mercenary_discipline = 0.05
 	}
 	klaedekammer = {
-		naval_maintenance_modifier = -0.15
+		leader_naval_shock = 1
+		naval_morale = 0.15
 	}
 	expanded_dockyards = {
 		naval_forcelimit_modifier = 0.5
 	}
 	den_danske_lov = {
-		global_unrest = -1
+		global_autonomy = -0.05
+		max_absolutism = 10
 	}
 }
 
@@ -1060,8 +1063,8 @@ BRA_ideas = {
 
 POR_ideas = {
 	start = {
-		heavy_ship_power = 0.1
-		infantry_power = 0.20
+		range = 0.25
+		infantry_power = 0.10
 	}
 	
 	bonus = {
@@ -1078,7 +1081,7 @@ POR_ideas = {
 		disengagement_chance = 0.05
 	}
 	afonsine_ordinances = {
-		trade_efficiency = 0.15
+		global_trade_goods_size_modifier = 0.10
 	}
 	case_de_india = {
 		global_trade_power = 0.1
@@ -1087,7 +1090,7 @@ POR_ideas = {
 		global_colonial_growth = 15
 	}
 	the_bandeirantes = {
-		global_trade_goods_size_modifier = 0.10
+		trade_efficiency = 0.15
 	}
 	royal_absolutism = {
 		build_cost = -0.15
@@ -1095,7 +1098,7 @@ POR_ideas = {
 	}
 	por_royal_military_academy = {
 		defensiveness = 0.25
-		artillery_power = 0.1
+		artillery_fire = 1
 	}
 }
 
@@ -13913,7 +13916,7 @@ SYN_ideas = {
 MOR_ideas = {
 	start = {
 		may_perform_slave_raid = yes
-		cavalry_power = 0.20
+		cavalry_power = 0.15
 	}
 	bonus = {
 		hostile_attrition = 1.5
@@ -14023,7 +14026,7 @@ TEX_ideas = {
 		stability_cost_modifier = -0.15
 	}
 	adelsverin = {
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 }
 
