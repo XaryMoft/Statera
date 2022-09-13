@@ -207,7 +207,6 @@ technology = { #Man of War
 	naval_battery = yes
 	naval_engagement_width = 15
 	may_sabotage_recruitment = yes
-
 	
 }
 
@@ -241,7 +240,6 @@ technology = { #The Galleass
 	num_accepted_cultures = 1
 	may_corrupt_officials = yes
 	may_sabotage_reputation = yes
-
 
 	
 	enable = galleass
@@ -341,7 +339,6 @@ technology = { #The War Galleon
 	enable = wargalleon
 	enable = frigate
 	may_agitate_for_liberty = yes
-
 }
 
 technology = { #Naval Professionalization

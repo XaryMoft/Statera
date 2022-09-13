@@ -1,0 +1,17 @@
+country_decisions = {
+
+	defensive_ideas_attrition = {
+		potential = {
+			has_idea_group = "defensive_ideas" 
+			NOT = { has_country_flag = "defensivehostile" } 
+		}
+
+		allow = { full_idea_group = "defensive_ideas" }
+		effect = {  set_country_flag = "defensive_ideas"
+		every_owned_province = {
+				add_province_modifier = { name = "resistance_to_invaders" 
+				duration = -1 }
+		} } } 
+	
+	
+	}

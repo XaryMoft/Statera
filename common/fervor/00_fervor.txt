@@ -1,9 +1,9 @@
 fervor_trade = {
 	cost = 5
 	effect = {
-		global_trade_power = 0.10
-		trade_efficiency = 0.10
-		trade_steering = 0.10
+		global_trade_power = 0.1
+		trade_efficiency = 0.1
+		global_trade_goods_size_modifier = 0.05
 	}
 	ai_will_do = {
 		factor = 1
@@ -36,8 +36,7 @@ fervor_war = {
 	effect = {
 		land_morale = 0.1
 		naval_morale = 0.1
-		siege_ability = 0.1
-		war_exhaustion = -0.05
+		morale_damage = 0.05
 	}
 	ai_will_do = {
 		factor = 1
@@ -56,8 +55,8 @@ fervor_stability = {
 	cost = 5
 	effect = {
 		global_unrest = -2
-		development_cost = -0.05
-		global_trade_goods_size_modifier = 0.05
+		build_cost = -0.1
+		development_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 1

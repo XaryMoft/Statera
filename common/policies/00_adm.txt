@@ -136,8 +136,8 @@ agricultural_cultivations = {
 		full_idea_group = quantity_ideas
 	}		
 	
-	land_maintenance_modifier = -0.10
-	land_forcelimit_modifier = 0.10
+	land_maintenance_modifier = -0.05
+	land_forcelimit_modifier = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -179,7 +179,7 @@ the_espionage_act = {
 		full_idea_group = spy_ideas
 	}
 
-	stability_cost_modifier = -0.2
+	stability_cost_modifier = -0.25
 	diplomats = 1
 	
 	ai_will_do = {

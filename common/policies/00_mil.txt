@@ -445,7 +445,7 @@ colonial_garrisons = {
 	}
 
 	land_forcelimit_modifier = 0.1
-	land_attrition = -0.2
+	reinforce_speed = 0.1
 
 	ai_will_do = {
 		factor = 0.8
@@ -690,7 +690,7 @@ guerilla_warfare = {
 	}	
 	
 	hostile_attrition = 2
-	global_garrison_growth = 0.1
+	max_hostile_attrition = 2
 	
 	ai_will_do = {
 		factor = 0.8
@@ -734,8 +734,8 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	cavalry_power = 0.15
 	nobles_loyalty_modifier = 0.1
+	cavalry_power = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1175,8 +1175,7 @@ my_word_is_my_bond_policy = {
 		full_idea_group = spy_ideas
 	}
 
-	siege_ability = 0.10
-	leader_siege = 1
+	siege_ability = 0.2
 
 	ai_will_do = {
 		factor = 1.0
