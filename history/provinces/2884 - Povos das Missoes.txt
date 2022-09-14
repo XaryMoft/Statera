@@ -1,8 +1,9 @@
 # - Povos das Missoes
 
-
+owner = GUA
+controller = GUA
 add_core = GUA
-is_city = no
+is_city = yes
 culture = guarani
 discovered_by = south_american
 religion = animism

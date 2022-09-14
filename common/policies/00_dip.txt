@@ -390,7 +390,7 @@ naval_secrecy_act = {
 	}
 
 	global_spy_defence = 0.2
-	naval_morale = 0.10
+	naval_morale = 0.1
 
 	ai_will_do = {
 		factor = 0.8
@@ -815,7 +815,8 @@ skilled_cartographers = {
 		full_idea_group = exploration_ideas
 	}	
 	
-	sunk_ship_morale_hit_recieved = -0.25
+	leader_naval_manuever  = 1
+	sailor_maintenance_modifer = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -843,7 +844,7 @@ fortified_trading_posts = {
 		full_idea_group = trade_ideas
 	}	
 	
-	global_ship_trade_power = 0.2
+	global_ship_trade_power = 0.25
 	light_ship_cost = -0.1
 	
 	ai_will_do = {

@@ -1,13 +1,22 @@
 naval_hegemon = {
 	allow = {
 		is_great_power = yes
-		num_of_heavy_ship = 200
-		NOT = { any_other_great_power = { num_of_heavy_ship = root } }
+		if = {
+			limit = {
+				NOT = { has_country_flag = halve_hegemony_requirements }
+			}
+			navy_size = 500
+			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
+		}
+		else = { 
+			navy_size = 300 
+			NOT = { any_other_great_power = { num_of_galley = root } }
+		}
 		NOT = { has_country_modifier = lost_hegemony }
 	}
 	
 	base = {
-		prestige = 1.5
+		global_ship_trade_power = 0.2
 		war_exhaustion = -0.1
 		naval_maintenance_modifier = -0.15
 	}
@@ -20,7 +29,7 @@ naval_hegemon = {
 	}
 	
 	max = {
-		ship_durability = 0.15
+		backrow_artillery_damage = 0.10
 	}
 	
 }

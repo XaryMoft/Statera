@@ -1,14 +1,19 @@
 military_hegemon = {
 	allow = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = halve_hegemony_requirements }
+			}
+			army_size = 750
+		}
+		else = { army_size = 500 } 
 		is_great_power = yes
-		army_size = 700
-		
 		NOT = { any_other_great_power = { army_size = root } }
 		NOT = { has_country_modifier = lost_hegemony }
 	}
 	
 	base = {
-		prestige = 1.5
+		administrative_efficiency = 0.05
 		war_exhaustion = -0.1
 		province_warscore_cost = -0.1
 	}
@@ -16,7 +21,7 @@ military_hegemon = {
 	# At max 100% tickup.
 	scale = {
 		movement_speed = 0.1
-		land_attrition = -0.2
+		reinforce_speed = 0.20
 		global_unrest = -3
 	}
 	

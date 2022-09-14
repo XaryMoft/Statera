@@ -40,7 +40,6 @@ trade_route_map = {
                 OR = {
                     tag = POR
                     tag = BRZ
-                    tag = NED
                 }
             }
             normal_or_historical_nations = no
@@ -54,14 +53,14 @@ trade_route_map = {
         factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
     ai_war_score = {
         factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
 }
@@ -125,14 +124,14 @@ standardized_signal_book = {
         factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
     ai_war_score = {
         factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
 }
@@ -160,7 +159,7 @@ portuguese_navigators = {
         normal_or_historical_nations = yes
     }
 	modifier = {
-        exploration_mission_range_in_fleet_modifier = 1
+        exploration_mission_range_in_fleet_modifier = 1.25
         naval_maintenance_flagship_modifier = 0.5
 	}
     ai_trade_score = {
@@ -342,7 +341,7 @@ portuguese_corps_of_fusiliers = {
     }
     modifier = {
         movement_speed_onto_off_boat_modifier = 0.66
-        flagship_landing_penalty = -2
+        landing_penalty = -2
         naval_maintenance_flagship_modifier = 0.5
     }
     ai_trade_score = {
@@ -455,14 +454,14 @@ spare_jolly_roger = {
 	    factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
     ai_war_score = {
         factor = 1
         modifier = {
             factor = 10
-            has_reform = pirate_republic_reform
+            has_government_attribute = is_pirate_republic_reform
         }
     }
 }
@@ -478,28 +477,5 @@ captains_log = {
     }
     ai_war_score = {
         factor = 1
-    }
-}
-
-dutch_trade_ships = {
-    trigger = {
-		OR = {
-			tag = NED
-		}
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        trade_power_in_fleet_modifier = 2
-        naval_maintenance_flagship_modifier = 0.50
-	}
-    ai_trade_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            tag = NED
-        }
-    }
-    ai_war_score = {
-        factor = 0
     }
 }
