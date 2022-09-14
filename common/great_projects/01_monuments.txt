@@ -16746,7 +16746,7 @@ salvador_da_bahia = {
 		area_modifier = {
 		}
 		region_modifier = {
-			trade_goods_size = 0.25
+			trade_goods_size_modifier = 0.1
 		}
 		country_modifiers = {
 			global_trade_power = 0.15
@@ -16769,7 +16769,7 @@ salvador_da_bahia = {
 		area_modifier = {
 		}
 		region_modifier = {
-			trade_goods_size = 0.5
+			trade_goods_size_modifier = 0.2
 		}
 		country_modifiers = {
 			global_trade_power = 0.2
