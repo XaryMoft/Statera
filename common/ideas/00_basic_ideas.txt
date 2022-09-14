@@ -41,7 +41,7 @@ aristocracy_ideas = {
 	}
 	international_nobility = {
 		diplomats = 1
-		general_cost = -0.25
+		general_cost = -0.10
 	}
 	noble_resilience = {
 		mercenary_manpower = 0.25
@@ -163,7 +163,7 @@ theocracy_gov_ideas = {
 		land_morale = 0.1
 	}
 	friends_in_high_places = {
-		leader_cost = -0.2
+		leader_cost = -0.10
 	}
 	flesh_is_weak = {
 		fire_damage_received = -0.075
@@ -497,7 +497,7 @@ defensive_ideas = {
 		reinforce_speed = 0.33
 	}
 	improved_foraging = {
-		land_attrition = -0.25
+		land_attrition = -0.15
 	}
 
 	ai_will_do = {
@@ -929,7 +929,7 @@ quantity_ideas = {
 		land_maintenance_modifier = -0.05
 	}
 	expanded_supply_trains = {
-		land_attrition = -0.1
+		reinforce_speed = 0.1
 	}
 
 	ai_will_do = {

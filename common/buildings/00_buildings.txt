@@ -1744,7 +1744,7 @@ ramparts = {
 	}
 	modifier = {
 		local_hostile_attrition = 2
-		max_attrition = 2
+		local_max_hostile_attrition = 2
 		local_defensiveness = 0.20
 		local_defender_dice_roll_bonus = 1
 	}

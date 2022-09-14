@@ -643,7 +643,7 @@ the_preparation_act = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	land_attrition = -0.25
+	hostile_attrition = 1.5
 	war_exhaustion = -0.05
 	
 	ai_will_do = {

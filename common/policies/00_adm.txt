@@ -247,7 +247,7 @@ edict_of_resistance = {
 	}
 
 
-	global_unrest = -1
+	max_hostile_attrition = 2
 	hostile_attrition = 2
 
 	ai_will_do = {
@@ -1071,7 +1071,7 @@ supply_convoys = {
 		full_idea_group = expansion_ideas
 	}	
 	
-	land_attrition = -0.10
+	reinforce_speed = 0.10
 	liberty_desire_from_subject_development = -0.2
 	
 	ai_will_do = {
@@ -1775,7 +1775,7 @@ ora_et_labora_policy = {
 	}
 	
 	global_trade_goods_size_modifier = 0.05
-	land_attrition = -0.2
+	land_attrition = -0.1
 	
 	ai_will_do = {
 		factor = 0.6

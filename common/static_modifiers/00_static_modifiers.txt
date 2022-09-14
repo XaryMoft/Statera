@@ -140,7 +140,7 @@ coastal_sea = {
 tropical = {
 	local_colonial_growth = -20
 	supply_limit = -0.3
-	attrition = 3
+	attrition = 2
 
 	local_development_cost = 0.1
 
@@ -150,7 +150,7 @@ tropical = {
 arctic = {
 	local_colonial_growth = -30
 	supply_limit = -0.4
-	attrition = 3.5
+	attrition = 3
 
 	allowed_num_of_buildings = -1
 	local_development_cost = 0.5
@@ -161,7 +161,7 @@ arctic = {
 arid = {
 	local_colonial_growth = -10
 	supply_limit = -0.2
-	attrition = 2.5
+	attrition = 1.5
 
 	local_development_cost = 0.1
 
@@ -173,19 +173,19 @@ sea_zone = {
 }
 
 land_province = {
-	max_attrition = 10						#Maximum Attrition is 10
+	max_attrition = 5						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
 }
 
 mild_winter = {
-	attrition = 1.5
+	attrition = 1
 	supply_limit = -0.10
 
 	picture = "winter_mild"
 }
 
 normal_winter = {
-	attrition = 3
+	attrition = 2
 	supply_limit = -0.20
 	migration_cost = 0.15
 
@@ -193,7 +193,7 @@ normal_winter = {
 }
 
 severe_winter = {
-	attrition = 4.5
+	attrition = 3
 	supply_limit = -0.30
 	migration_cost = 0.3
 

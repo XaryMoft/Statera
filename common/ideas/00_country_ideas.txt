@@ -169,7 +169,7 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.10
+		naval_morale = 0.15
 		fire_damage = 0.10
 	}
 
