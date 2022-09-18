@@ -1456,13 +1456,6 @@ poland_sca_slot_3_a = {
 		position = 1 
 		trigger = {
 			OR = {
-				custom_trigger_tooltip = { 
-					tooltip = pol_had_kasimir_election_event_tt
-					OR = { 
-						has_country_flag = pol_chose_pu_flag
-						has_country_flag = pol_denied_pu_flag
-					}
-				}
 				tag = PLC 
 				current_age = age_of_reformation
 			}

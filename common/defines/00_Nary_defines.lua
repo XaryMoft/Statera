@@ -2,12 +2,13 @@
 
 
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10 -- from 25 years, allowing more flexibility in diplomacy
-NDefines.NDiplomacy.SUPPORT_REBELS_EFFECT = 15 -- from 10, so rebel support eff isn't useless
+NDefines.NDiplomacy.SUPPORT_REBELS_EFFECT = 25 -- from 10, so rebel support eff isn't useless
 NDefines.NDiplomacy.SPY_NETWORK_TECH_EFFECT = -0.1 -- from -5% tech cost reduction at 100 spy network, increased because it's too weak if you have lower values of spy network and 100 spy network is a lot
 NDefines.NDiplomacy.INFILTRATE_ADMINISTRATION_COST = 90 -- from 40, it's too cheap to do it and spam it, it's also unlocked in earlier tech so it needs to be adjusted
 
 
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60 -- from 120, to increase the probability generals improve skill from drilling
+NDefines.NMilitary.REBEL_LEADER_POWER = 40 -- from 20, so rebels may have a chance for average generals (the higher this value, the more pips rebel leaders will have on average)
 
 
 NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
@@ -26,3 +27,4 @@ NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than thi
 NDefines.NAI.DEVELOPMENT_CAP_BASE = 20 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger, so for example AI would dev Paris to 46 dev
 NDefines.NAI.DEVELOPMENT_CAP_MULT = 2.3 -- from 2, to allow certain AIs to hit the age bonus of high dev capital late game.
 
+NDefines.NGovernment.CENTRALIZE_STATE_ADM_COST = 75 -- from 50 adm cost, to discourage its abuse

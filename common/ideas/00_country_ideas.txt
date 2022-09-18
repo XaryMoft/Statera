@@ -1330,13 +1330,13 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	army_professionalism = {
-		land_morale = 0.2
+		land_morale = 0.20
 	}	
 	noble_cadets = {
 		nobles_loyalty_modifier = 0.10
 	}
 	goose_step = {
-		infantry_power = 0.2
+		infantry_power = 0.20
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.25
@@ -1466,7 +1466,7 @@ POL_ideas = {
 		discipline = 0.05
 	}
 	focus_on_field_defences = {
-		land_morale = 0.10
+		defensiveness = 0.20
 	}
 }
 
@@ -1822,7 +1822,7 @@ GEN_Ideas = {
 		land_morale = 0.10
 	}
 	lessons_of_chiogga = {
-		naval_morale = 0.15
+		naval_morale = 0.20
 	}	
 	genoese_trade = {
 		global_foreign_trade_power = 0.10
@@ -1838,6 +1838,7 @@ GEN_Ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	standardisation_of_designs = {
+		global_ship_recruit_speed = -0.10
 		ship_durability = 0.10
 	}
 }
@@ -7217,6 +7218,7 @@ BRZ_ideas = {
 		infantry_power = 0.15
 	}
 	entradas_and_bandeiras = {
+		core_creation = -0.15
 		global_colonial_growth = 15
 	}
 	inconfidencia_mineira = {
@@ -11070,7 +11072,7 @@ EST_ideas = {
 		merchants = 1
 	}
 	est_estophilia = {
-		prestige = 1
+		diplomatic_reputation = 1
 	}
 	est_national_awakening = {
 		global_unrest = -1

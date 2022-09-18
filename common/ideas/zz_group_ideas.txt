@@ -250,7 +250,7 @@ cossack_ideas = {
 berber_ideas = {
 	start = {
 		cavalry_power = 0.10
-		hostile_attrition = 1
+		may_perform_slave_raid = yes
 	}
 	
 	bonus = {
@@ -263,10 +263,11 @@ berber_ideas = {
 	free = yes
 	
 	ber_barbary_pirates = {
-		may_perform_slave_raid = yes
+		naval_forcelimit_modifier = 0.25
 	}
 	desert_warfare = {
 		land_attrition = -0.1
+		hostile_attrition = 1
 	}
 	trans_saharan_trade = {
 		trade_efficiency = 0.1

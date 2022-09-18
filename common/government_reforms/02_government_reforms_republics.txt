@@ -1893,6 +1893,7 @@ frequent_elections_reform = {
 	modifiers = {
 		max_absolutism = -10
 		election_cycle = -1
+		reelection_cost = 0.45
 	}
 	ai = {
 		factor = 1
@@ -2637,6 +2638,7 @@ consolidate_power_into_different_candidates_reform = {
 		max_absolutism = -20
 		election_cycle = -1
 		candidate_random_bonus = 1
+		reelection_cost = 0.45
 	}
 	ai = {
 		factor = 0
