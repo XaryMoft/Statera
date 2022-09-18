@@ -27,4 +27,3 @@ NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than thi
 NDefines.NAI.DEVELOPMENT_CAP_BASE = 20 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger, so for example AI would dev Paris to 46 dev
 NDefines.NAI.DEVELOPMENT_CAP_MULT = 2.3 -- from 2, to allow certain AIs to hit the age bonus of high dev capital late game.
 
-NDefines.NGovernment.CENTRALIZE_STATE_ADM_COST = 75 -- from 50 adm cost, to discourage its abuse
