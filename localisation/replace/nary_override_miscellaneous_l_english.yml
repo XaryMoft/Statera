@@ -20,7 +20,7 @@
  obj_disc_army_desc: "Have least 120% discipline in your armies."
 
 # Just in case
-#mechanic_centralize_state_development_yes:1 "§YCentralize a State§! will add §G+1§! random Development to every owned province in the area"
+mechanic_centralize_state_development_yes:1 "§YCentralize a State§! will have a chance add §G+1§! random Development to every owned province in the area"
 
 
 

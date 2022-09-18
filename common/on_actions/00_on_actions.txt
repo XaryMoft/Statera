@@ -5317,9 +5317,9 @@ on_centralized_state = {
 				owned_by = ROOT
 			}
 			random_list = {
-				1 = { add_base_tax = 1 }
-				1 = { add_base_production = 1 }
-				1 = { add_base_manpower = 1 }
+				0.5 = { add_base_tax = 1 }
+				0.5 = { add_base_production = 1 }
+				0.5 = { add_base_manpower = 1 }
 			}
 		}
 	}
