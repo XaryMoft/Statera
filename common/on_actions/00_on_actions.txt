@@ -4353,7 +4353,7 @@ on_province_owner_change = {
 			duration = -1
 		}
 	}
-
+	
 	if = {
 		limit = {
 			province_id = 379

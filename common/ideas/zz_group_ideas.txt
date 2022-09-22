@@ -79,7 +79,7 @@ trading_city_ideas = {
 
 colonial_ideas = {
 	start = {
-		ae_impact = -0.15
+		development_cost = -0.05
 		no_religion_penalty = yes
 	}
 	
@@ -97,7 +97,6 @@ colonial_ideas = {
 	}
 	continental_trade = {
 		global_prov_trade_power_modifier = 0.25
-		development_cost = -0.05
 	}
 	manufacturing_center = {
 		global_trade_goods_size_modifier = 0.05
@@ -171,7 +170,7 @@ pirate_ideas = {
 	trigger = {
 		OR = {
 			AND = {
-				has_reform = pirate_republic_reform
+				has_government_attribute = is_pirate_republic_reform
 				NOT = { culture_group = maghrebi }
 				NOT = { tag = TET }
 				NOT = { tag = SLE }
@@ -192,8 +191,7 @@ pirate_ideas = {
 		loot_amount = 0.25
 	}
 	pirates_bucanneers_ideas = {	
-		allowed_marine_fraction = 0.25
-		infantry_cost = -0.10
+		infantry_cost = -0.1
 	}
 	pirates_sail_in_consort = {
 		leader_naval_manuever = 1
@@ -206,7 +204,7 @@ pirate_ideas = {
 		own_coast_naval_combat_bonus = 1
 	}
 	pirate_life_of_liberty = {
-		rebel_support_efficiency = 0.35
+		rebel_support_efficiency = 0.25
 		sailors_recovery_speed = 0.1
 	}
 }

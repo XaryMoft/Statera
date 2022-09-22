@@ -179,14 +179,14 @@ land_province = {
 
 mild_winter = {
 	attrition = 1
-	supply_limit = -0.10
+	supply_limit = -0.1
 
 	picture = "winter_mild"
 }
 
 normal_winter = {
 	attrition = 2
-	supply_limit = -0.20
+	supply_limit = -0.2
 	migration_cost = 0.15
 
 	picture = "winter_normal"
@@ -194,7 +194,7 @@ normal_winter = {
 
 severe_winter = {
 	attrition = 3
-	supply_limit = -0.30
+	supply_limit = -0.3
 	migration_cost = 0.3
 
 	picture = "winter_severe"
@@ -723,7 +723,7 @@ peace = {
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
-	global_monthly_devastation = -0.3
+	global_monthly_devastation = -0.2
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
 }
@@ -1324,8 +1324,8 @@ self_governing_colony_overlord = {
 crown_colony_subject = {
 	global_autonomy = -0.1
 	global_colonial_growth = 10
-	land_forcelimit_modifier = -0.2
-	global_manpower_modifier = -0.2
+	land_forcelimit_modifier = -0.25
+	global_manpower_modifier = -0.25
 }
 
 private_enterprise_subject = {
@@ -1333,8 +1333,8 @@ private_enterprise_subject = {
 	global_trade_goods_size_modifier = 0.2
 	naval_tradition_from_trade = 0.1
 	ship_power_propagation = 0.1
-	naval_forcelimit_modifier = -0.2
-	global_sailors_modifier = -0.2
+	naval_forcelimit_modifier = -0.25
+	global_sailors_modifier = -0.25
 }
 
 self_governing_colony_subject = {
@@ -1786,7 +1786,7 @@ regiment_drill_modifier = { # Used by individual regiments
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
 	movement_speed = 0.2
-	land_attrition = -0.1
+	land_attrition = -0.2
 }
 
 janissary_regiment = {
@@ -1829,7 +1829,7 @@ cossacks_regiment = {
 }
 
 carolean_regiment = {
-	morale_damage = 0.1
+	morale_damage = 0.05
 	drill_decay_modifier = -0.25
 }
 

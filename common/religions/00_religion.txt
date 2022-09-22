@@ -322,7 +322,7 @@ christian = {
 			catholic
 		}
 		country = {
-			development_cost = -0.05
+			development_cost = -0.1
 			technology_cost = -0.05
 		}
 		
@@ -705,7 +705,7 @@ christian = {
 				visible = {
 					always = yes
 				}
-
+				
 				ai_will_do = {
 					factor = 0.02
 					modifier = {
