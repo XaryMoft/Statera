@@ -14,6 +14,7 @@ NDefines.NMilitary.REBEL_LEADER_POWER = 40 -- from 20, so rebels may have a chan
 NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
 NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min influence of a single modifier (paid of debt)
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 years to 10 years
+NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 150 -- from 75 diplo cost, in an attempt to make reducing war exhaustion expensive 
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
@@ -26,4 +27,3 @@ NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic 
 NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this, in theory at 0 the AI wont debase it's currency if it's making money, it only will do it if it just lost a huge ammount.
 NDefines.NAI.DEVELOPMENT_CAP_BASE = 20 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger, so for example AI would dev Paris to 46 dev
 NDefines.NAI.DEVELOPMENT_CAP_MULT = 2.3 -- from 2, to allow certain AIs to hit the age bonus of high dev capital late game.
-

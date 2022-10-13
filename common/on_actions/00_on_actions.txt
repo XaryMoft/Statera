@@ -386,7 +386,7 @@ on_war_won = {
 			}
 		}
 	}
-
+	
 	if = {
 		limit = {
 			is_part_of_hre = yes
@@ -5306,6 +5306,15 @@ on_centralized_state = {
 		owner = {
 			add_adm_power = 50
 			change_government_reform_progress = 50
+		}
+	}
+	else_if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_half_refund }
+		}
+		owner = {
+			add_adm_power = 25
+			change_government_reform_progress = 25
 		}
 	}
 	if = {

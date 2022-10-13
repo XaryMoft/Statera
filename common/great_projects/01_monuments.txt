@@ -1326,7 +1326,7 @@ angkor_wat = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#what to do when it's built
@@ -1341,12 +1341,12 @@ angkor_wat = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -6423,6 +6423,7 @@ murud_janjira = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			defensiveness = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -6452,6 +6453,7 @@ murud_janjira = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -6482,6 +6484,7 @@ murud_janjira = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			defensiveness = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -6823,7 +6826,7 @@ kanbawzathadi_palace = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			diplomatic_reputation = 1
-			diplomatic_upkeep = 2
+			diplomatic_upkeep = 1
 			dip_advisor_cost = -0.2
 		}
 
@@ -6854,7 +6857,7 @@ kanbawzathadi_palace = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			diplomatic_reputation = 1
-			diplomatic_upkeep = 1
+			diplomatic_upkeep = 2
 			advisor_cost = -0.2
 		}
 
@@ -17060,7 +17063,7 @@ dujiangyan = {
 			factor = 1000
 		}
 		province_modifiers = {
-			development_cost_modifier = -0.05
+			local_development_cost_modifier = -0.05
 			local_governing_cost = -0.2
 		}
 		area_modifier = {
@@ -17078,7 +17081,7 @@ dujiangyan = {
 			factor = 2500
 		}
 		province_modifiers = {
-			development_cost_modifier = -0.1
+			local_development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
@@ -17101,7 +17104,7 @@ dujiangyan = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			development_cost_modifier = -0.1
+			local_development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 			local_governing_cost = -0.4
 		}

@@ -26,7 +26,8 @@ norse_ideas = {
 		war_exhaustion = -0.03
 	}
 	norse_ideas_norse_seamen = {
-		naval_morale = 0.15		
+		own_coast_naval_combat_bonus = 1
+		naval_morale = 0.15	
 	}
 	norse_ideas_a_wall_of_shields_for_the_king = {
 		leader_land_shock = 1
@@ -36,7 +37,7 @@ norse_ideas = {
 		development_cost = -0.1
 	}
 	norse_ideas_berserkir = {
-		discipline = 0.05	
+		shock_damage = 0.2
 	}
 	norse_ideas_leifs_legacy = {
 		may_explore = yes
@@ -596,7 +597,7 @@ RUS_ideas = {
 
 	land_of_the_rus = {
 		ae_impact = -0.1
-		hostile_attrition = 2
+		hostile_attrition = 0.5
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -618,7 +619,7 @@ RUS_ideas = {
 		army_tradition = 0.25
 	}	
 	curriculum_of_the_cadet_corps = {
-		land_morale = 0.15
+		land_morale = 0.75
 		fire_damage_received = -0.05
 	}
 }
@@ -1805,7 +1806,7 @@ BUR_Ideas = {
 
 GEN_Ideas = {
 	start = {
-		trade_efficiency = 0.15
+		trade_efficiency = 0.2
 		interest = -0.5
 	}
 	
@@ -1833,7 +1834,7 @@ GEN_Ideas = {
 		galley_cost = -0.33
 	}
 	overhauled_bureaucracy = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	the_office_of_grand_admiral = {
 		naval_forcelimit_modifier = 0.25
@@ -3210,7 +3211,6 @@ PAP_ideas = {
 	
 	ecclesiastical_primacy = {
 		tolerance_own = 2
-		global_missionary_strength = 0.01
 	}
 	papal_investiture_and_tithes = {
 		global_tax_modifier = 0.2
@@ -3533,7 +3533,7 @@ USA_ideas = {
 		no_religion_penalty = yes
 	}
 	usa_bill_of_rights = {
-		global_unrest = -1
+		global_unrest = -2
 		republican_tradition = 0.3
 	}
 	manifest_destiny = {

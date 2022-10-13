@@ -150,7 +150,7 @@ tropical = {
 arctic = {
 	local_colonial_growth = -30
 	supply_limit = -0.4
-	attrition = 3
+	attrition = 1.25
 
 	allowed_num_of_buildings = -1
 	local_development_cost = 0.5
@@ -161,7 +161,7 @@ arctic = {
 arid = {
 	local_colonial_growth = -10
 	supply_limit = -0.2
-	attrition = 1.5
+	attrition = 1
 
 	local_development_cost = 0.1
 
@@ -750,7 +750,6 @@ war_exhaustion = {
 	manpower_recovery_speed = -0.01
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
-	land_morale = -0.01
 	global_trade_goods_size_modifier = -0.02
 }
 
@@ -1029,11 +1028,10 @@ recovery_motivation = {
 }
 
 militarized_society = {
-
-	discipline = 0.05
-	manpower_recovery_speed = 0.20
-	land_maintenance_modifier = -0.20
-
+	discipline = 0.1
+	manpower_recovery_speed = -0.20
+	land_maintenance_modifier = 0.2
+	state_governing_cost = 0.2
 }
 
 
@@ -1674,7 +1672,7 @@ subject_sword_hunt = {
 }
 
 supply_depot_area = {
-	supply_limit_modifier = 0.5
+	supply_limit_modifier = 1
 	supply_limit = 0.15
 }
 
@@ -1786,7 +1784,6 @@ regiment_drill_modifier = { # Used by individual regiments
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
 	movement_speed = 0.2
-	land_attrition = -0.2
 }
 
 janissary_regiment = {
@@ -1810,7 +1807,7 @@ hussars_regiment = {
 }
 
 marine_regiment = {
-    regiment_disembark_speed = 2 #requires a new country modifier
+    regiment_disembark_speed = 2 
 }
 
 banner_regiment = {
@@ -1922,8 +1919,8 @@ expanded_infrastructure = {
 }
 
 centralize_state = {
-	statewide_governing_cost = -0.25
-	local_prosperity_growth = 0.1
+	statewide_governing_cost = -0.2
+	local_prosperity_growth = 0.25
 	local_state_maintenance_modifier = -0.2
 	picture = "centralize_state"
 }
