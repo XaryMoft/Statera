@@ -719,7 +719,7 @@ war = {
 }
 
 peace = {
-	war_exhaustion = -0.2
+	war_exhaustion = -0.1
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
