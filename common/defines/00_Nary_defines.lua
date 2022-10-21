@@ -15,6 +15,7 @@ NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
 NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min influence of a single modifier (paid of debt)
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 years to 10 years
 NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 150 -- from 75 diplo cost, in an attempt to make reducing war exhaustion expensive 
+NDefines.NCountry.MAX_WAR_EXHAUSTION = 100 -- from 20, now left unchecked in a infinite war, war exhaustion will hurt you
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game

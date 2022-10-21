@@ -719,7 +719,7 @@ war = {
 }
 
 peace = {
-	war_exhaustion = -0.1
+	war_exhaustion = -0.2
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
@@ -1240,7 +1240,7 @@ in_golden_era = {
 
 absolutism = {
 	administrative_efficiency = 0.3
-	discipline = 0.05
+	discipline = 0.1
 	core_decay_on_your_own = -0.5
 }
 
@@ -1453,7 +1453,7 @@ dishonoured_alliance =  {
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
-	yearly_army_professionalism = 0.02
+	yearly_army_professionalism = 0.015
 }
 
 ##################################################################################################
@@ -1672,8 +1672,8 @@ subject_sword_hunt = {
 }
 
 supply_depot_area = {
-	supply_limit_modifier = 1
-	supply_limit = 0.15
+	supply_limit_modifier = 0.5
+	supply_limit = 0.5
 }
 
 ########################################
