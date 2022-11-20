@@ -16,6 +16,7 @@ NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min 
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 years to 10 years
 NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 150 -- from 75 diplo cost, in an attempt to make reducing war exhaustion expensive 
 NDefines.NCountry.MAX_WAR_EXHAUSTION = 30 -- from 20, war exhaustion will hurt you more
+NDefines.NCountry.PS_REDUCE_INFLATION = 125 -- from 75, so inflation isn't as cheap to decrease
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game

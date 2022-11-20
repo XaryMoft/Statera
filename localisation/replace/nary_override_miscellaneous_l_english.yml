@@ -22,6 +22,8 @@
 # Just in case
 mechanic_centralize_state_development_yes:1 "§YCentralize a State§! will have a chance add §G+1§! random Development to every owned province in the area"
 
+ the_rock: "The Rock"
+ the_rock_desc: ""
 
 
  

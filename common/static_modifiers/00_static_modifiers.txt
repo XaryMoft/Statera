@@ -237,11 +237,13 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
+	local_governing_cost = -0.02
 }
 
 provincial_production_size = {
 	trade_goods_size = 0.2
 	ship_recruit_speed = -0.01
+	local_governing_cost = 0.01
 }
 
 knowledge_sharing = {
@@ -254,6 +256,7 @@ cardinals_spread_institution = {
 
 manpower = {
 	garrison_growth = 0.01					#1% increase from manpower.
+	local_governing_cost = 0.01
 }
 
 province_razed = {
@@ -314,11 +317,11 @@ colony_level = {
 }
 
 native_assimilation = {
-	trade_goods_size = 0.05
+	trade_goods_size = 0.1
 }
 
 native_aggressiveness = {
-	#local_colonist_placement_chance = -0.005
+	local_colonist_placement_chance = -0.02
 }
 
 core = {
@@ -600,8 +603,8 @@ ai_nation = {
 
 
 war_taxes = {
-	land_maintenance_modifier = -0.15
-	naval_maintenance_modifier = -0.15
+	land_maintenance_modifier = -0.25
+	naval_maintenance_modifier = -0.25
 	merc_maintenance_modifier = -0.05
 }
 
@@ -719,7 +722,7 @@ war = {
 }
 
 peace = {
-	war_exhaustion = -0.1
+	war_exhaustion = -0.2
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
@@ -1780,6 +1783,7 @@ regiment_drill_modifier = { # Used by individual regiments
 	fire_damage = 0.1
 	fire_damage_received = -0.25
 	shock_damage_received = -0.25
+	land_attrition = -0.25
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill

@@ -385,7 +385,6 @@ diplomatic_ideas = {
 	bonus = {
 		rebel_support_efficiency = 0.5
 	}
-	trigger = { corruption = 10 }
 
 	foreign_embassies = {
 		diplomats = 1
