@@ -4388,18 +4388,21 @@ GEO_ideas = {
 	}
 	georgian_isolation = {
 		improve_relation_modifier = 0.3
+		siege_ability = 0.1
 	}
 	geo_legacy_of_saint_nino = {
 		tolerance_own = 2
 	}
 	restoration_of_fortresses_and_churches = {
 		build_cost = -0.1
+		fort_maintenance_modifier = -0.2
 	}
 	sadrosho_districts = {
 		manpower_recovery_speed = 0.2
 	}
 	geo_dasturlamali = {
 		war_exhaustion = -0.02
+		development_cost_modifier = -0.05
 	}
 	georgian_embassies = {
 		diplomatic_reputation = 1
@@ -16167,7 +16170,7 @@ PLB_ideas = {
 	}
 	plb_controlling_the_strait = {
 		embargo_efficiency = 0.05
-		privateer_efficiency = 0.4
+		privateer_efficiency = 0.2
 	}
 	plb_center_of_the_dynasty = {
 		improve_relation_modifier = 0.1

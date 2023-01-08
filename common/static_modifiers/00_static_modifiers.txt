@@ -140,6 +140,7 @@ coastal_sea = {
 tropical = {
 	local_colonial_growth = -20
 	supply_limit = -0.3
+	supply_limit_modifier = -0.3
 	attrition = 2
 
 	local_development_cost = 0.1
@@ -150,6 +151,7 @@ tropical = {
 arctic = {
 	local_colonial_growth = -30
 	supply_limit = -0.4
+	supply_limit_modifier = -0.4
 	attrition = 1.25
 
 	allowed_num_of_buildings = -1
@@ -161,6 +163,7 @@ arctic = {
 arid = {
 	local_colonial_growth = -10
 	supply_limit = -0.2
+	supply_limit_modifier = -0.2
 	attrition = 1
 
 	local_development_cost = 0.1
@@ -173,13 +176,14 @@ sea_zone = {
 }
 
 land_province = {
-	max_attrition = 5						#Maximum Attrition is 5
+	max_attrition = 50						#Maximum Attrition is 50
 	local_manpower_modifier = 0.25			#25% of manpower.
 }
 
 mild_winter = {
 	attrition = 1
 	supply_limit = -0.1
+	supply_limit_modifier = -0.1
 
 	picture = "winter_mild"
 }
@@ -187,6 +191,7 @@ mild_winter = {
 normal_winter = {
 	attrition = 2
 	supply_limit = -0.2
+	supply_limit_modifier = -0.2
 	migration_cost = 0.15
 
 	picture = "winter_normal"
@@ -195,6 +200,7 @@ normal_winter = {
 severe_winter = {
 	attrition = 3
 	supply_limit = -0.3
+	supply_limit_modifier = -0.3
 	migration_cost = 0.3
 
 	picture = "winter_severe"
@@ -550,7 +556,6 @@ left_trade_company = {
 scorched_earth = {
 	local_hostile_movement_speed = -0.50
 	attrition = 2.5
-	max_attrition = 2.5
 	local_monthly_devastation = 0.25
 }
 
@@ -793,6 +798,7 @@ mercantilism = {
 }
 
 army_tradition = {
+	army_tradition_decay = 0.05
 	recover_army_morale_speed = 0.1
 	land_morale = 0.25
 	manpower_recovery_speed = 0.1
@@ -807,6 +813,7 @@ army_tradition = {
 }
 
 navy_tradition = {
+	navy_tradition_decay = 0.05
 	recover_navy_morale_speed = 0.1
 	naval_morale = 0.25
 	trade_steering = 1.0
@@ -1008,6 +1015,20 @@ corruption = {
 	global_manpower_modifier = -0.33
 	global_sailors_modifier = -0.33
 	
+	#Monetary costs
+	build_cost = 0.005						#0.5% for each corruption step
+	infantry_cost = 0.005					#0.5% for each corruption step
+	cavalry_cost = 0.005					#0.5% for each corruption step
+	artillery_cost = 0.005					#0.5% for each corruption step
+	heavy_ship_cost = 0.005					#0.5% for each corruption step
+	light_ship_cost = 0.005					#0.5% for each corruption step
+	galley_cost = 0.005						#0.5% for each corruption step
+	transport_cost = 0.005					#0.5% for each corruption step
+	flagship_cost = 0.005					#0.5% for each corruption step
+	advisor_cost = 0.005					#0.5% for each corruption step
+	mercenary_cost = 0.005					#0.5% for each corruption step
+	fort_maintenance_modifier = 0.005		#0.5% for each corruption step
+
 	# Estate effects
 	all_estate_loyalty_equilibrium = 0.1
 
@@ -1675,7 +1696,7 @@ subject_sword_hunt = {
 }
 
 supply_depot_area = {
-	supply_limit_modifier = 0.5
+	supply_limit_modifier = 0.75
 	supply_limit = 0.5
 }
 

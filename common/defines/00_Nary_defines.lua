@@ -26,6 +26,6 @@ NDefines.NEconomy.PIRATES_MONOPOLY_BONUS = 0.5 -- from 1, to nerf privateering, 
 NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic religion is more viable for nations unable to acquire cardinals
 
 
-NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this, in theory at 0 the AI wont debase it's currency if it's making money, it only will do it if it just lost a huge ammount.
+NDefines.NAI.DEBASE_THRESHOLD = 0 -- AI wont debase if it has more gold than this, in theory at 0 the AI wont debase it's currency if it's making money, it only will do it if it just lost a huge ammount of money, making the number go negative
 NDefines.NAI.DEVELOPMENT_CAP_BASE = 20 -- From 10, the AI wont dev provinces with more than 30 dev, with the exception that 2*original development is bigger, so for example AI would dev Paris to 46 dev
 NDefines.NAI.DEVELOPMENT_CAP_MULT = 2.3 -- from 2, to allow certain AIs to hit the age bonus of high dev capital late game.

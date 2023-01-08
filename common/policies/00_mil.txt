@@ -690,7 +690,6 @@ guerilla_warfare = {
 	}	
 	
 	hostile_attrition = 2
-	max_hostile_attrition = 2
 	
 	ai_will_do = {
 		factor = 0.8
@@ -709,8 +708,7 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	fire_damage = 0.05
-	shock_damage = 0.05
+	discipline = 0.05
 	
 	ai_will_do = {
 		factor = 2

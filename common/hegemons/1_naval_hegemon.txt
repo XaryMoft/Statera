@@ -5,7 +5,7 @@ naval_hegemon = {
 			limit = {
 				NOT = { has_country_flag = halve_hegemony_requirements }
 			}
-			navy_size = 500
+			navy_size = 700
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		else = { 

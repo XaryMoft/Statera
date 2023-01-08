@@ -61,7 +61,7 @@ general_cost_modifier = {
 		always = yes
 	}
 
-	army_tradition = 0.5
+	army_tradition = 1
 }
 
 reserves_organisation_modifier = {

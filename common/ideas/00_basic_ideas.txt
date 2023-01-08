@@ -439,6 +439,7 @@ offensive_ideas = {
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0
+		prestige_from_naval = 1.0
 	}
 	engineer_corps = {
 		siege_ability = 0.20
@@ -550,7 +551,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.1
+		global_trade_goods_size_modifier  = 0.1
 	}
 
 	bureaucracy = {
@@ -566,7 +567,8 @@ economic_ideas = {
 		interest = -0.5
 	}
 	centralization = {
-		global_autonomy = -0.05
+		inflation_action_cost = -0.25
+		autonomy_change_time = -0.33
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.05
@@ -1078,6 +1080,7 @@ humanist_ideas = {
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
+		manpower_in_accepted_culture_provinces = 0.1
 	}
 	benevolence = {
 		improve_relation_modifier = 0.3
