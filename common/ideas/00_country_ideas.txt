@@ -4402,7 +4402,7 @@ GEO_ideas = {
 	}
 	geo_dasturlamali = {
 		war_exhaustion = -0.02
-		development_cost_modifier = -0.05
+		development_cost = -0.05
 	}
 	georgian_embassies = {
 		diplomatic_reputation = 1
