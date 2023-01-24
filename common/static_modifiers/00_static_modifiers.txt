@@ -1016,18 +1016,18 @@ corruption = {
 	global_sailors_modifier = -0.33
 	
 	#Monetary costs
-	build_cost = 0.005						#0.5% for each corruption step
-	infantry_cost = 0.005					#0.5% for each corruption step
-	cavalry_cost = 0.005					#0.5% for each corruption step
-	artillery_cost = 0.005					#0.5% for each corruption step
-	heavy_ship_cost = 0.005					#0.5% for each corruption step
-	light_ship_cost = 0.005					#0.5% for each corruption step
-	galley_cost = 0.005						#0.5% for each corruption step
-	transport_cost = 0.005					#0.5% for each corruption step
-	flagship_cost = 0.005					#0.5% for each corruption step
-	advisor_cost = 0.005					#0.5% for each corruption step
-	mercenary_cost = 0.005					#0.5% for each corruption step
-	fort_maintenance_modifier = 0.005		#0.5% for each corruption step
+	build_cost = 0.01						#1% for each corruption step
+	infantry_cost = 0.01					
+	cavalry_cost = 0.01					
+	artillery_cost = 0.01					
+	heavy_ship_cost = 0.01					
+	light_ship_cost = 0.01					
+	galley_cost = 0.01					
+	transport_cost = 0.01					
+	flagship_cost = 0.01					
+	advisor_cost = 0.01					
+	mercenary_cost = 0.01					
+	fort_maintenance_modifier = 0.01		
 
 	# Estate effects
 	all_estate_loyalty_equilibrium = 0.1
