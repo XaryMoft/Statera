@@ -766,7 +766,8 @@ FRA_ideas = {
 		diplomatic_upkeep = 1
 	}
 	elan = {
-		land_morale = 0.20
+		land_morale = 0.15
+		army_tradition = 0.5
 	}
 	estates_general = {
 		global_tax_modifier = 0.1
@@ -777,7 +778,6 @@ FRA_ideas = {
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
-		cavalry_power = 0.20
 	}
 	the_philosophes = {
 		technology_cost = -0.1
@@ -1426,7 +1426,7 @@ POR_ideas = {
 		yearly_absolutism = 0.5
 	}
 	por_royal_military_academy = {
-		defensiveness = 0.25
+		defensiveness = 0.10
 		artillery_fire = 1
 	}
 }
@@ -1950,8 +1950,7 @@ JAP_ideas = {
 		global_institution_spread = 0.1
 	}
 	jap_maritime_legacy = {
-		ship_durability = 0.05
-		naval_morale = 0.1
+		ship_durability = 0.1
 	}
 	jap_land_of_the_rising_sun = {
 		land_morale = 0.1
@@ -11539,11 +11538,11 @@ TNT_ideas = {
 
 ULM_ideas = {
 	start = {
-		trade_efficiency = 0.05
+		ae_impact = 0.15
 		leader_land_manuever = 1
 	}
 	bonus = {
-		army_tradition = 0.5
+		mercenary_cost = -0.15
 	}
 	trigger = {
 		tag = ULM
@@ -11551,22 +11550,26 @@ ULM_ideas = {
 	free = yes
 	
 	ulm_grosser_schwoerbrief = {
-		burghers_loyalty_modifier = 0.05
+		burghers_loyalty_modifier = 0.1
 	}
 	ulm_swabian_league = {
 		diplomatic_upkeep = 1
+		diplomats = 1
 	}
 	ulm_german_realism = {
 		prestige = 1
+		vassal_forcelimit_bonus = 1
 	}
 	ulm_duerer_fort = {
 		defensiveness = 0.25
 	}
 	ulm_textile_trade = {
 		production_efficiency = 0.1
+		trade_efficiency = 0.1
 	}
 	ulm_swiss_mercs = {
 		mercenary_discipline = 0.05
+		mercenary_manpower = 0.35
 	}
 	ulm_minster = {
 		tolerance_own = 2

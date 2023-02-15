@@ -328,8 +328,8 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	garrison_size = 0.15
-	movement_speed = 0.1
+	garrison_size = 0.2
+	yearly_corruption = -0.1
 
 	ai_will_do = {
 		factor = 0.6 #Keep in mind lower stab cost is probably pretty weak given this costs ADM...
@@ -2012,26 +2012,3 @@ military_allotment_act = {
 	}
 }
 
-modern_siege_weapons = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = offensive_ideas
-	}
-	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = offensive_ideas
-	}
-	
-	siege_ability = 0.10
-	leader_siege = 1
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}

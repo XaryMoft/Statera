@@ -875,7 +875,7 @@ deserteur_act = {
 	}
 
 	army_tradition_decay = -0.005
-	land_morale = 0.10
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 0.75
@@ -1202,6 +1202,30 @@ render_unto_caesar_policy = {
 
 	ai_will_do = {
 		factor = 1.0
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+modern_siege_weapons = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = innovativeness_ideas
+		has_idea_group = offensive_ideas
+	}
+	allow = {
+		full_idea_group = innovativeness_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	siege_ability = 0.10
+	leader_siege = 1
+
+	ai_will_do = {
+		factor = 1
 		modifier = {
 			factor = 1.5
 			is_at_war = yes

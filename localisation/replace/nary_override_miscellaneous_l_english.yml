@@ -11,10 +11,21 @@
  greek_fire: "Greek Fire"
  greek_fire_desc: "Greek Fire is a revolutionary incendiary weapon dating back several centuries ago which turned the tide of many naval battles and sieges."
 
- # Diplo
- diplomatic_ideas: "Shru Ideas"
+# Diplo
+ diplomatic_ideas: "Unthinkable Ideas (Shru Ideas)"
+ foreign_embassies_desc: "The art of Shru diplomacy is a delicate art. By trying to balance both our enemies and allies at the same time while simultaneously confusing them, we can maintain a high diplomatic porfile in other countries. By making our opponents accept deals that barely benefits them and our allies fight fruitless wars for us, our diplomacy is able to work and affect anybody. Sadly this has come with a disadvantage of our diplomats talks travelling longer than usual."
+ cabinet: "Chat Feedback"
+ cabinet_desc: "By establishing a consistent contact with twich chat, we are able to quickly get the most skilled feedback on how to solve most internal problems. With some luck, they may also provide a steady stream of information of our enemies in order to ponder our options. However this method is time consuming and perhaps not very reliable, making our actions risckier and expensive."
+ grand_banquets: "Grand Illusion"
+ grand_banquets_desc: "Inflation is just a number! People are overeacting it's effects. They don't understand we need to continue printing more money to pay our debt and the state expenses. How else do they expect us to pay our rising expenses? As our economic minister one time said 'COPE, SEETHE, MALD'."
+ benign_diplomats: "Political Oopsies"
+ benign_diplomats_desc: "Corruption are the means to an end. Proven many times by our lead professional esports champion Richard, The amount of corruption a state accumulates is dependent on the willingness to continue fighting and make the other side suffer. While a very useful tool, there's a limit on the capacity of corruption. So we developed a new strategy, by calling 'political oopsies' various cases of corruption, we can continue to increase our capacity, with some unwanted effects on our society."
+ experienced_diplomats: "The Tragedy"
+ experienced_diplomats_desc: "Did you ever hear the tragedy of Richard Shru The Wise? I thought not. It’s not a story the community would tell you. It’s a paradox legend. Richard Shru was a content creator, so powerful and so wise he created his own eu4 multiplayer games to share his anarchist way of life… He had such a carisma that he could even keep the games without rules. The streamer buffs is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid was losing his power, of course, he did. Unfortunaly he vanished and never taught anyone his power. But his legacy still lives on."
+ flexible_negotiation_desc: "You can never quite know what can be gained at the peace table, so we must follow Shru example. While unorthodox, we must always demand close to double our warscore by making stupidly harsh demands, then we can reduce our terms to appear to be open for negotiation. This way our demands go from stupidly harsh to only absurd, enabling us to maintain our moral highground on the peace table while extracting more than others. A excellent strategy if we ignore all the times our enemies saw through our negotiations skills and it backfired."
+ diplomatic_corps_desc: "Through the establishment of a professional Diplomatic Corps trained guided by ShrUwU, we ensure that the lessons amd skills of our master RichardShru are passed on to the younger generation to reach new peaks in our diplomacy and technology. Each diplomat will be the human representation of our state on foreign soil. This comes with a cost, we face heavy opposition from the elites of our state, distrusting the increasing power these diplomatic corps have been granted."
 
- # Ages
+# Ages
  obj_90_absolutism_desc: "Absolutism must be at least 80."
  obj_cultures_accepted_desc: "Have at least four different promoted cultures."
  obj_disc_army_desc: "Have least 120% discipline in your armies."
@@ -22,8 +33,7 @@
 # Just in case
 mechanic_centralize_state_development_yes:1 "§YCentralize a State§! will have a chance add §G+1§! random Development to every owned province in the area"
 
- the_rock: "The Rock"
- the_rock_desc: ""
+
 
 
  

@@ -611,6 +611,7 @@ war_taxes = {
 	land_maintenance_modifier = -0.25
 	naval_maintenance_modifier = -0.25
 	merc_maintenance_modifier = -0.05
+	global_unrest = 2
 }
 
 stability = {
@@ -1006,28 +1007,30 @@ corruption = {
 	global_autonomy = 0.4
 	global_unrest = -20
 	imperial_mandate = -0.5
+	build_time = 1
+	yearly_corruption = -1
 	
 	# military effects
 	discipline = -0.25
 	reinforce_speed = -0.5
-	yearly_army_professionalism = -0.005
+	yearly_army_professionalism = -0.01
 	ship_durability = -0.25
 	global_manpower_modifier = -0.33
 	global_sailors_modifier = -0.33
 	
 	#Monetary costs
-	build_cost = 0.01						#1% for each corruption step
-	infantry_cost = 0.01					
-	cavalry_cost = 0.01					
-	artillery_cost = 0.01					
-	heavy_ship_cost = 0.01					
-	light_ship_cost = 0.01					
-	galley_cost = 0.01					
-	transport_cost = 0.01					
-	flagship_cost = 0.01					
-	advisor_cost = 0.01					
-	mercenary_cost = 0.01					
-	fort_maintenance_modifier = 0.01		
+	build_cost = 1						#1% for each corruption step
+	infantry_cost = 1					
+	cavalry_cost = 1					
+	artillery_cost = 1					
+	heavy_ship_cost = 1					
+	light_ship_cost = 1					
+	galley_cost = 1					
+	transport_cost = 1					
+	flagship_cost = 1					
+	advisor_cost = 1					
+	mercenary_cost = 1					
+	fort_maintenance_modifier = 1		
 
 	# Estate effects
 	all_estate_loyalty_equilibrium = 0.1
@@ -1112,23 +1115,11 @@ prestige = {
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
 	embracement_cost = -0.1
+	prestige_decay = 0.05
 
 	monthly_heir_claim_increase = 0.05
 
-	brahmins_hindu_loyalty_modifier = 0.05
-	brahmins_muslim_loyalty_modifier = 0.05
-	brahmins_other_loyalty_modifier = 0.05
-	church_loyalty_modifier = 0.05
-	maratha_loyalty_modifier = 0.05
-	nobles_loyalty_modifier = 0.05
-	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
-	cossacks_loyalty_modifier = 0.05
-	nomadic_tribes_loyalty_modifier = 0.05
-	dhimmi_loyalty_modifier = 0.05
-	jains_loyalty_modifier = 0.05
-	rajput_loyalty_modifier = 0.05
-
+	all_estate_loyalty_equilibrium = 0.05
 }
 
 no_debate_in_parliament = {
@@ -1264,8 +1255,10 @@ in_golden_era = {
 
 absolutism = {
 	administrative_efficiency = 0.3
-	discipline = 0.1
+	discipline = 0.05
+	land_forcelimit_modifier = 0.2
 	core_decay_on_your_own = -0.5
+
 }
 
 low_army_professionalism = {
