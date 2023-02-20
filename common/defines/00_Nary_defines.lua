@@ -14,16 +14,15 @@ NDefines.NMilitary.REBEL_LEADER_POWER = 40 -- from 20, so rebels may have a chan
 NDefines.NCountry.MAXIMUM_CONDOTTIERI = 30 -- from 20, so it scalles better
 NDefines.NCountry.MIN_LIBERTY_DESIRE_INFLUENCE = -50 -- from -100, it's the min influence of a single modifier (paid of debt)
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120 -- from 240 months, or from 20 years to 10 years
-NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 150 -- from 75 diplo cost, in an attempt to make reducing war exhaustion expensive 
+NDefines.NCountry.PS_REDUCE_WAREXHAUSTION = 125 -- from 75 diplo cost, in an attempt to make reducing war exhaustion expensive 
 NDefines.NCountry.MAX_WAR_EXHAUSTION = 30 -- from 20, war exhaustion will hurt you more
-NDefines.NCountry.PS_REDUCE_INFLATION = 125 -- from 75, so inflation isn't as cheap to decrease
+NDefines.NCountry.PS_REDUCE_INFLATION = 100 -- from 75, so inflation isn't as cheap to decrease
 
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
 NDefines.NEconomy.PIRATES_MONOPOLY_BONUS = 0.5 -- from 1, to nerf privateering, this modifier doesn't actually work but just in case PDX suddently fixes it or starts working again
 NDefines.NEconomy.NAVAL_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, so ships maintenance cost scales alike army maintenance
 NDefines.NEconomy.HEAVY_SHIP_MAINT_FACTOR = 0.15 -- from 0.1, this means heavy ship maintenance cost is now 0.75 instead of 0.5
-NDefines.NEconomy.BASE_YEARLY_INFLATION = 0.1 -- from 0
 
 
 NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic religion is more viable for nations unable to acquire cardinals

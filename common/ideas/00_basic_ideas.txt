@@ -390,7 +390,7 @@ diplomatic_ideas = {
 	foreign_embassies = {
 		diplomats = 3
 		diplomatic_upkeep = 2
-		envoy_travel_time = -1
+		envoy_travel_time = 1
 	}
 	cabinet = {
 		advisor_cost = -0.2
