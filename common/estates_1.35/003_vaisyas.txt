@@ -34,10 +34,10 @@ estate_vaisyas = {
 	# These scale with loyalty & power
 	country_modifier_happy = {
 		advisor_cost = -0.1
-		production_efficiency = 0.20
+		production_efficiency = 0.33
 	}
 	country_modifier_neutral = {
-		production_efficiency = 0.20
+		production_efficiency = 0.33
 	}	
 	country_modifier_angry = {
 		production_efficiency = -0.33
