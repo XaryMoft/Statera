@@ -829,7 +829,7 @@ revocation_of_restraint_of_appeals = {
 
 hire_privateers = {
 	embargo_efficiency = 0.75
-	global_ship_trade_power = 0.15
+	privateer_efficiency = 0.25
 	improve_relation_modifier = -0.10
 }
 
@@ -5863,7 +5863,7 @@ refused_aid_traders = {
 }
 
 reckless_privateer = {
-	global_ship_trade_power = 0.15
+	privateer_efficiency = 0.15
 	improve_relation_modifier = -0.15
 }
 
@@ -5877,11 +5877,11 @@ rogue_privateer = {
 }
 
 employed_pirates = {
-	global_ship_trade_power = 0.2
+	privateer_efficiency = 0.2
 }
 
 supported_republic_feud = {
-	global_ship_trade_power = 0.15
+	privateer_efficiency = 0.15
 }
 
 denied_knowledge_privateer = {
@@ -12074,12 +12074,12 @@ colony_inspired_by_revolution = {
 }
 
 estate_cossacks_prime_herding_rights_mod = {
-	local_tax_modifier = -0.3
-	local_manpower_modifier = 0.15
+	local_tax_modifier = -0.5
+	local_manpower_modifier = 0.25
 }
 
 estate_cossacks_exploration_expedition_mod = {
-	local_development_cost = -0.1
+	local_development_cost = -0.15
 }
 
 shortage_of_officers = {
@@ -12792,7 +12792,7 @@ swapped_primary_cult = {
 
 #Mali Disaster modifiers
 mal_nobles_take_over = {
-	min_local_autonomy = 0.9
+	min_local_autonomy = 10
 	local_unrest = 2
 }
 
