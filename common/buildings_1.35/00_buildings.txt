@@ -94,7 +94,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.5 #0.4
+		local_tax_modifier = 0.4
 	}
 	on_built = {
 		on_province_tax_building_built_estate_privileges_effect = yes
@@ -117,7 +117,7 @@ temple = {
 		if = {
 			limit = {
 				FROM = { has_government_attribute = temples_modifier }
-				owned_by = FROM
+				owned_by = FROM 
 			}
 			add_province_modifier = {
 				name = gov_expanded_temple_rights_mod
@@ -400,10 +400,10 @@ coastal_defence = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 175 #100
+	cost = 100
 	time = 12
 	modifier = {
-		local_state_maintenance_modifier = 0.25 #-0.25
+		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
 		local_governing_cost = -0.25
 		allowed_num_of_buildings = 1
@@ -595,11 +595,10 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 125 #200
+	cost = 200
 	time = 12
 	modifier = {
-		land_forcelimit = 0.5 #1
-		regiment_recruit_speed = -0.10
+		land_forcelimit = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -793,7 +792,7 @@ cathedral = {
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 1 #0.6
+		local_tax_modifier = 0.6
 	}
 	on_built = {
 		on_province_tax_building_built_estate_privileges_effect = yes
@@ -818,7 +817,7 @@ cathedral = {
 		if = {
 			limit = {
 				FROM = { has_government_attribute = temples_modifier }
-				owned_by = FROM
+				owned_by = FROM 
 			}
 			add_province_modifier = {
 				name = gov_expanded_temple_rights_mod
@@ -859,7 +858,7 @@ university = {
 	cost = 300
 	time = 12
 	modifier = {
-		local_development_cost = -0.15 #-0.2
+		local_development_cost = -0.20
 		allowed_num_of_buildings = 1
 	}
 
@@ -1325,13 +1324,13 @@ counting_house = {
 
 
 town_hall = {
-	cost = 350 #200
+	cost = 200
 	time = 12
 
 	make_obsolete = courthouse
 
 	modifier = {
-		local_state_maintenance_modifier = 0.5 #-0.5
+		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 		local_governing_cost = -0.5
 		allowed_num_of_buildings = 1
@@ -1494,7 +1493,7 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 250 #400
+	cost = 400
 	time = 12
 
 
@@ -1524,8 +1523,7 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 1 #2
-		regiment_recruit_speed = -0.20
+		land_forcelimit = 2
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -1681,8 +1679,7 @@ manufactory = {
 	cost = 500
 	time = 60
 	modifier = {
-		trade_goods_size_modifier = 0.5 #1
-		trade_goods_size = 0.2
+		trade_goods_size = 1.0
 	}
 }
 
@@ -1768,7 +1765,7 @@ weapons = {
 		add_dev_from_building = {
 			building = manufactory 
 			type = manpower 
-			value = 1
+			value = 1 
 		}
 	}
 	on_destroyed = {
@@ -1936,9 +1933,9 @@ farm_estate = {
 	}
 	on_destroyed = {
 		remove_development_from_building = {
-			building = manufactory
-			type = production
-			value = 1
+			building = manufactory 
+			type = production 
+			value = 1 
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2005,9 +2002,7 @@ furnace = {
 	}
 
 	modifier = {
-		development_cost = -0.025 #National Bonus
-		#global_trade_goods_size_modifier = 0.05 #National Bonus
-		trade_goods_size_modifier = 0.5
+		global_trade_goods_size_modifier = 0.05 #National Bonus
 	}
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -2042,13 +2037,13 @@ ramparts = {
 	#	is_flatland = yes
 	#}
 	modifier = {
-		local_hostile_attrition = 2 #1
-		local_defensiveness = 0.3 #0.15
+		local_hostile_attrition = 1
+		local_defensiveness = 0.15
 		local_defender_dice_roll_bonus = 1
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
-
+	
 	on_built = {
 		add_dev_from_building = {
 			building = manufactory 
@@ -2100,10 +2095,10 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.6 #0.75
+		local_manpower = 0.75
 	}
 	bonus_modifier = {
-		local_manpower = 0.5 #0.75
+		local_manpower = 0.75
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -2294,33 +2289,3 @@ state_house = {
 	}
 }
 
-
-tax_house = {
-	manufactory = {
-		all
-	}
-
-	bonus_manufactory = { # Will apply an extra modifier if these goods
-		gold
-		slaves
-		spices
-		incense
-		sugar
-		tobacco
-		wool
-		salt
-	}
-
-	modifier = {
-		tax_income = 2
-	}
-	bonus_modifier = {
-		tax_income = 2
-	}
-	onmap = no
-	show_separate = yes # Means as a manufactory it will be shown according to the old way
-
-	ai_will_do = {
-		factor = 1
-	}
-}
