@@ -2057,8 +2057,6 @@ foreign_conscription_centers = {
 	reinforce_cost_modifier = -0.20
 	global_manpower_modifier = 0.20
 	
-	effect = {}
-	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -2081,6 +2079,7 @@ foreign_conscription_centers = {
 			factor = 1.5
 			vassal = 5
 		}	
+	}
 }
 
 the_colonial_nobility_act = {

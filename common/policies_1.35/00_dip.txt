@@ -1712,8 +1712,8 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	fort_maintenance_modifier = -0.20
-	garrison_size = 0.20
+	fort_maintenance_modifier = -0.25
+	garrison_size = 0.15
 
 	ai_will_do = {
 		factor = 1
