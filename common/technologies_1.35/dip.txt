@@ -96,7 +96,6 @@ technology = { #Basic Financial Instruments
 	trade_range				=	20
 	
 	coastal_defence = yes
-	may_slander_merchants = yes
 }
 
 technology = { #Shipyards
@@ -109,7 +108,6 @@ technology = { #Shipyards
 	
 	dock = yes	
 	may_steal_maps = yes
-	may_study_technology = yes
 
 }
 
@@ -158,6 +156,7 @@ technology = { #Carracks & Caravel
 	
 	enable = carrack
 	enable = caravel
+	may_study_technology = yes
 	
 }
 
@@ -202,10 +201,10 @@ technology = { #Man of War
 	}
 
 	naval_morale			=	0.4
+	may_slander_merchants = yes
 
 	naval_battery = yes
 	naval_engagement_width = 15
-	may_sabotage_recruitment = yes
 	
 }
 
@@ -221,7 +220,6 @@ technology = { #Chartered Companies
 	
 	trade_efficiency 		= 	0.02
 	enable = brig
-	may_sow_discontent = yes
 
 }
 
@@ -237,8 +235,6 @@ technology = { #The Galleass
 	
 	tradecompany = yes
 	num_accepted_cultures = 1
-	may_corrupt_officials = yes
-	may_sabotage_reputation = yes
 
 	
 	enable = galleass
@@ -260,6 +256,7 @@ technology = { #The Galleon
 	
 	enable = galleon
 	enable = early_frigate
+	may_sabotage_recruitment = yes
 
 }
 
@@ -312,6 +309,7 @@ technology = { #Line of Battle
 	
 	enable = galiot
 	naval_morale			=	0.5
+	may_sow_discontent = yes
 	
 	naval_engagement_width = 10
 
@@ -337,7 +335,6 @@ technology = { #The War Galleon
 	
 	enable = wargalleon
 	enable = frigate
-	may_agitate_for_liberty = yes
 }
 
 technology = { #Naval Professionalization
@@ -370,7 +367,7 @@ technology = { #The Chebeck
 	}
 
 	enable = chebeck
-	may_infiltrate_administration = yes
+	may_sabotage_reputation = yes
 
 }
 
@@ -437,6 +434,7 @@ technology = { #The Archipelago Frigate
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	enable = archipelago_frigate
+	may_corrupt_officials = yes
 	naval_engagement_width = 10
 
 }
@@ -496,6 +494,7 @@ technology = { #Public Punishments
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
+	may_agitate_for_liberty = yes
 
 }
 
@@ -551,6 +550,7 @@ technology = { #Insurance Companies
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	may_infiltrate_administration = yes
 }
 
 technology = { #Superior Ship Design
