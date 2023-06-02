@@ -89,7 +89,7 @@ age_of_discovery = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 3
+			vassal = 5
 		}		
 	
 		obj_two_continents = {
@@ -180,7 +180,7 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				leader_siege = 1
+				leader_siege = 1 
 			}
 			ai_will_do = {
 				factor = 100
@@ -310,7 +310,7 @@ age_of_reformation = {
 	}	
 	
 	
-	abilities = {
+	abilities = {	
 		ab_allow_religion_enforced = {
 			effect = {
 				custom_tooltip = religion_enforced_edict
@@ -465,7 +465,7 @@ age_of_absolutism = {
 		manual_seat_in_parliament = -2
 		war_exhaustion = -1
 	}
-
+		
 	objectives = {
 		obj_3_trade_companies = {
 			num_of_trade_companies = 3
@@ -492,7 +492,7 @@ age_of_absolutism = {
 		}
 		
 		obj_cultures_accepted = {
-			num_accepted_cultures = 4
+			num_accepted_cultures = 5
 		}
 		
 		obj_win_religious_war = {
@@ -567,7 +567,6 @@ age_of_absolutism = {
 		ab_yearly_absolutism = {
 			modifier = {
 				yearly_absolutism = 1
-				max_absolutism = 5
 			}
 			ai_will_do = {
 				factor = 100
@@ -659,7 +658,7 @@ age_of_revolutions = {
 		automatic_seat_in_parliament = -2
 		manual_seat_in_parliament = -2
 		war_exhaustion = -1
-	}
+	}	
 	
 	objectives = {
 		obj_parliament = {
@@ -820,7 +819,7 @@ age_of_revolutions = {
 			}
 			modifier = {
 				min_autonomy_in_territories = -0.1
-			}
+			}	
 			ai_will_do = {
 				factor = 100
 			}
