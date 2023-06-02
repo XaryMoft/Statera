@@ -212,6 +212,7 @@ theocracy_gov_ideas = {
 	}
 	by_the_grace_of_god = {
 		morale_damage_received = -0.1
+		#fire_damage_received = -0.1
 	}
 	friends_in_high_places = {
 		leader_cost = -0.1
@@ -219,6 +220,7 @@ theocracy_gov_ideas = {
 	}
 	flesh_is_weak = {
 		fire_damage_received = -0.075
+		#morale_damage_received = -0.1
 	}
 	alpha_and_omega = {
 		enforce_religion_cost = -0.3
@@ -308,7 +310,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.15
+		advisor_cost = -0.15 #-0.2
 	}
 
 	patron_of_art = {
@@ -497,7 +499,7 @@ spy_ideas = {
 	
 	privateers = {
 		capture_ship_chance = 0.25
-		privateer_efficiency = 0.15
+		privateer_efficiency = 0.15 #-.33
 	}
 
 	blackmailing = {
@@ -567,7 +569,20 @@ diplomatic_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0
+		factor = 0 #0.5
+
+		modifier = {
+			factor = 0
+			is_emperor = yes
+		}
+		modifier = { 	
+			factor = 0 #0.75
+			NOT = { monthly_dip = 7 }
+		}
+		modifier = {
+			factor = 0 #1.25
+			personality = ai_diplomat 
+		}
 	}
 }
 
@@ -810,7 +825,7 @@ trade_ideas = {
 		placed_merchant_power = 15
 	}
 	trade_manipulation = {
-		trade_steering = 0.15
+		trade_steering = 0.15 #0.25
 	}
 	fast_negotiations = {
 		caravan_power = 0.25
@@ -1146,6 +1161,7 @@ maritime_ideas = {
 	naval_fighting_instruction = {
 		blockade_efficiency = 0.5
 		light_ship_power = 0.15
+		#privateer_efficiency = 0.25
 	}
 
 	ai_will_do = {
@@ -1230,6 +1246,7 @@ quality_ideas = {
 		cavalry_power = 0.1
 	}
 	escort_ships = {
+		#ship_durability = 0.05
 		heavy_ship_power = 0.05
 		galley_power = 0.05
 	}
@@ -1671,7 +1688,7 @@ naval_ideas = {
 	}
 
 	bonus = {
-		global_naval_barrage_cost = -0.5
+		global_naval_barrage_cost = -0.5 #-1
 		disengagement_chance = 0.15
 	}
 
@@ -1680,7 +1697,7 @@ naval_ideas = {
 		landing_penalty = -1
 	}
 	improved_rams = {
-		galley_power = 0.20
+		galley_power = 0.20 #-0.25
 	}
 	naval_cadets = {
 		leader_naval_fire = 1
@@ -1695,11 +1712,12 @@ naval_ideas = {
 		allowed_marine_fraction = 0.25
 	}
 	oak_forests_for_ships = {
-		heavy_ship_power = 0.15
+		heavy_ship_power = 0.15 #0.2
 		ship_durability = 0.1
 	}
 	superior_seamanship = {
 		naval_morale = 0.1
+		#global_naval_engagement_modifier = 0.1
 	}
 
 	ai_will_do = {
@@ -1732,6 +1750,7 @@ naval_ideas = {
 		}
 	}
 }
+
 court_ideas = {
 	category = DIP
 
