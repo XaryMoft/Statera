@@ -1,12 +1,12 @@
 military_hegemon = {
 	allow = {
-
+		
 		if = {
 			limit = {
 				NOT = { has_country_flag = halve_hegemony_requirements }
 				NOT = { has_country_flag = fra_enable_mil_hegemony_flag }
 			}
-			army_size = 750 #1000
+			army_size = 1000
 		}
 		else_if = { 
 			limit = { 
@@ -38,8 +38,7 @@ military_hegemon = {
 	# At max 100% tickup.
 	scale = {
 		movement_speed = 0.1
-		reinforce_speed = 0.20
-		#land_attrition = -0.2
+		land_attrition = -0.2
 		global_unrest = -3
 	}
 	
