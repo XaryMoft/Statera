@@ -184,7 +184,6 @@ portuguese_bombardier = {
     }
 	modifier = {
         barrage_cost_in_fleet_modifier = -0.4
-        number_of_cannons_flagship_modifier = 0.5
         naval_maintenance_flagship_modifier = 0.5
 	}
     ai_trade_score = {
@@ -447,7 +446,7 @@ flag_officers = {
 
 spare_jolly_roger = {
     modifier = {
-        privateering_efficiency_in_fleet_modifier = 0.10
+        privateering_efficiency_in_fleet_modifier = 0.25
         naval_maintenance_flagship_modifier = 0.5
     }
     ai_trade_score = {
