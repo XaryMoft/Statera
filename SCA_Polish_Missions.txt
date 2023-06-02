@@ -1536,7 +1536,7 @@ poland_sca_slot_3_a = {
 				}
 				else_if = {
 					limit = {
-						valid_for_personal_unions_trigger = yes
+						valid_for_personal_unions_trigger = yes 
 						BOH = { 
 							OR = { 
 								is_rival = ROOT 
@@ -1549,7 +1549,7 @@ poland_sca_slot_3_a = {
 									modifier = scornfully_insulted
 								} 
 							}
-							valid_for_personal_unions_trigger = yes
+							valid_for_personal_unions_trigger = yes 
 						}
 					}
 					add_casus_belli = {
@@ -1606,7 +1606,7 @@ poland_sca_slot_3_a = {
 				}
 				else_if = {
 					limit = {
-						valid_for_personal_unions_trigger = yes
+						valid_for_personal_unions_trigger = yes 
 						HUN = { 
 							OR = { 
 								is_rival = ROOT 
@@ -1619,7 +1619,7 @@ poland_sca_slot_3_a = {
 									modifier = scornfully_insulted
 								} 
 							}
-							valid_for_personal_unions_trigger = yes
+							valid_for_personal_unions_trigger = yes 
 						}
 					}
 					add_casus_belli = {
@@ -2758,7 +2758,7 @@ poland_sca_slot_3_plc_1 = {
 						duration = -1 
 					}
 				}
-				else = {
+				else = { 
 					add_country_modifier = { 
 						name = pol_poland_rise_modifier
 						duration = -1 

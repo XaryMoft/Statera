@@ -223,9 +223,17 @@ mnd_siam_2 = {
 					has_country_flag = had_siamese_revolution
 				}
 				AND = {
-					is_year = 1550 #1650
+					is_year = 1650
 					custom_trigger_tooltip = {
 						tooltip = had_siamese_revolution_tt_2
+						NOT = {
+							any_country = {
+								technology_group = western
+								any_owned_province = {
+									superregion = east_indies_superregion
+								}
+							}
+						}
 					}
 				}
 			}
