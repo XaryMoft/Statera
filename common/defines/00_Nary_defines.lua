@@ -20,7 +20,7 @@ NDefines.NCountry.PS_REDUCE_INFLATION = 100 -- from 75, so inflation isn't as ch
 
 NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, to help prevent infinite money mid and late game
 NDefines.NEconomy.NAVAL_TECH_MAINTENANCE_IMPACT = 0.04 -- from 0.02, so ships maintenance cost scales alike army maintenance
-NDefines.NEconomy.HEAVY_SHIP_MAINT_FACTOR = 0.15 -- from 0.1, this means heavy ship maintenance cost is now 0.75 instead of 0.5
+-- NDefines.NEconomy.HEAVY_SHIP_MAINT_FACTOR = 0.15 -- from 0.1, this means heavy ship maintenance cost is now 0.75 instead of 0.5
 
 
 NDefines.NReligion.YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1 -- from 0.5, so Catholic religion is more viable for nations unable to acquire cardinals
