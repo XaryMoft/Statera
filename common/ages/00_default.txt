@@ -89,7 +89,7 @@ age_of_discovery = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 3
+			vassal = 3 #5
 		}		
 	
 		obj_two_continents = {
@@ -492,7 +492,7 @@ age_of_absolutism = {
 		}
 		
 		obj_cultures_accepted = {
-			num_accepted_cultures = 4
+			num_accepted_cultures = 4 #5
 		}
 		
 		obj_win_religious_war = {
