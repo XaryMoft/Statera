@@ -64,6 +64,7 @@ feudalism = {
 					culture_group = dravidian
 					culture_group = east_asian
 					culture_group = east_slavic
+					culture_group = slavic
 					culture_group = eastern_aryan
 					culture_group = japanese_g
 					culture_group = korean_g
@@ -540,7 +541,6 @@ new_world_i = {
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.10
-		possible_condottieri = 0.3
 	}
 
 	trade_company_efficiency = 0.6
@@ -1187,7 +1187,6 @@ global_trade = {
 
 	bonus = {
 		merchants = 1
-		possible_condottieri = 0.3
 	}
 
 	trade_company_efficiency = 1.0
@@ -1998,7 +1997,6 @@ enlightenment = {
 
 	bonus = {
 		culture_conversion_cost = -0.25
-		possible_condottieri = 0.30
 	}
 
 	trade_company_efficiency = 1.5

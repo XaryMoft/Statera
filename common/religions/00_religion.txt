@@ -342,6 +342,7 @@ christian = {
 			expel_heretics_aspect
 			diplomats_of_the_reformation_aspect
 			icons_of_the_church_aspect
+			spread_the_book_of_common_prayer
 		}
 		aspects_name = ANGLICAN_ASPECTS
 		
@@ -358,7 +359,7 @@ christian = {
 			catholic
 		}
 		country = {
-			shock_damage_received = -0.15
+			shock_damage_received = -0.15 #-0.05
 			global_heretic_missionary_strength = 0.02
 		}
 		
@@ -695,7 +696,7 @@ christian = {
 			}
 
 			icon_eleusa = {
-				global_unrest = -2
+				global_unrest = -2 #-3
 				harsh_treatment_cost = -0.25
 				
 				allow = {
@@ -732,7 +733,7 @@ christian = {
 			}
 
 			icon_pancreator = {
-				development_cost = -0.05
+				development_cost = -0.05 #-0.1
 				build_cost = -0.1
 				
 				allow = {
@@ -812,7 +813,7 @@ christian = {
 		color = { 178 38 76 }
 		icon = 14
 		country = {
-			defensiveness = 0.1
+			defensiveness = 0.15
 			tolerance_own = 1
 		}
 		country_as_secondary = {
@@ -926,6 +927,7 @@ muslim = {
 
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			technology_cost = -0.05
+			#adm_tech_cost_modifier = -0.05
 		}
 		hanbali_school = {
 			potential_invite_scholar = {
@@ -1071,6 +1073,7 @@ muslim = {
 
 			innovativeness_gain = 0.2
 			global_institution_spread = 0.15
+			#development_cost = -0.1
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -1476,7 +1479,7 @@ eastern = {
 			buddhism #Theravada
 		}
 		country = {
-			tolerance_heretic = 1
+			tolerance_heretic = 2
 			land_morale = 0.05
 		}
 		country_as_secondary = {
@@ -1550,7 +1553,7 @@ eastern = {
 		icon = 10
 		country = {
 			land_morale = 0.1
-			tolerance_heathen = 1
+			tolerance_heretic = 2
 		}
 		province = {
 			local_missionary_strength = -0.02
@@ -2200,6 +2203,7 @@ dharmic = {
 						cost = 50
 
 						trade_goods_size_modifier = 0.10
+						#development_cost = -0.1
 					}
 					divine_justice = {
 						type = DIP
@@ -2284,12 +2288,12 @@ pagan = {
 		color = { 64 115 115 }
 		icon = 18
 		country = {
-			tolerance_own = 1
+			tolerance_own = 2
 			global_autonomy = -0.05
 		}
 
 		country_as_secondary = {
-			tolerance_own = 1
+			tolerance_own = 2
 			global_autonomy = -0.05
 		}
 		

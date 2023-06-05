@@ -223,7 +223,7 @@ mnd_siam_2 = {
 					has_country_flag = had_siamese_revolution
 				}
 				AND = {
-					is_year = 1550
+					is_year = 1550 #1650
 					custom_trigger_tooltip = {
 						tooltip = had_siamese_revolution_tt_2
 					}
@@ -262,6 +262,7 @@ mnd_siam_2 = {
 					NOT = { exists = SIA }
 				}
 				change_tag = SIA
+				on_change_tag_effect = yes
 				if = {
 					limit = { has_custom_ideas = no }
 					country_event = { id = ideagroups.1 } #Swap Ideas

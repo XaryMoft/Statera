@@ -1,21 +1,24 @@
-edict_protect_trade = {
+protect_trade_empowered = {
 	potential = {
-		NOT = { has_country_flag = fra_improve_trade_power_state_edict_flag } 
+		has_country_flag = fra_improve_trade_power_state_edict_flag
 	}
 	
 	allow = {
-		always = yes
+		custom_trigger_tooltip = {
+			tooltip = unlocked_if_tt
+			has_country_flag = fra_improve_trade_power_state_edict_flag
+		}
 	}
 	
 	modifier = {
-		province_trade_power_modifier = 0.50
+		province_trade_power_modifier = 0.75
 	}
 	
 	color = {  113 11 43 }
 	
 	
 	ai_will_do = {
-		factor = 10
+		factor = 12
 		modifier = {
 			factor = 0
 			all_province_in_state = {

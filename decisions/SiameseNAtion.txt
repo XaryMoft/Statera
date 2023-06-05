@@ -11,6 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
 				NOT = { exists = SIA }
 				ai = no
 			}
@@ -51,7 +55,7 @@ country_decisions = {
 				limit = {
 					tag = AYU
 				}
-				adm_tech = 12
+				adm_tech = 12 #20
 			}
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
@@ -67,6 +71,7 @@ country_decisions = {
 		
 		effect = {
 			change_tag = SIA
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			indo_china_region = {
 				limit = {
