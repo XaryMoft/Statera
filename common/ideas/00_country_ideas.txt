@@ -775,7 +775,6 @@ SPA_ideas = {
 		possible_dip_policy = 1
 		loyalty_change_on_revoked = 0.05
 	}
-
 }
 
 CAS_ideas = {
