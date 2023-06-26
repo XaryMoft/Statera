@@ -16798,7 +16798,8 @@ visby_city = {
 		area_modifier = {
 		}
 		country_modifiers = {		
-			privateer_efficiency = 0.2	
+			#privateer_efficiency = 0.2	
+			global_ship_trade_power = 0.1
 		}
 		on_upgraded = {
 		}
@@ -16818,7 +16819,8 @@ visby_city = {
 		area_modifier = {
 		}
 		country_modifiers = {		
-			privateer_efficiency = 0.33
+			#privateer_efficiency = 0.33
+			global_ship_trade_power = 0.15
 			global_own_trade_power = 0.15
 		}
 		on_upgraded = {
@@ -16839,7 +16841,8 @@ visby_city = {
 		area_modifier = {
 		}
 		country_modifiers = {		
-			privateer_efficiency = 0.5
+			#privateer_efficiency = 0.5
+			global_ship_trade_power = 0.2
 			global_own_trade_power = 0.25
 		}
 		on_upgraded = {
